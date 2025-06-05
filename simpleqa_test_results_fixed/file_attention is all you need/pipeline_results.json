@@ -1,0 +1,1233 @@
+{
+  "chunk_nodes": [
+    {
+      "node_id": "4427b0bc-483d-4590-9046-406f6fd19811",
+      "text": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\n...",
+      "concepts": [
+        "序列转导模型",
+        "注意力机制",
+        "Transformer架构",
+        "机器翻译任务",
+        "BLEU评分"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "序列转导模型",
+          "注意力机制",
+          "Transformer架构",
+          "机器翻译任务",
+          "BLEU评分"
+        ],
+        "chunk_id": "chunk_0",
+        "chunk_length": 1758,
+        "concept_count": 5,
+        "token_count": 430
+      }
+    },
+    {
+      "node_id": "dc5ad2b2-341c-47ce-8fd1-0b8cab706c7f",
+      "text": "Listing order is random. Jakob proposed replacing RNNs with self-attention and started\nthe effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and\nh...",
+      "concepts": [
+        "自注意力机制",
+        "Transformer模型",
+        "缩放点积注意力",
+        "多头注意力",
+        "tensor2tensor"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "自注意力机制",
+          "Transformer模型",
+          "缩放点积注意力",
+          "多头注意力",
+          "tensor2tensor"
+        ],
+        "chunk_id": "chunk_1",
+        "chunk_length": 924,
+        "concept_count": 5,
+        "token_count": 177
+      }
+    },
+    {
+      "node_id": "1adb0ecd-473a-43dd-a108-fd240c200736",
+      "text": "‡Work performed while at Google Research.\n31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA.arXiv:1706.03762v7 [cs.CL] 2 Aug 2023\n1 Introduction\nRecurrent neura...",
+      "concepts": [
+        "递归神经网络",
+        "长短期记忆",
+        "序列建模",
+        "机器翻译",
+        "编码器-解码器架构"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "递归神经网络",
+          "长短期记忆",
+          "序列建模",
+          "机器翻译",
+          "编码器-解码器架构"
+        ],
+        "chunk_id": "chunk_2",
+        "chunk_length": 603,
+        "concept_count": 5,
+        "token_count": 146
+      }
+    },
+    {
+      "node_id": "8f1860a5-c1e1-44c2-bc2e-d6de7818ef4f",
+      "text": "Recurrent models typically factor computation along the symbol positions of the input and output\nsequences. Aligning the positions to steps in computation time, they generate a sequence of hidden\nstat...",
+      "concepts": [
+        "call",
+        "draw",
+        "running",
+        "aligned",
+        "tion"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "call",
+          "draw",
+          "running",
+          "aligned",
+          "tion"
+        ],
+        "chunk_id": "chunk_3",
+        "chunk_length": 8151,
+        "concept_count": 5,
+        "token_count": 1706
+      }
+    },
+    {
+      "node_id": "38ec3b38-33c5-46b9-b5e5-5cfd82345477",
+      "text": "These are concatenated and once again projected, resulting in the final values, as\ndepicted in Figure 2.\nMulti-head attention allows the model to jointly attend to information from different represent...",
+      "concepts": [
+        "多头注意力",
+        "编码器-解码器注意力",
+        "自注意力层",
+        "位置-wise前馈网络",
+        "缩放点积注意力"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "多头注意力",
+          "编码器-解码器注意力",
+          "自注意力层",
+          "位置-wise前馈网络",
+          "缩放点积注意力"
+        ],
+        "chunk_id": "chunk_4",
+        "chunk_length": 2519,
+        "concept_count": 5,
+        "token_count": 593
+      }
+    },
+    {
+      "node_id": "dd81d623-ed44-4fb6-b6e4-9f6f6677f488",
+      "text": "The dimensionality of input and output is dmodel = 512 , and the inner-layer has dimensionality\ndff= 2048 .\n3.4 Embeddings and Softmax\nSimilarly to other sequence transduction models, we use learned e...",
+      "concepts": [
+        "自注意力机制",
+        "位置编码",
+        "序列转导模型",
+        "嵌入层",
+        "计算复杂度"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "自注意力机制",
+          "位置编码",
+          "序列转导模型",
+          "嵌入层",
+          "计算复杂度"
+        ],
+        "chunk_id": "chunk_5",
+        "chunk_length": 5456,
+        "concept_count": 5,
+        "token_count": 1206
+      }
+    },
+    {
+      "node_id": "8cb5fb1e-6493-4aac-b71d-0f4682fa0fc6",
+      "text": "We inspect attention distributions\nfrom our models and present and discuss examples in the appendix. Not only do individual attention\nheads clearly learn to perform different tasks, many appear to exh...",
+      "concepts": [
+        "注意力分布",
+        "训练数据",
+        "Adam优化器",
+        "正则化技术",
+        "Transformer模型"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "注意力分布",
+          "训练数据",
+          "Adam优化器",
+          "正则化技术",
+          "Transformer模型"
+        ],
+        "chunk_id": "chunk_6",
+        "chunk_length": 2852,
+        "concept_count": 5,
+        "token_count": 832
+      }
+    },
+    {
+      "node_id": "0d5bece0-bcc4-4f30-8814-d52b2d665491",
+      "text": "For the base model, we use a rate of\nPdrop= 0.1.\nLabel Smoothing During training, we employed label smoothing of value ϵls= 0.1[36]. This\nhurts perplexity, as the model learns to be more unsure, but i...",
+      "concepts": [
+        "机器翻译",
+        "标签平滑",
+        "BLEU评分",
+        "大规模变换器模型",
+        "WMT 2014"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "机器翻译",
+          "标签平滑",
+          "BLEU评分",
+          "大规模变换器模型",
+          "WMT 2014"
+        ],
+        "chunk_id": "chunk_7",
+        "chunk_length": 598,
+        "concept_count": 5,
+        "token_count": 162
+      }
+    },
+    {
+      "node_id": "bf513525-6660-4896-9947-1e71a2aa2d31",
+      "text": "Training took 3.5days on 8P100 GPUs. Even our base model\nsurpasses all previously published models and ensembles, at a fraction of the training cost of any of\nthe competitive models.\nOn the WMT 2014 E...",
+      "concepts": [
+        "Transformer模型",
+        "BLEU评分",
+        "训练成本",
+        "超参数调整",
+        "浮点运算"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "Transformer模型",
+          "BLEU评分",
+          "训练成本",
+          "超参数调整",
+          "浮点运算"
+        ],
+        "chunk_id": "chunk_8",
+        "chunk_length": 1746,
+        "concept_count": 5,
+        "token_count": 418
+      }
+    },
+    {
+      "node_id": "3c34fdd0-138b-4808-b9be-8c7d707d79ec",
+      "text": "All metrics are on the English-to-German translation development set, newstest2013. Listed\nperplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to\nper-word p...",
+      "concepts": [
+        "英语德语翻译",
+        "开发集",
+        "字节对编码",
+        "困惑度指标",
+        "单词片段"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 2,
+        "concepts": [
+          "英语德语翻译",
+          "开发集",
+          "字节对编码",
+          "困惑度指标",
+          "单词片段"
+        ],
+        "chunk_id": "chunk_9",
+        "chunk_length": 212,
+        "concept_count": 5,
+        "token_count": 49
+      }
+    },
+    {
+      "node_id": "d0c53d25-98ab-4ec2-876f-024846c0463c",
+      "text": "6.2 Model Variations\nTo evaluate the importance of different components of the Transformer, we varied our base model\nin different ways, measuring the change in performance on English-to-German transla...",
+      "concepts": [
+        "Transformer架构",
+        "英语德语翻译",
+        "模型变体",
+        "性能评估",
+        "字节对编码"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "Transformer架构",
+          "英语德语翻译",
+          "模型变体",
+          "性能评估",
+          "字节对编码"
+        ],
+        "chunk_id": "chunk_10",
+        "chunk_length": 1279,
+        "concept_count": 5,
+        "token_count": 530
+      }
+    },
+    {
+      "node_id": "d77de3c5-2318-4083-b144-b47c9faad68b",
+      "text": "We present these results in Table 3.\nIn Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions,\nkeeping the amount of computation constant, as described in ...",
+      "concepts": [
+        "多头自注意力",
+        "Transformer模型",
+        "英语成分解析",
+        "半监督学习",
+        "序列转导模型"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "多头自注意力",
+          "Transformer模型",
+          "英语成分解析",
+          "半监督学习",
+          "序列转导模型"
+        ],
+        "chunk_id": "chunk_11",
+        "chunk_length": 4865,
+        "concept_count": 5,
+        "token_count": 1207
+      }
+    },
+    {
+      "node_id": "f4eecd6b-5c7a-4dcb-b6c4-b64cbf714844",
+      "text": "Le. Massive exploration of neural\nmachine translation architectures. CoRR , abs/1703.03906, 2017.\n[4]Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine\nreading. a...",
+      "concepts": [
+        "神经机器翻译",
+        "长短期记忆网络",
+        "机器阅读",
+        "短语表示学习",
+        "统计机器翻译"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "神经机器翻译",
+          "长短期记忆网络",
+          "机器阅读",
+          "短语表示学习",
+          "统计机器翻译"
+        ],
+        "chunk_id": "chunk_12",
+        "chunk_length": 473,
+        "concept_count": 5,
+        "token_count": 148
+      }
+    },
+    {
+      "node_id": "b2971a75-d5cb-4d21-80cf-a2abc77a351d",
+      "text": "[6]Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv\npreprint arXiv:1610.02357 , 2016.\n",
+      "concepts": [
+        "深度学习",
+        "可分离卷积",
+        "Xception模型",
+        "卷积神经网络",
+        "arXiv预印本"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "深度学习",
+          "可分离卷积",
+          "Xception模型",
+          "卷积神经网络",
+          "arXiv预印本"
+        ],
+        "chunk_id": "chunk_13",
+        "chunk_length": 124,
+        "concept_count": 5,
+        "token_count": 43
+      }
+    },
+    {
+      "node_id": "8ea22f37-584b-4073-a0cd-6dc42eb62da2",
+      "text": "[7]Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation\nof gated recurrent neural networks on sequence modeling. CoRR , abs/1412.3555, 2014.\n[8]Chris Dyer, Adhiguna ...",
+      "concepts": [
+        "递归神经网络",
+        "长短期记忆",
+        "卷积序列学习",
+        "深度残差学习",
+        "语言模型"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "递归神经网络",
+          "长短期记忆",
+          "卷积序列学习",
+          "深度残差学习",
+          "语言模型"
+        ],
+        "chunk_id": "chunk_14",
+        "chunk_length": 1482,
+        "concept_count": 5,
+        "token_count": 460
+      }
+    },
+    {
+      "node_id": "90d76d36-bdff-4555-8c8c-016e50691705",
+      "text": "[16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural\nInformation Processing Systems, (NIPS) , 2016.\n[17] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn a...",
+      "concepts": [
+        "主动记忆",
+        "神经网络",
+        "机器翻译",
+        "学习表示",
+        "算法学习"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "主动记忆",
+          "神经网络",
+          "机器翻译",
+          "学习表示",
+          "算法学习"
+        ],
+        "chunk_id": "chunk_15",
+        "chunk_length": 480,
+        "concept_count": 5,
+        "token_count": 146
+      }
+    },
+    {
+      "node_id": "ebc87e4f-9e74-4e52-b002-1939040b5cfa",
+      "text": "[19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks.\nInInternational Conference on Learning Representations , 2017.\n[20] Diederik Kingma and Jimmy Ba. Adam: A...",
+      "concepts": [
+        "结构化注意力网络",
+        "随机优化方法",
+        "深度学习",
+        "学习表示",
+        "Adam算法"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "结构化注意力网络",
+          "随机优化方法",
+          "深度学习",
+          "学习表示",
+          "Adam算法"
+        ],
+        "chunk_id": "chunk_16",
+        "chunk_length": 253,
+        "concept_count": 5,
+        "token_count": 67
+      }
+    },
+    {
+      "node_id": "6a3f143d-504b-4ff4-abf8-44fcbac7df75",
+      "text": "[21] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint\narXiv:1703.10722 , 2017.\n[22] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, ...",
+      "concepts": [
+        "LSTM网络",
+        "自注意力机制",
+        "序列到序列学习",
+        "神经机器翻译",
+        "抽象摘要生成"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "LSTM网络",
+          "自注意力机制",
+          "序列到序列学习",
+          "神经机器翻译",
+          "抽象摘要生成"
+        ],
+        "chunk_id": "chunk_17",
+        "chunk_length": 2395,
+        "concept_count": 5,
+        "token_count": 737
+      }
+    },
+    {
+      "node_id": "70968be0-6185-4798-a71e-3ed22ec172aa",
+      "text": "[34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory\nnetworks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors,\nAdvances in Neural Inf...",
+      "concepts": [
+        "端到端记忆网络",
+        "序列到序列学习",
+        "神经网络",
+        "计算机视觉架构",
+        "深度学习"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "端到端记忆网络",
+          "序列到序列学习",
+          "神经网络",
+          "计算机视觉架构",
+          "深度学习"
+        ],
+        "chunk_id": "chunk_18",
+        "chunk_length": 645,
+        "concept_count": 5,
+        "token_count": 202
+      }
+    },
+    {
+      "node_id": "712b206f-c1d1-4741-95ad-b92c10cc9971",
+      "text": "[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In\nAdvances in Neural Information Processing Systems , 2015.\n[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quo...",
+      "concepts": [
+        "神经机器翻译",
+        "深度递归模型",
+        "快速准确解析",
+        "语言模型",
+        "机器翻译系统"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "神经机器翻译",
+          "深度递归模型",
+          "快速准确解析",
+          "语言模型",
+          "机器翻译系统"
+        ],
+        "chunk_id": "chunk_19",
+        "chunk_length": 829,
+        "concept_count": 5,
+        "token_count": 250
+      }
+    },
+    {
+      "node_id": "3ec76674-1821-45ea-bc63-535ee2b99a79",
+      "text": "ACL, August 2013.\n12\nAttention Visualizations\nInput-Input Layer5\nIt\nis\nin\nthis\nspirit\nthat\na\nmajority\nof\nAmerican\ngovernments\nhave\npassed\nnew\nlaws\nsince\n2009\nmaking\nthe\nregistration\nor\nvoting\nprocess\n...",
+      "concepts": [
+        "注意力机制",
+        "长距离依赖",
+        "自注意力",
+        "法律应用",
+        "指代消解"
+      ],
+      "metadata": {
+        "file_name": "attention is all you need.pdf",
+        "file_path": "attention is all you need.pdf",
+        "file_type": ".pdf",
+        "file_size": 2215244,
+        "text_length": 39483,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:13:00.547366",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 2,
+        "concepts": [
+          "注意力机制",
+          "长距离依赖",
+          "自注意力",
+          "法律应用",
+          "指代消解"
+        ],
+        "chunk_id": "chunk_20",
+        "chunk_length": 2466,
+        "concept_count": 5,
+        "token_count": 833
+      }
+    }
+  ],
+  "concept_nodes": [
+    {
+      "node_id": "b1077c2a-1b5a-4774-879d-c9fd18a3ac96",
+      "concept_text": "机器学习与深度学习算法性能评估",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_16",
+        "chunk_4",
+        "chunk_12",
+        "chunk_11",
+        "chunk_6",
+        "chunk_7",
+        "chunk_1",
+        "chunk_8",
+        "chunk_9",
+        "chunk_13",
+        "chunk_18",
+        "chunk_19",
+        "chunk_15",
+        "chunk_0",
+        "chunk_10"
+      ],
+      "confidence_score": 0.47619047619047616,
+      "metadata": {
+        "concept_name": "机器学习与深度学习算法性能评估",
+        "definition": "机器学习与深度学习算法性能评估",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_16",
+          "chunk_4",
+          "chunk_12",
+          "chunk_11",
+          "chunk_6",
+          "chunk_7",
+          "chunk_1",
+          "chunk_8",
+          "chunk_9",
+          "chunk_13",
+          "chunk_18",
+          "chunk_19",
+          "chunk_15",
+          "chunk_0",
+          "chunk_10"
+        ],
+        "confidence_score": 0.47619047619047616,
+        "keywords": [
+          "机器学习与深度学习算法性能评估"
+        ],
+        "category": "方法技术",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "浮点运算",
+          "计算复杂度",
+          "算法学习",
+          "缩放点积注意力",
+          "随机优化方法",
+          "Adam算法",
+          "BLEU评分",
+          "机器阅读",
+          "性能评估",
+          "可分离卷积",
+          "训练成本",
+          "困惑度指标",
+          "统计机器翻译",
+          "计算机视觉架构",
+          "多头注意力",
+          "多头自注意力",
+          "Adam优化器",
+          "深度学习",
+          "快速准确解析",
+          "半监督学习"
+        ],
+        "frequency": 20,
+        "chunk_coverage": 16
+      }
+    },
+    {
+      "node_id": "a20e1b79-4a8c-4385-a127-44bf2b569a40",
+      "concept_text": "深度学习模型与架构",
+      "source_chunks": [
+        "chunk_16",
+        "chunk_14",
+        "chunk_11",
+        "chunk_12",
+        "chunk_7",
+        "chunk_15",
+        "chunk_17",
+        "chunk_1",
+        "chunk_8",
+        "chunk_18",
+        "chunk_13",
+        "chunk_19",
+        "chunk_6",
+        "chunk_0",
+        "chunk_10"
+      ],
+      "confidence_score": 0.4095238095238095,
+      "metadata": {
+        "concept_name": "深度学习模型与架构",
+        "definition": "深度学习模型与架构",
+        "source_chunks": [
+          "chunk_16",
+          "chunk_14",
+          "chunk_11",
+          "chunk_12",
+          "chunk_7",
+          "chunk_15",
+          "chunk_17",
+          "chunk_1",
+          "chunk_8",
+          "chunk_18",
+          "chunk_13",
+          "chunk_19",
+          "chunk_6",
+          "chunk_0",
+          "chunk_10"
+        ],
+        "confidence_score": 0.4095238095238095,
+        "keywords": [
+          "深度学习模型与架构"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "Xception模型",
+          "Transformer模型",
+          "模型变体",
+          "语言模型",
+          "Transformer架构",
+          "卷积神经网络",
+          "大规模变换器模型",
+          "深度递归模型",
+          "结构化注意力网络",
+          "神经网络",
+          "神经机器翻译"
+        ],
+        "frequency": 11,
+        "chunk_coverage": 15
+      }
+    },
+    {
+      "node_id": "5f9ac865-d655-49ec-b834-0e88cdf20b51",
+      "concept_text": "机器翻译与注意力机制",
+      "source_chunks": [
+        "chunk_4",
+        "chunk_14",
+        "chunk_20",
+        "chunk_2",
+        "chunk_7",
+        "chunk_3",
+        "chunk_9",
+        "chunk_13",
+        "chunk_15",
+        "chunk_0",
+        "chunk_10"
+      ],
+      "confidence_score": 0.33333333333333337,
+      "metadata": {
+        "concept_name": "机器翻译与注意力机制",
+        "definition": "机器翻译与注意力机制",
+        "source_chunks": [
+          "chunk_4",
+          "chunk_14",
+          "chunk_20",
+          "chunk_2",
+          "chunk_7",
+          "chunk_3",
+          "chunk_9",
+          "chunk_13",
+          "chunk_15",
+          "chunk_0",
+          "chunk_10"
+        ],
+        "confidence_score": 0.33333333333333337,
+        "keywords": [
+          "机器翻译与注意力机制"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "call",
+          "tion",
+          "draw",
+          "running",
+          "法律应用",
+          "WMT 2014",
+          "arXiv预印本",
+          "英语德语翻译",
+          "自注意力",
+          "机器翻译任务",
+          "主动记忆",
+          "递归神经网络",
+          "机器翻译",
+          "编码器-解码器注意力",
+          "注意力机制"
+        ],
+        "frequency": 15,
+        "chunk_coverage": 11
+      }
+    },
+    {
+      "node_id": "e02fa636-da89-43bc-8a2d-b868669df69a",
+      "concept_text": "序列学习与表示学习",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_16",
+        "chunk_14",
+        "chunk_11",
+        "chunk_12",
+        "chunk_2",
+        "chunk_18",
+        "chunk_17",
+        "chunk_15",
+        "chunk_0"
+      ],
+      "confidence_score": 0.2857142857142857,
+      "metadata": {
+        "concept_name": "序列学习与表示学习",
+        "definition": "序列学习与表示学习",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_16",
+          "chunk_14",
+          "chunk_11",
+          "chunk_12",
+          "chunk_2",
+          "chunk_18",
+          "chunk_17",
+          "chunk_15",
+          "chunk_0"
+        ],
+        "confidence_score": 0.2857142857142857,
+        "keywords": [
+          "序列学习与表示学习"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "序列到序列学习",
+          "序列建模",
+          "卷积序列学习",
+          "序列转导模型",
+          "短语表示学习",
+          "学习表示",
+          "深度残差学习",
+          "LSTM网络",
+          "端到端记忆网络",
+          "长短期记忆"
+        ],
+        "frequency": 10,
+        "chunk_coverage": 10
+      }
+    },
+    {
+      "node_id": "292461ef-e56a-4f59-affe-8d86c5601a74",
+      "concept_text": "自注意力机制及其相关组件",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_4",
+        "chunk_3",
+        "chunk_9",
+        "chunk_1",
+        "chunk_17",
+        "chunk_6"
+      ],
+      "confidence_score": 0.19523809523809524,
+      "metadata": {
+        "concept_name": "自注意力机制及其相关组件",
+        "definition": "自注意力机制及其相关组件",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_4",
+          "chunk_3",
+          "chunk_9",
+          "chunk_1",
+          "chunk_17",
+          "chunk_6"
+        ],
+        "confidence_score": 0.19523809523809524,
+        "keywords": [
+          "自注意力机制及其相关组件"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "aligned",
+          "位置-wise前馈网络",
+          "注意力分布",
+          "单词片段",
+          "自注意力机制",
+          "自注意力层"
+        ],
+        "frequency": 6,
+        "chunk_coverage": 7
+      }
+    },
+    {
+      "node_id": "e103eae1-93a3-4969-824a-4d2934cd8936",
+      "concept_text": "序列处理与表示学习技术",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_12",
+        "chunk_2",
+        "chunk_9",
+        "chunk_19",
+        "chunk_10"
+      ],
+      "confidence_score": 0.16666666666666666,
+      "metadata": {
+        "concept_name": "序列处理与表示学习技术",
+        "definition": "序列处理与表示学习技术",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_12",
+          "chunk_2",
+          "chunk_9",
+          "chunk_19",
+          "chunk_10"
+        ],
+        "confidence_score": 0.16666666666666666,
+        "keywords": [
+          "序列处理与表示学习技术"
+        ],
+        "category": "方法技术",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "编码器-解码器架构",
+          "字节对编码",
+          "机器翻译系统",
+          "位置编码",
+          "长短期记忆网络"
+        ],
+        "frequency": 5,
+        "chunk_coverage": 6
+      }
+    }
+  ],
+  "evidence_nodes": [
+    {
+      "node_id": "evidence_0",
+      "evidence_text": "在WMT 2014英语到德语翻译任务中，大型Transformer模型（表2中的Transformer (big)）比之前报告的最佳模型（包括集成模型）高出2.0 BLEU，建立了28.4的新状态-of-the-art BLEU分数。训练花费了3.5天，使用了8个P100 GPU。即使我们的基础模型也超越了所有已发布的模型和集成模型，训练成本仅为任何竞争模型的一小部分。在WMT 2014英语到法语翻译任务中，我们的大型模型达到了41.0的BLEU分数，超越了所有已发布的单一模型，训练成本不到之前状态-of-the-art模型的1/4。",
+      "concept_id": "b1077c2a-1b5a-4774-879d-c9fd18a3ac96",
+      "relevance_score": 3.5,
+      "metadata": {
+        "concept_id": "b1077c2a-1b5a-4774-879d-c9fd18a3ac96",
+        "concept_name": null,
+        "relevance_score": 3.5,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "机器学习与深度学习算法性能评估",
+        "source_chunks": [
+          "4427b0bc-483d-4590-9046-406f6fd19811",
+          "0d5bece0-bcc4-4f30-8814-d52b2d665491",
+          "bf513525-6660-4896-9947-1e71a2aa2d31",
+          "f4eecd6b-5c7a-4dcb-b6c4-b64cbf714844",
+          "8cb5fb1e-6493-4aac-b71d-0f4682fa0fc6"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 270
+      }
+    },
+    {
+      "node_id": "evidence_1",
+      "evidence_text": "我们提出了一种新的简单网络架构，Transformer，完全基于注意力机制，完全不使用递归和卷积。实验表明，这些模型在质量上优于现有的基于复杂递归或卷积神经网络的序列转导模型，同时具有更好的并行性，并且训练所需时间显著减少。我们的模型在WMT 2014英德翻译任务上达到了28.4 BLEU，超过了现有最佳结果，包括集成模型，提升幅度超过2 BLEU。",
+      "concept_id": "a20e1b79-4a8c-4385-a127-44bf2b569a40",
+      "relevance_score": 3.5,
+      "metadata": {
+        "concept_id": "a20e1b79-4a8c-4385-a127-44bf2b569a40",
+        "concept_name": null,
+        "relevance_score": 3.5,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "深度学习模型与架构",
+        "source_chunks": [
+          "bf513525-6660-4896-9947-1e71a2aa2d31",
+          "4427b0bc-483d-4590-9046-406f6fd19811",
+          "8f1860a5-c1e1-44c2-bc2e-d6de7818ef4f",
+          "8cb5fb1e-6493-4aac-b71d-0f4682fa0fc6",
+          "dd81d623-ed44-4fb6-b6e4-9f6f6677f488"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 176
+      }
+    },
+    {
+      "node_id": "evidence_2",
+      "evidence_text": "我们提出了一种新的简单网络架构，Transformer，完全基于注意力机制，完全不使用递归和卷积。在两个机器翻译任务上的实验表明，这些模型在质量上优于现有模型，同时更具并行性，并且训练所需时间显著减少。我们的模型在WMT 2014英语到德语翻译任务上达到了28.4 BLEU，超过了现有最佳结果，包括集成模型，提升超过2 BLEU。在WMT 2014英语到法语翻译任务上，我们的模型在训练3.5天后达到了41.8的BLEU分数，成为新的单模型状态的最佳成绩。",
+      "concept_id": "5f9ac865-d655-49ec-b834-0e88cdf20b51",
+      "relevance_score": 4.0,
+      "metadata": {
+        "concept_id": "5f9ac865-d655-49ec-b834-0e88cdf20b51",
+        "concept_name": null,
+        "relevance_score": 4.0,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "机器翻译与注意力机制",
+        "source_chunks": [
+          "4427b0bc-483d-4590-9046-406f6fd19811",
+          "bf513525-6660-4896-9947-1e71a2aa2d31",
+          "0d5bece0-bcc4-4f30-8814-d52b2d665491",
+          "8cb5fb1e-6493-4aac-b71d-0f4682fa0fc6",
+          "d77de3c5-2318-4083-b144-b47c9faad68b"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 229
+      }
+    },
+    {
+      "node_id": "evidence_3",
+      "evidence_text": "\"Recurrent neural networks, long short-term memory and gated recurrent neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation. Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures.\"",
+      "concept_id": "e02fa636-da89-43bc-8a2d-b868669df69a",
+      "relevance_score": 3.2,
+      "metadata": {
+        "concept_id": "e02fa636-da89-43bc-8a2d-b868669df69a",
+        "concept_name": null,
+        "relevance_score": 3.2,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "序列学习与表示学习",
+        "source_chunks": [
+          "8f1860a5-c1e1-44c2-bc2e-d6de7818ef4f",
+          "dd81d623-ed44-4fb6-b6e4-9f6f6677f488",
+          "8cb5fb1e-6493-4aac-b71d-0f4682fa0fc6",
+          "4427b0bc-483d-4590-9046-406f6fd19811",
+          "1adb0ecd-473a-43dd-a108-fd240c200736"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 385
+      }
+    },
+    {
+      "node_id": "evidence_4",
+      "evidence_text": "自注意力，有时称为内部注意力，是一种将单个序列的不同位置关联起来以计算序列表示的注意机制。自注意力已成功应用于多种任务，包括阅读理解、抽象摘要、文本蕴含和学习任务无关的句子表示。我们提出的Transformer是第一个完全依赖自注意力来计算输入和输出表示的转导模型，而不使用序列对齐的RNN或卷积。",
+      "concept_id": "292461ef-e56a-4f59-affe-8d86c5601a74",
+      "relevance_score": 3.3,
+      "metadata": {
+        "concept_id": "292461ef-e56a-4f59-affe-8d86c5601a74",
+        "concept_name": null,
+        "relevance_score": 3.3,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "自注意力机制及其相关组件",
+        "source_chunks": [
+          "8f1860a5-c1e1-44c2-bc2e-d6de7818ef4f",
+          "38ec3b38-33c5-46b9-b5e5-5cfd82345477",
+          "70968be0-6185-4798-a71e-3ed22ec172aa",
+          "dd81d623-ed44-4fb6-b6e4-9f6f6677f488",
+          "4427b0bc-483d-4590-9046-406f6fd19811"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 149
+      }
+    },
+    {
+      "node_id": "evidence_5",
+      "evidence_text": "注意力机制已成为各种任务中引人注目的序列建模和转导模型的一个组成部分，允许建模输入或输出序列中依赖关系而不考虑它们的距离。在这项工作中，我们提出了Transformer，这是一种完全依赖注意力机制的模型架构，能够在不使用序列对齐的RNN或卷积的情况下计算输入和输出的表示。Transformer允许显著更多的并行化，并且在经过短短12小时的训练后，能够在翻译质量上达到新的状态。",
+      "concept_id": "e103eae1-93a3-4969-824a-4d2934cd8936",
+      "relevance_score": 3.125,
+      "metadata": {
+        "concept_id": "e103eae1-93a3-4969-824a-4d2934cd8936",
+        "concept_name": null,
+        "relevance_score": 3.125,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "序列处理与表示学习技术",
+        "source_chunks": [
+          "8f1860a5-c1e1-44c2-bc2e-d6de7818ef4f",
+          "dd81d623-ed44-4fb6-b6e4-9f6f6677f488",
+          "1adb0ecd-473a-43dd-a108-fd240c200736",
+          "4427b0bc-483d-4590-9046-406f6fd19811"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 189
+      }
+    }
+  ]
+}

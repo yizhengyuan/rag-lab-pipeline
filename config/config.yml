@@ -1,0 +1,28 @@
+# ConceptBasedPipeline 配置文件
+api:
+  openai_key: "sk-zk2884399e3bbb43b998bd31be7b517f82f67bb0e95df2a1"
+  base_url: "https://api.zhizengzeng.com/v1/"
+  model: "gpt-4o-mini"
+  embedding_model: "text-embedding-ada-002"
+  temperature: 0.1
+
+chunking:
+  buffer_size: 1
+  breakpoint_percentile_threshold: 95
+
+concepts:
+  similarity_threshold: 0.7
+  max_concepts: 10
+  concepts_per_chunk: 5
+
+retrieval:
+  top_k: 5
+  similarity_cutoff: 0.7
+
+evidence:
+  min_length: 20
+  max_length: 200
+
+vector_store:
+  type: "simple"
+  persist_directory: "./vector_db" 

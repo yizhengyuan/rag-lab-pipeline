@@ -1,0 +1,75 @@
+================================================================================
+步骤5_概念检索 - 详细报告
+================================================================================
+生成时间: 2025-06-04 19:30:19
+处理文件: attention is all you need.pdf
+================================================================================
+
+
+概念检索统计:
+- 参与检索的概念数: 6
+- 检索结果映射数: 6
+- 处理时间: 38.29 秒
+
+检索结果详情:
+------------------------------------------------------------
+
+概念: 认知与行为的探索与发展
+- 概念ID: 68694615-8184-49b4-97c5-33fe5353cfed
+- 检索到的相关分块数: 2
+  相关分块 1: ID=1f85d471-100d-4d0b-9843-0307fbd68483, 相似度=4.000, 内容=Provided proper attribution is provided, Google he...
+  相关分块 2: ID=6f98970e-595f-4c96-b15d-668ea6632f19, 相似度=3.500, 内容=Recurrent models typically factor computation alon...
+----------------------------------------
+
+概念: 多样化的计算复杂性与信息处理
+- 概念ID: 5e4b5e27-3379-4fa9-856c-607b89a82c05
+- 检索到的相关分块数: 5
+  相关分块 1: ID=f8e2dd76-c7e9-4baf-b796-bd00cba21f76, 相似度=4.000, 内容=The dimensionality of input and output is dmodel =...
+  相关分块 2: ID=1f85d471-100d-4d0b-9843-0307fbd68483, 相似度=3.500, 内容=Provided proper attribution is provided, Google he...
+  相关分块 3: ID=6f98970e-595f-4c96-b15d-668ea6632f19, 相似度=3.000, 内容=Recurrent models typically factor computation alon...
+  相关分块 4: ID=102bc008-4485-4702-84b0-51b247f448b9, 相似度=2.500, 内容=These are concatenated and once again projected, r...
+  相关分块 5: ID=249bf066-2487-46be-af59-08361fc246b7, 相似度=2.000, 内容=6.2 Model Variations
+To evaluate the importance of...
+----------------------------------------
+
+概念: 优先选择的会议预印本
+- 概念ID: 1c109f70-484b-4097-b15f-2bfe5d3d5ce5
+- 检索到的相关分块数: 5
+  相关分块 1: ID=d66849fa-95eb-4130-a3f4-101686790f24, 相似度=4.000, 内容=[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and...
+  相关分块 2: ID=1f85d471-100d-4d0b-9843-0307fbd68483, 相似度=3.500, 内容=Provided proper attribution is provided, Google he...
+  相关分块 3: ID=4522cdff-27b7-4da7-bf0e-9d7296413fcc, 相似度=2.500, 内容=‡Work performed while at Google Research.
+31st Con...
+  相关分块 4: ID=070ede4c-f9e1-4bb4-bd37-40796a4ae622, 相似度=2.000, 内容=Le. Massive exploration of neural
+machine translat...
+  相关分块 5: ID=bcab7e3e-3d56-445b-b837-f879a600d995, 相似度=1.500, 内容=For the base model, we use a rate of
+Pdrop= 0.1.
+L...
+----------------------------------------
+
+概念: 文化与国际交流
+- 概念ID: 24cd6de1-fdd1-4825-9e47-f7f96d06e691
+- 检索到的相关分块数: 1
+  相关分块 1: ID=d66849fa-95eb-4130-a3f4-101686790f24, 相似度=3.000, 内容=[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and...
+----------------------------------------
+
+概念: 研究成果的可用性与优化状态
+- 概念ID: e3bf33a2-3405-494d-880e-c20461793f88
+- 检索到的相关分块数: 4
+  相关分块 1: ID=ffbb0596-c0a4-4439-a524-66c25ed1fac9, 相似度=4.000, 内容=We present these results in Table 3.
+In Table 3 ro...
+  相关分块 2: ID=1f85d471-100d-4d0b-9843-0307fbd68483, 相似度=3.500, 内容=Provided proper attribution is provided, Google he...
+  相关分块 3: ID=249bf066-2487-46be-af59-08361fc246b7, 相似度=3.000, 内容=6.2 Model Variations
+To evaluate the importance of...
+  相关分块 4: ID=a8eed2a4-36d6-40a2-a9bc-98a9b7460958, 相似度=2.500, 内容=Training took 3.5days on 8P100 GPUs. Even our base...
+----------------------------------------
+
+概念: 替代或附加的方式
+- 概念ID: edc59ed0-31f8-4c60-b0f0-d28e9ee24e85
+- 检索到的相关分块数: 5
+  相关分块 1: ID=d66849fa-95eb-4130-a3f4-101686790f24, 相似度=4.500, 内容=[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and...
+  相关分块 2: ID=6f98970e-595f-4c96-b15d-668ea6632f19, 相似度=4.000, 内容=Recurrent models typically factor computation alon...
+  相关分块 3: ID=a8eed2a4-36d6-40a2-a9bc-98a9b7460958, 相似度=3.500, 内容=Training took 3.5days on 8P100 GPUs. Even our base...
+  相关分块 4: ID=1f85d471-100d-4d0b-9843-0307fbd68483, 相似度=3.000, 内容=Provided proper attribution is provided, Google he...
+  相关分块 5: ID=070ede4c-f9e1-4bb4-bd37-40796a4ae622, 相似度=2.500, 内容=Le. Massive exploration of neural
+machine translat...
+----------------------------------------

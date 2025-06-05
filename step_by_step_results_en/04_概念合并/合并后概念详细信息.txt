@@ -1,0 +1,293 @@
+合并后的概念详细信息
+================================================================================
+
+概念 1
+--------------------------------------------------
+ID: 6990673a-8923-44dd-bcde-0c923835c9d5
+概念文本: 复杂系统中的符号与方法
+元数据: {
+  "concept_name": "复杂系统中的符号与方法",
+  "definition": "复杂系统中的符号与方法",
+  "source_chunks": [
+    "chunk_3",
+    "chunk_15",
+    "chunk_10",
+    "chunk_11",
+    "chunk_4",
+    "chunk_6",
+    "chunk_5",
+    "chunk_17",
+    "chunk_9",
+    "chunk_14",
+    "chunk_19",
+    "chunk_18",
+    "chunk_2",
+    "chunk_20"
+  ],
+  "confidence_score": 0.42857142857142855,
+  "keywords": [
+    "复杂系统中的符号与方法"
+  ],
+  "category": "方法技术",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "symbols",
+    "systems",
+    "samy",
+    "kwk",
+    "isolated",
+    "another",
+    "perplexities",
+    "there",
+    "mohammad",
+    "methods",
+    "described",
+    "cases",
+    "different",
+    "tests",
+    "aaron",
+    "hypothesized",
+    "denis",
+    "çaglar",
+    "governments",
+    "law"
+  ],
+  "frequency": 20,
+  "chunk_coverage": 14
+}
+
+================================================================================
+
+概念 2
+--------------------------------------------------
+ID: 271141cf-0a08-4828-bc16-ea801663f94c
+概念文本: 深度学习中的随机变换与组合处理
+元数据: {
+  "concept_name": "深度学习中的随机变换与组合处理",
+  "definition": "深度学习中的随机变换与组合处理",
+  "source_chunks": [
+    "chunk_3",
+    "chunk_7",
+    "chunk_11",
+    "chunk_13",
+    "chunk_4",
+    "chunk_17",
+    "chunk_0",
+    "chunk_16",
+    "chunk_5",
+    "chunk_18",
+    "chunk_1"
+  ],
+  "confidence_score": 0.3238095238095238,
+  "keywords": [
+    "深度学习中的随机变换与组合处理"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "decomposable",
+    "stochastic",
+    "transformer",
+    "lei",
+    "combination",
+    "bottom",
+    "responsible",
+    "deep",
+    "consuming",
+    "processing",
+    "arxiv",
+    "applied",
+    "depthwise"
+  ],
+  "frequency": 13,
+  "chunk_coverage": 11
+}
+
+================================================================================
+
+概念 3
+--------------------------------------------------
+ID: 0a207840-0317-44d5-8db2-8c32bce0e459
+概念文本: 研究与探索的多样性
+元数据: {
+  "concept_name": "研究与探索的多样性",
+  "definition": "研究与探索的多样性",
+  "source_chunks": [
+    "chunk_11",
+    "chunk_13",
+    "chunk_5",
+    "chunk_0",
+    "chunk_9",
+    "chunk_12",
+    "chunk_18",
+    "chunk_8",
+    "chunk_1",
+    "chunk_10"
+  ],
+  "confidence_score": 0.2714285714285714,
+  "keywords": [
+    "研究与探索的多样性"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "other",
+    "all",
+    "oriol",
+    "previous",
+    "development",
+    "exploration",
+    "preprint"
+  ],
+  "frequency": 7,
+  "chunk_coverage": 10
+}
+
+================================================================================
+
+概念 4
+--------------------------------------------------
+ID: 0c56bf14-36b7-441e-aafd-411079533519
+概念文本: 比较与改进的进展
+元数据: {
+  "concept_name": "比较与改进的进展",
+  "definition": "比较与改进的进展",
+  "source_chunks": [
+    "chunk_3",
+    "chunk_15",
+    "chunk_7",
+    "chunk_14",
+    "chunk_0",
+    "chunk_8",
+    "chunk_18",
+    "chunk_10"
+  ],
+  "confidence_score": 0.23333333333333334,
+  "keywords": [
+    "比较与改进的进展"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "compares",
+    "than",
+    "improvements",
+    "improves",
+    "advances",
+    "according",
+    "naacl",
+    "lasse",
+    "improving"
+  ],
+  "frequency": 9,
+  "chunk_coverage": 8
+}
+
+================================================================================
+
+概念 5
+--------------------------------------------------
+ID: bb65bdba-7871-4580-ae12-ede9a903bb68
+概念文本: 机器学习中的策略与机制
+元数据: {
+  "concept_name": "机器学习中的策略与机制",
+  "definition": "机器学习中的策略与机制",
+  "source_chunks": [
+    "chunk_6",
+    "chunk_11",
+    "chunk_13",
+    "chunk_16",
+    "chunk_8",
+    "chunk_20"
+  ],
+  "confidence_score": 0.17619047619047618,
+  "keywords": [
+    "机器学习中的策略与机制"
+  ],
+  "category": "方法技术",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "dropout",
+    "learning",
+    "penalty",
+    "majority",
+    "posunk",
+    "attention",
+    "jimmy"
+  ],
+  "frequency": 7,
+  "chunk_coverage": 6
+}
+
+================================================================================
+
+概念 6
+--------------------------------------------------
+ID: 3082b5ba-d17b-4ab8-8f46-0958410eab11
+概念文本: 人名列表
+元数据: {
+  "concept_name": "人名列表",
+  "definition": "人名列表",
+  "source_chunks": [
+    "chunk_0",
+    "chunk_12",
+    "chunk_17",
+    "chunk_16"
+  ],
+  "confidence_score": 0.11904761904761904,
+  "keywords": [
+    "人名列表"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "acl",
+    "caglar",
+    "alexander",
+    "bleu",
+    "mirella"
+  ],
+  "frequency": 5,
+  "chunk_coverage": 4
+}
+
+================================================================================
+
+概念 7
+--------------------------------------------------
+ID: f6d01c67-a7b4-44e2-b418-975bce8e741f
+概念文本: 光辉与力量
+元数据: {
+  "concept_name": "光辉与力量",
+  "definition": "光辉与力量",
+  "source_chunks": [
+    "chunk_19",
+    "chunk_11",
+    "chunk_14",
+    "chunk_16"
+  ],
+  "confidence_score": 0.11428571428571428,
+  "keywords": [
+    "光辉与力量"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "luong",
+    "zhongqiang",
+    "ying",
+    "xuguang"
+  ],
+  "frequency": 4,
+  "chunk_coverage": 4
+}
+
+================================================================================
+

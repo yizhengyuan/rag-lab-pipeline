@@ -1,0 +1,1848 @@
+{
+  "chunk_nodes": [
+    {
+      "node_id": "6bf74d8e-738f-4a08-9edf-d0c724577e99",
+      "text": "China, officially the People's Republic of China (PRC), is a country in East Asia. With a population exceeding 1.4 billion, it is the second-most populous country after India, representing 17.4% of th...",
+      "concepts": [
+        "人民公国",
+        "中华文明",
+        "丝绸之路",
+        "中国共产党",
+        "国民政府"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "人民公国",
+          "中华文明",
+          "丝绸之路",
+          "中国共产党",
+          "国民政府"
+        ],
+        "chunk_id": "chunk_0",
+        "chunk_length": 2720,
+        "concept_count": 5,
+        "token_count": 579
+      }
+    },
+    {
+      "node_id": "6afd9dc5-aeb3-4b09-85d2-7eb5d5cd6c4e",
+      "text": "The country was split, with both sides claiming to be the sole legitimate government of China. Following the implementation of land reforms, further attempts by the PRC to realize communism failed: th...",
+      "concepts": [
+        "社会主义国家",
+        "经济改革",
+        "文化大革命",
+        "天安门广场抗议",
+        "核武器国家"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "社会主义国家",
+          "经济改革",
+          "文化大革命",
+          "天安门广场抗议",
+          "核武器国家"
+        ],
+        "chunk_id": "chunk_1",
+        "chunk_length": 2298,
+        "concept_count": 5,
+        "token_count": 467
+      }
+    },
+    {
+      "node_id": "62e6b9d3-a8e9-4373-beb1-6446b4a4a6fe",
+      "text": "Its origin has been traced through Portuguese, Malay, and Persian back to the Sanskrit word Cīna, used in ancient India. \"China\" appears in Richard Eden's 1555 translation of the 1516 journal of the P...",
+      "concepts": [
+        "中国起源",
+        "梵语词汇",
+        "秦朝名称",
+        "古印度文献",
+        "历史语言学"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中国起源",
+          "梵语词汇",
+          "秦朝名称",
+          "古印度文献",
+          "历史语言学"
+        ],
+        "chunk_id": "chunk_2",
+        "chunk_length": 751,
+        "concept_count": 5,
+        "token_count": 184
+      }
+    },
+    {
+      "node_id": "ae94f3ab-6b6a-46d6-9cd1-fcf8bf04e0c7",
+      "text": "Alternative suggestions include the names for Yelang and the Jing or Chu state.\nThe official name of the modern state is the \"People's Republic of China\" (simplified Chinese: 中华人民共和国; traditional Chin...",
+      "concepts": [
+        "中华人民共和国",
+        "早期人类",
+        "夏朝历史",
+        "青铜时代",
+        "甲骨文"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中华人民共和国",
+          "早期人类",
+          "夏朝历史",
+          "青铜时代",
+          "甲骨文"
+        ],
+        "chunk_id": "chunk_3",
+        "chunk_length": 2354,
+        "concept_count": 5,
+        "token_count": 550
+      }
+    },
+    {
+      "node_id": "93b067b4-8953-4e55-abbe-06132618069e",
+      "text": "The oracle bone script, attested from c. 1250 BCE but generally assumed to be considerably older, represents the oldest known form of written Chinese, and is the direct ancestor of modern Chinese char...",
+      "concepts": [
+        "甲骨文",
+        "秦汉时期",
+        "丝绸之路",
+        "三国时期",
+        "唐宋繁荣"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "甲骨文",
+          "秦汉时期",
+          "丝绸之路",
+          "三国时期",
+          "唐宋繁荣"
+        ],
+        "chunk_id": "chunk_4",
+        "chunk_length": 3704,
+        "concept_count": 5,
+        "token_count": 757
+      }
+    },
+    {
+      "node_id": "4f7e07b7-843b-4b6a-ab25-e451eb878719",
+      "text": "In 907, the Tang disintegrated completely when the local military governors became ungovernable. The Song dynasty ended the separatist situation in 960, leading to a balance of power between the Song ...",
+      "concepts": [
+        "纸币发行",
+        "海军建立",
+        "稻米种植",
+        "儒学复兴",
+        "郑和下西洋"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "纸币发行",
+          "海军建立",
+          "稻米种植",
+          "儒学复兴",
+          "郑和下西洋"
+        ],
+        "chunk_id": "chunk_5",
+        "chunk_length": 2146,
+        "concept_count": 5,
+        "token_count": 461
+      }
+    },
+    {
+      "node_id": "21fce1f2-b9af-4b3c-a9d6-6e54026875d3",
+      "text": "With the budding of capitalism, philosophers such as Wang Yangming critiqued and expanded Neo-Confucianism with concepts of individualism and equality of four occupations. The scholar-official stratum...",
+      "concepts": [
+        "清朝",
+        "辛亥革命",
+        "国民政府",
+        "文化大革命",
+        "改革开放"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "清朝",
+          "辛亥革命",
+          "国民政府",
+          "文化大革命",
+          "改革开放"
+        ],
+        "chunk_id": "chunk_6",
+        "chunk_length": 8644,
+        "concept_count": 5,
+        "token_count": 1883
+      }
+    },
+    {
+      "node_id": "afce2ff4-c1bb-4633-bf7c-a3761f6a34d7",
+      "text": "Agricultural collectivization was dismantled and farmlands privatized. While foreign trade became a major focus, special economic zones (SEZs) were created. Inefficient state-owned enterprises (SOEs) ...",
+      "concepts": [
+        "农业集体化",
+        "特区经济",
+        "国有企业改革",
+        "计划经济转型",
+        "天安门事件"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "农业集体化",
+          "特区经济",
+          "国有企业改革",
+          "计划经济转型",
+          "天安门事件"
+        ],
+        "chunk_id": "chunk_7",
+        "chunk_length": 658,
+        "concept_count": 5,
+        "token_count": 139
+      }
+    },
+    {
+      "node_id": "727d4a50-3bf7-4410-8f59-d9ddd90629de",
+      "text": "China's economy grew sevenfold during this time. British Hong Kong and Portuguese Macau returned to China in 1997 and 1999, respectively, as special administrative regions under the principle of one c...",
+      "concepts": [
+        "经济增长",
+        "特别行政区",
+        "世界贸易组织",
+        "反腐败运动",
+        "社会资源影响"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "经济增长",
+          "特别行政区",
+          "世界贸易组织",
+          "反腐败运动",
+          "社会资源影响"
+        ],
+        "chunk_id": "chunk_8",
+        "chunk_length": 884,
+        "concept_count": 5,
+        "token_count": 183
+      }
+    },
+    {
+      "node_id": "93b07424-fc95-4ec2-86c5-4b18189499d1",
+      "text": "During his tenure, Xi has consolidated power unseen since the initiation of economic and political reforms.\n\n== Geography ==\n\nChina's landscape is vast and diverse, ranging from the Gobi and Taklamaka...",
+      "concepts": [
+        "经济改革",
+        "地理特征",
+        "气候变化",
+        "山脉分布",
+        "河流系统"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "经济改革",
+          "地理特征",
+          "气候变化",
+          "山脉分布",
+          "河流系统"
+        ],
+        "chunk_id": "chunk_9",
+        "chunk_length": 2041,
+        "concept_count": 5,
+        "token_count": 475
+      }
+    },
+    {
+      "node_id": "e8c5827c-b38b-4a19-a106-426daf4c0b1d",
+      "text": "In the winter, northern winds coming from high-latitude areas are cold and dry; in summer, southern winds from coastal areas at lower latitudes are warm and moist.\nA major environmental issue in China...",
+      "concepts": [
+        "北方寒风",
+        "南方暖风",
+        "环境问题",
+        "沙漠扩张",
+        "戈壁沙漠"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 0,
+        "total_pre_splits": 4,
+        "concepts": [
+          "北方寒风",
+          "南方暖风",
+          "环境问题",
+          "沙漠扩张",
+          "戈壁沙漠"
+        ],
+        "chunk_id": "chunk_10",
+        "chunk_length": 273,
+        "concept_count": 5,
+        "token_count": 55
+      }
+    },
+    {
+      "node_id": "7b83c286-c16f-45d3-81dc-e759a1f1bbc1",
+      "text": "To the west sit major mountain ranges, most notably the Himalayas. High plateaus feature among the more arid landscapes of the north, such as the Taklamakan and the Gobi Desert. The world's highest po...",
+      "concepts": [
+        "喜马拉雅山脉",
+        "塔克拉玛干沙漠",
+        "戈壁沙漠",
+        "气候特征",
+        "温差变化"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "喜马拉雅山脉",
+          "塔克拉玛干沙漠",
+          "戈壁沙漠",
+          "气候特征",
+          "温差变化"
+        ],
+        "chunk_id": "chunk_11",
+        "chunk_length": 557,
+        "concept_count": 5,
+        "token_count": 130
+      }
+    },
+    {
+      "node_id": "9839fc35-7293-4934-9b10-fd7d86213924",
+      "text": "In the winter, northern winds coming from high-latitude areas are cold and dry; in summer, southern winds from coastal areas at lower latitudes are warm and moist.\nA major environmental issue in China...",
+      "concepts": [
+        "北方风",
+        "沙尘暴",
+        "水质问题",
+        "环境问题",
+        "荒漠化扩展"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "北方风",
+          "沙尘暴",
+          "水质问题",
+          "环境问题",
+          "荒漠化扩展"
+        ],
+        "chunk_id": "chunk_12",
+        "chunk_length": 676,
+        "concept_count": 5,
+        "token_count": 128
+      }
+    },
+    {
+      "node_id": "3f0241ce-def3-4e73-b856-d7ea4d19c52b",
+      "text": "Melting glaciers in the Himalayas could potentially lead to water shortages for hundreds of millions of people. According to academics, in order to limit climate change in China to 1.5 °C (2.7 °F) ele...",
+      "concepts": [
+        "气候变化",
+        "水资源短缺",
+        "温室气体排放",
+        "电力生成",
+        "碳捕获技术"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "气候变化",
+          "水资源短缺",
+          "温室气体排放",
+          "电力生成",
+          "碳捕获技术"
+        ],
+        "chunk_id": "chunk_13",
+        "chunk_length": 481,
+        "concept_count": 5,
+        "token_count": 108
+      }
+    },
+    {
+      "node_id": "d5bb4b22-7587-4061-af54-a8d8a7d63123",
+      "text": "Official government statistics about Chinese agricultural productivity are considered unreliable, due to exaggeration of production at subsidiary government levels. Much of China has a climate very su...",
+      "concepts": [
+        "农业生产力",
+        "生物多样性",
+        "生态保护",
+        "环境污染",
+        "自然保护区"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "农业生产力",
+          "生物多样性",
+          "生态保护",
+          "环境污染",
+          "自然保护区"
+        ],
+        "chunk_id": "chunk_14",
+        "chunk_length": 2792,
+        "concept_count": 5,
+        "token_count": 608
+      }
+    },
+    {
+      "node_id": "fc527155-21a5-43be-b271-31bc807b5a00",
+      "text": "Regulations such as the 1979 Environmental Protection Law are fairly stringent, though they are poorly enforced, frequently disregarded in favor of rapid economic development. China has the second-hig...",
+      "concepts": [
+        "环境保护法",
+        "温室气体排放",
+        "可再生能源投资",
+        "一党制国家",
+        "中国共产党领导"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "环境保护法",
+          "温室气体排放",
+          "可再生能源投资",
+          "一党制国家",
+          "中国共产党领导"
+        ],
+        "chunk_id": "chunk_15",
+        "chunk_length": 8312,
+        "concept_count": 5,
+        "token_count": 1709
+      }
+    },
+    {
+      "node_id": "452de184-25a0-4f0a-8555-aa2829dbb4cd",
+      "text": ": 14  Generally, central government leadership refrains from drafting specific policies, instead using the informal networks and site visits to affirm or suggest changes to the direction of local poli...",
+      "concepts": [
+        "中央政府领导",
+        "政策实验",
+        "地方政策",
+        "非正式网络",
+        "现场考察"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中央政府领导",
+          "政策实验",
+          "地方政策",
+          "非正式网络",
+          "现场考察"
+        ],
+        "chunk_id": "chunk_16",
+        "chunk_length": 233,
+        "concept_count": 5,
+        "token_count": 42
+      }
+    },
+    {
+      "node_id": "fdc7d9d9-5bd9-418a-bb51-0ddff4422788",
+      "text": ": 71  The typical approach is that central government leadership begins drafting formal policies, law, or regulations after policy has been developed at local levels.: 71\n\n=== Administrative divisions...",
+      "concepts": [
+        "一带一路倡议",
+        "人民解放军",
+        "外交关系网络",
+        "和平共处五项原则",
+        "中央军事委员会"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "一带一路倡议",
+          "人民解放军",
+          "外交关系网络",
+          "和平共处五项原则",
+          "中央军事委员会"
+        ],
+        "chunk_id": "chunk_17",
+        "chunk_length": 6010,
+        "concept_count": 5,
+        "token_count": 1225
+      }
+    },
+    {
+      "node_id": "3c089a2d-00a6-49e2-8eca-8ed896c77822",
+      "text": "The chairman of the CMC is the commander-in-chief of the PLA.\n\n=== Sociopolitical issues and human rights ===\nThe situation of human rights in China has attracted significant criticism from foreign go...",
+      "concepts": [
+        "人权问题",
+        "网络审查",
+        "现代奴隶制",
+        "再教育劳动",
+        "政治镇压"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "人权问题",
+          "网络审查",
+          "现代奴隶制",
+          "再教育劳动",
+          "政治镇压"
+        ],
+        "chunk_id": "chunk_18",
+        "chunk_length": 3856,
+        "concept_count": 5,
+        "token_count": 713
+      }
+    },
+    {
+      "node_id": "3a199b0d-1ecd-4361-8eca-91472a3e2642",
+      "text": "Nonetheless, international surveys show the Chinese public have a high level of satisfaction with their government.: 137  These views are generally attributed to the material comforts and security ava...",
+      "concepts": [
+        "国家资本主义",
+        "电动车生产",
+        "电子商务市场",
+        "国际贸易",
+        "制造业强国"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "国家资本主义",
+          "电动车生产",
+          "电子商务市场",
+          "国际贸易",
+          "制造业强国"
+        ],
+        "chunk_id": "chunk_19",
+        "chunk_length": 4214,
+        "concept_count": 5,
+        "token_count": 872
+      }
+    },
+    {
+      "node_id": "e9db607e-bfd2-4fde-a0ac-cefd54b81f73",
+      "text": "China brought more people out of extreme poverty than any other country in history—between 1978 and 2018, China reduced extreme poverty by 800 million.: 23  From 1990 to 2018, the proportion of the Ch...",
+      "concepts": [
+        "极端贫困减少",
+        "收入水平提高",
+        "生活标准提升",
+        "城市与乡村差距",
+        "经济发展不均"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 1,
+        "total_pre_splits": 4,
+        "concepts": [
+          "极端贫困减少",
+          "收入水平提高",
+          "生活标准提升",
+          "城市与乡村差距",
+          "经济发展不均"
+        ],
+        "chunk_id": "chunk_20",
+        "chunk_length": 1032,
+        "concept_count": 5,
+        "token_count": 264
+      }
+    },
+    {
+      "node_id": "e4b7e2e5-2aeb-45b2-9732-223162b83d67",
+      "text": "From 1978 to 2018, the average standard of living multiplied by a factor of twenty-six. Wages in China have grown significantly in the last 40 years—real (inflation-adjusted) wages grew seven-fold fro...",
+      "concepts": [
+        "经济不平等",
+        "外商直接投资",
+        "全球贸易力量",
+        "中产阶级人口",
+        "人民币汇率"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "经济不平等",
+          "外商直接投资",
+          "全球贸易力量",
+          "中产阶级人口",
+          "人民币汇率"
+        ],
+        "chunk_id": "chunk_21",
+        "chunk_length": 2554,
+        "concept_count": 5,
+        "token_count": 576
+      }
+    },
+    {
+      "node_id": "1fbc6413-b292-4564-ab0e-894e91766ed5",
+      "text": "The U.S. government has also alleged that China does not respect intellectual property (IP) rights and steals IP through espionage operations. In 2020, Harvard University's Economic Complexity Index r...",
+      "concepts": [
+        "知识产权",
+        "经济复杂性指数",
+        "人民币国际化",
+        "国际货币体系",
+        "资本管制"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "知识产权",
+          "经济复杂性指数",
+          "人民币国际化",
+          "国际货币体系",
+          "资本管制"
+        ],
+        "chunk_id": "chunk_22",
+        "chunk_length": 764,
+        "concept_count": 5,
+        "token_count": 162
+      }
+    },
+    {
+      "node_id": "af283fbc-f6b6-4451-86a6-60dea3c738b4",
+      "text": "Dollar and the Japanese Yen in international trade volumes.\n\n=== Science and technology ===\n\n==== Historical ====\n\nChina was a world leader in science and technology until the Ming dynasty. Ancient an...",
+      "concepts": [
+        "科学技术",
+        "四大发明",
+        "自我强化运动",
+        "四个现代化",
+        "科学研究投资"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "科学技术",
+          "四大发明",
+          "自我强化运动",
+          "四个现代化",
+          "科学研究投资"
+        ],
+        "chunk_id": "chunk_23",
+        "chunk_length": 1390,
+        "concept_count": 5,
+        "token_count": 267
+      }
+    },
+    {
+      "node_id": "10cf5667-a8be-4704-9faa-9b1e50b8b4e9",
+      "text": "in R&D spending. China officially spent around 2.7% of its GDP on R&D in 2024, totaling to around $496 billion. According to the World Intellectual Property Indicators, China received more application...",
+      "concepts": [
+        "研发支出",
+        "中国空间计划",
+        "高铁网络",
+        "卫星导航系统",
+        "水资源管理"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "研发支出",
+          "中国空间计划",
+          "高铁网络",
+          "卫星导航系统",
+          "水资源管理"
+        ],
+        "chunk_id": "chunk_24",
+        "chunk_length": 9153,
+        "concept_count": 5,
+        "token_count": 2057
+      }
+    },
+    {
+      "node_id": "77049b0b-cbdd-42fc-84c1-966583df8236",
+      "text": "About 17.95% were 14 years old or younger, 63.35% were between 15 and 59 years old, and 18.7% were over 60 years old. Between 2010 and 2020, the average population growth rate was 0.53%.\nGiven concern...",
+      "concepts": [
+        "人口政策",
+        "城市化进程",
+        "生育率下降",
+        "性别比例失衡",
+        "三孩政策"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "人口政策",
+          "城市化进程",
+          "生育率下降",
+          "性别比例失衡",
+          "三孩政策"
+        ],
+        "chunk_id": "chunk_25",
+        "chunk_length": 2717,
+        "concept_count": 5,
+        "token_count": 656
+      }
+    },
+    {
+      "node_id": "7c9df577-d201-4b89-8660-1ea0ade35e8f",
+      "text": "The large \"floating populations\" of migrant workers make conducting censuses in urban areas difficult; the figures below include only long-term residents.\n\n=== Ethnic groups ===\n\nChina legally recogni...",
+      "concepts": [
+        "浮动人口",
+        "民族群体",
+        "汉族人口",
+        "语言多样性",
+        "标准汉语"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "浮动人口",
+          "民族群体",
+          "汉族人口",
+          "语言多样性",
+          "标准汉语"
+        ],
+        "chunk_id": "chunk_26",
+        "chunk_length": 2330,
+        "concept_count": 5,
+        "token_count": 533
+      }
+    },
+    {
+      "node_id": "e3d7b269-19fd-4810-ad49-d160b9975139",
+      "text": "In the autonomous regions of China, other languages may also serve as a lingua franca, such as Uyghur in Xinjiang, where governmental services in Uyghur are constitutionally guaranteed.\n\n=== Religion ...",
+      "concepts": [
+        "宗教自由",
+        "中国民间信仰",
+        "三教合一",
+        "国家宗教事务管理局",
+        "佛教推广"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "宗教自由",
+          "中国民间信仰",
+          "三教合一",
+          "国家宗教事务管理局",
+          "佛教推广"
+        ],
+        "chunk_id": "chunk_27",
+        "chunk_length": 2225,
+        "concept_count": 5,
+        "token_count": 429
+      }
+    },
+    {
+      "node_id": "e05716e5-09fb-4d31-b660-57bea3b6d27c",
+      "text": "Scholars note that in China there is no clear boundary between the three doctrines and local folk religious practices. Chinese religions or some of their currents are also definable as non-theistic an...",
+      "concepts": [
+        "中国民间宗教",
+        "非神论信仰",
+        "宗教人口统计",
+        "民族宗教",
+        "教育制度"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中国民间宗教",
+          "非神论信仰",
+          "宗教人口统计",
+          "民族宗教",
+          "教育制度"
+        ],
+        "chunk_id": "chunk_28",
+        "chunk_length": 1505,
+        "concept_count": 5,
+        "token_count": 327
+      }
+    },
+    {
+      "node_id": "4a72fd07-78cc-455f-9e32-35ccc2392d76",
+      "text": "The Gaokao, China's national university entrance exam, is a prerequisite for entrance into most higher education institutions. Vocational education is available to students at the secondary and tertia...",
+      "concepts": [
+        "高考",
+        "职业教育",
+        "教育投资",
+        "高等教育系统",
+        "C9联盟"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "高考",
+          "职业教育",
+          "教育投资",
+          "高等教育系统",
+          "C9联盟"
+        ],
+        "chunk_id": "chunk_29",
+        "chunk_length": 2175,
+        "concept_count": 5,
+        "token_count": 456
+      }
+    },
+    {
+      "node_id": "a3e5e33f-6c44-438e-a66a-4aa653f3615d",
+      "text": "An emphasis on public health and preventive medicine has characterized Chinese health policy since the early 1950s. The Communist Party started the Patriotic Health Campaign, which was aimed at improv...",
+      "concepts": [
+        "公共卫生政策",
+        "预防医学",
+        "医疗改革",
+        "基本健康保险",
+        "制药产业"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "公共卫生政策",
+          "预防医学",
+          "医疗改革",
+          "基本健康保险",
+          "制药产业"
+        ],
+        "chunk_id": "chunk_30",
+        "chunk_length": 1231,
+        "concept_count": 5,
+        "token_count": 251
+      }
+    },
+    {
+      "node_id": "ce673ed1-7abd-42d7-b351-a50f782baac9",
+      "text": "Both have improved significantly since the 1950s. Rates of stunting, a condition caused by malnutrition, have declined from 33.1% in 1990 to 9.9% in 2010.",
+      "concepts": [
+        "营养不良",
+        "生长迟缓",
+        "健康改善",
+        "统计数据",
+        "时间变化"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 2,
+        "total_pre_splits": 4,
+        "concepts": [
+          "营养不良",
+          "生长迟缓",
+          "健康改善",
+          "统计数据",
+          "时间变化"
+        ],
+        "chunk_id": "chunk_31",
+        "chunk_length": 154,
+        "concept_count": 5,
+        "token_count": 46
+      }
+    },
+    {
+      "node_id": "9c98e265-8cbb-4524-9b46-ea1bddefe179",
+      "text": "Healthcare in China became mostly privatized, and experienced a significant rise in quality. In 2009, the government began a three-year large-scale healthcare provision initiative worth US$124 billion...",
+      "concepts": [
+        "医疗保健私有化",
+        "基本健康保险",
+        "药品生产与出口",
+        "活性药物成分",
+        "生命 expectancy"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "医疗保健私有化",
+          "基本健康保险",
+          "药品生产与出口",
+          "活性药物成分",
+          "生命 expectancy"
+        ],
+        "chunk_id": "chunk_32",
+        "chunk_length": 637,
+        "concept_count": 5,
+        "token_count": 143
+      }
+    },
+    {
+      "node_id": "c8eafc3d-14bc-4463-84c0-6fdccd13a80c",
+      "text": "Rates of stunting, a condition caused by malnutrition, have declined from 33.1% in 1990 to 9.9% in 2010. Despite significant improvements in health and the construction of advanced medical facilities,...",
+      "concepts": [
+        "公共卫生问题",
+        "空气污染",
+        "心理健康服务",
+        "COVID-19疫情",
+        "营养不良"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "公共卫生问题",
+          "空气污染",
+          "心理健康服务",
+          "COVID-19疫情",
+          "营养不良"
+        ],
+        "chunk_id": "chunk_33",
+        "chunk_length": 1069,
+        "concept_count": 5,
+        "token_count": 213
+      }
+    },
+    {
+      "node_id": "76b83331-ce0e-42fb-bd3f-8f2a8dcdd9ed",
+      "text": "Chinese culture, in turn, has heavily influenced East Asia and Southeast Asia. For much of the country's dynastic era, opportunities for social advancement could be provided by high performance in the...",
+      "concepts": [
+        "中国文化",
+        "传统艺术",
+        "中国建筑",
+        "古典文学",
+        "现代文学"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中国文化",
+          "传统艺术",
+          "中国建筑",
+          "古典文学",
+          "现代文学"
+        ],
+        "chunk_id": "chunk_34",
+        "chunk_length": 4427,
+        "concept_count": 5,
+        "token_count": 838
+      }
+    },
+    {
+      "node_id": "9c8a1d35-cb82-4086-91fa-a2c2eb068670",
+      "text": "Chinese music dates back before the pre-imperial times. Traditional Chinese musical instruments were traditionally grouped into eight categories known as bayin (八音). Traditional Chinese opera is a for...",
+      "concepts": [
+        "传统音乐",
+        "汉服运动",
+        "中国电影市场",
+        "八大菜系",
+        "中国流行音乐"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "传统音乐",
+          "汉服运动",
+          "中国电影市场",
+          "八大菜系",
+          "中国流行音乐"
+        ],
+        "chunk_id": "chunk_35",
+        "chunk_length": 1435,
+        "concept_count": 5,
+        "token_count": 324
+      }
+    },
+    {
+      "node_id": "5a604ec2-68bc-497c-ba3e-2cc7b1bf38c7",
+      "text": "Chinese cuisine is known for its breadth of cooking methods and ingredients. China's staple food is rice in the northeast and south, and wheat-based breads and noodles in the north. Bean products such...",
+      "concepts": [
+        "中国烹饪",
+        "体育文化",
+        "传统武术",
+        "电子竞技市场",
+        "奥林匹克运动会"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "中国烹饪",
+          "体育文化",
+          "传统武术",
+          "电子竞技市场",
+          "奥林匹克运动会"
+        ],
+        "chunk_id": "chunk_36",
+        "chunk_length": 2995,
+        "concept_count": 5,
+        "token_count": 626
+      }
+    },
+    {
+      "node_id": "31bf6a14-bdc4-4c10-a49c-15d27c8ea79b",
+      "text": "Licensed under CC BY-SA IGO 3.0 (license statement/permission). Text taken from World Food and Agriculture – Statistical Yearbook 2023​, FAO, FAO.\n\n== Further reading ==\n\n== External links ==\n\n=== Gov...",
+      "concepts": [
+        "统计年鉴",
+        "农业统计",
+        "中国政府",
+        "地理数据",
+        "国家概况"
+      ],
+      "metadata": {
+        "file_name": "chinawiki.txt",
+        "file_path": "chinawiki.txt",
+        "file_type": ".txt",
+        "file_size": 90263,
+        "text_length": 89959,
+        "source_dataset": "single_file_input",
+        "processing_timestamp": "2025-06-03T16:36:49.377836",
+        "pre_split": true,
+        "original_doc_index": 0,
+        "pre_split_index": 3,
+        "total_pre_splits": 4,
+        "concepts": [
+          "统计年鉴",
+          "农业统计",
+          "中国政府",
+          "地理数据",
+          "国家概况"
+        ],
+        "chunk_id": "chunk_37",
+        "chunk_length": 685,
+        "concept_count": 5,
+        "token_count": 164
+      }
+    }
+  ],
+  "concept_nodes": [
+    {
+      "node_id": "07d3f9c3-509b-4642-902c-9f0e68a155f9",
+      "concept_text": "社会发展与健康指标",
+      "source_chunks": [
+        "chunk_32",
+        "chunk_3",
+        "chunk_14",
+        "chunk_30",
+        "chunk_8",
+        "chunk_33",
+        "chunk_15",
+        "chunk_27",
+        "chunk_12",
+        "chunk_21",
+        "chunk_25",
+        "chunk_16",
+        "chunk_28",
+        "chunk_31",
+        "chunk_20",
+        "chunk_37"
+      ],
+      "confidence_score": 0.2631578947368421,
+      "metadata": {
+        "concept_name": "社会发展与健康指标",
+        "definition": "社会发展与健康指标",
+        "source_chunks": [
+          "chunk_32",
+          "chunk_3",
+          "chunk_14",
+          "chunk_30",
+          "chunk_8",
+          "chunk_33",
+          "chunk_15",
+          "chunk_27",
+          "chunk_12",
+          "chunk_21",
+          "chunk_25",
+          "chunk_16",
+          "chunk_28",
+          "chunk_31",
+          "chunk_20",
+          "chunk_37"
+        ],
+        "confidence_score": 0.2631578947368421,
+        "keywords": [
+          "社会发展与健康指标"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "生命 expectancy",
+          "生活标准提升",
+          "生育率下降",
+          "生物多样性",
+          "生长迟缓",
+          "基本健康保险",
+          "性别比例失衡",
+          "农业生产力",
+          "经济不平等",
+          "可再生能源投资",
+          "经济增长",
+          "统计年鉴",
+          "政策实验",
+          "宗教人口统计",
+          "早期人类",
+          "社会资源影响",
+          "中产阶级人口",
+          "荒漠化扩展",
+          "中国民间信仰",
+          "营养不良"
+        ],
+        "frequency": 20,
+        "chunk_coverage": 16
+      }
+    },
+    {
+      "node_id": "cd1d3301-ae0f-41b4-9f54-c77732c90a88",
+      "concept_text": "全球经济与外交网络",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_3",
+        "chunk_7",
+        "chunk_8",
+        "chunk_17",
+        "chunk_18",
+        "chunk_22",
+        "chunk_21",
+        "chunk_16",
+        "chunk_24",
+        "chunk_29",
+        "chunk_19",
+        "chunk_0",
+        "chunk_4",
+        "chunk_37"
+      ],
+      "confidence_score": 0.24736842105263157,
+      "metadata": {
+        "concept_name": "全球经济与外交网络",
+        "definition": "全球经济与外交网络",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_3",
+          "chunk_7",
+          "chunk_8",
+          "chunk_17",
+          "chunk_18",
+          "chunk_22",
+          "chunk_21",
+          "chunk_16",
+          "chunk_24",
+          "chunk_29",
+          "chunk_19",
+          "chunk_0",
+          "chunk_4",
+          "chunk_37"
+        ],
+        "confidence_score": 0.24736842105263157,
+        "keywords": [
+          "全球经济与外交网络"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "外交关系网络",
+          "非正式网络",
+          "网络审查",
+          "高铁网络",
+          "外商直接投资",
+          "国际贸易",
+          "世界贸易组织",
+          "全球贸易力量",
+          "丝绸之路",
+          "卫星导航系统",
+          "中国政府",
+          "中华人民共和国",
+          "C9联盟",
+          "计划经济转型",
+          "国际货币体系",
+          "中华文明",
+          "郑和下西洋",
+          "电子商务市场",
+          "一带一路倡议"
+        ],
+        "frequency": 19,
+        "chunk_coverage": 15
+      }
+    },
+    {
+      "node_id": "68bf5581-513e-426b-afdb-217f614c63b7",
+      "concept_text": "国家治理与经济发展政策",
+      "source_chunks": [
+        "chunk_7",
+        "chunk_14",
+        "chunk_8",
+        "chunk_17",
+        "chunk_9",
+        "chunk_27",
+        "chunk_18",
+        "chunk_15",
+        "chunk_6",
+        "chunk_22",
+        "chunk_16",
+        "chunk_24",
+        "chunk_1",
+        "chunk_0",
+        "chunk_20"
+      ],
+      "confidence_score": 0.2394736842105263,
+      "metadata": {
+        "concept_name": "国家治理与经济发展政策",
+        "definition": "国家治理与经济发展政策",
+        "source_chunks": [
+          "chunk_7",
+          "chunk_14",
+          "chunk_8",
+          "chunk_17",
+          "chunk_9",
+          "chunk_27",
+          "chunk_18",
+          "chunk_15",
+          "chunk_6",
+          "chunk_22",
+          "chunk_16",
+          "chunk_24",
+          "chunk_1",
+          "chunk_0",
+          "chunk_20"
+        ],
+        "confidence_score": 0.2394736842105263,
+        "keywords": [
+          "国家治理与经济发展政策"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "特别行政区",
+          "特区经济",
+          "地方政策",
+          "自然保护区",
+          "中央政府领导",
+          "国家宗教事务管理局",
+          "政治镇压",
+          "一党制国家",
+          "国民政府",
+          "水资源管理",
+          "资本管制",
+          "国有企业改革",
+          "中国共产党领导",
+          "中央军事委员会",
+          "城市与乡村差距",
+          "经济改革"
+        ],
+        "frequency": 16,
+        "chunk_coverage": 15
+      }
+    },
+    {
+      "node_id": "f53ea9f8-97dc-419f-b712-36018051d024",
+      "concept_text": "宗教与文化的多元发展",
+      "source_chunks": [
+        "chunk_5",
+        "chunk_17",
+        "chunk_27",
+        "chunk_6",
+        "chunk_18",
+        "chunk_2",
+        "chunk_34",
+        "chunk_25",
+        "chunk_29",
+        "chunk_1",
+        "chunk_28",
+        "chunk_4"
+      ],
+      "confidence_score": 0.19999999999999998,
+      "metadata": {
+        "concept_name": "宗教与文化的多元发展",
+        "definition": "宗教与文化的多元发展",
+        "source_chunks": [
+          "chunk_5",
+          "chunk_17",
+          "chunk_27",
+          "chunk_6",
+          "chunk_18",
+          "chunk_2",
+          "chunk_34",
+          "chunk_25",
+          "chunk_29",
+          "chunk_1",
+          "chunk_28",
+          "chunk_4"
+        ],
+        "confidence_score": 0.19999999999999998,
+        "keywords": [
+          "宗教与文化的多元发展"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "三教合一",
+          "佛教推广",
+          "民族宗教",
+          "和平共处五项原则",
+          "宗教自由",
+          "儒学复兴",
+          "三国时期",
+          "中国民间宗教",
+          "三孩政策",
+          "教育制度",
+          "非神论信仰",
+          "古印度文献",
+          "古典文学",
+          "教育投资",
+          "文化大革命",
+          "再教育劳动"
+        ],
+        "frequency": 16,
+        "chunk_coverage": 12
+      }
+    },
+    {
+      "node_id": "f186309b-3e59-4e51-92a5-7def3d8506c3",
+      "concept_text": "中国社会与文化现象",
+      "source_chunks": [
+        "chunk_26",
+        "chunk_17",
+        "chunk_18",
+        "chunk_22",
+        "chunk_34",
+        "chunk_35",
+        "chunk_25",
+        "chunk_0",
+        "chunk_4"
+      ],
+      "confidence_score": 0.15,
+      "metadata": {
+        "concept_name": "中国社会与文化现象",
+        "definition": "中国社会与文化现象",
+        "source_chunks": [
+          "chunk_26",
+          "chunk_17",
+          "chunk_18",
+          "chunk_22",
+          "chunk_34",
+          "chunk_35",
+          "chunk_25",
+          "chunk_0",
+          "chunk_4"
+        ],
+        "confidence_score": 0.15,
+        "keywords": [
+          "中国社会与文化现象"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "汉族人口",
+          "民族群体",
+          "浮动人口",
+          "汉服运动",
+          "秦汉时期",
+          "人口政策",
+          "人民公国",
+          "中国文化",
+          "人权问题",
+          "人民解放军",
+          "人民币国际化",
+          "标准汉语"
+        ],
+        "frequency": 12,
+        "chunk_coverage": 9
+      }
+    },
+    {
+      "node_id": "13002b54-a46d-46af-aa5e-1b3f77f50e13",
+      "concept_text": "中国现代化进程与社会变革",
+      "source_chunks": [
+        "chunk_30",
+        "chunk_8",
+        "chunk_6",
+        "chunk_34",
+        "chunk_1",
+        "chunk_19",
+        "chunk_0"
+      ],
+      "confidence_score": 0.11842105263157894,
+      "metadata": {
+        "concept_name": "中国现代化进程与社会变革",
+        "definition": "中国现代化进程与社会变革",
+        "source_chunks": [
+          "chunk_30",
+          "chunk_8",
+          "chunk_6",
+          "chunk_34",
+          "chunk_1",
+          "chunk_19",
+          "chunk_0"
+        ],
+        "confidence_score": 0.11842105263157894,
+        "keywords": [
+          "中国现代化进程与社会变革"
+        ],
+        "category": "其他",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "改革开放",
+          "医疗改革",
+          "反腐败运动",
+          "辛亥革命",
+          "中国共产党",
+          "天安门广场抗议",
+          "制造业强国",
+          "公共卫生政策",
+          "国家资本主义",
+          "中国建筑"
+        ],
+        "frequency": 10,
+        "chunk_coverage": 7
+      }
+    }
+  ],
+  "evidence_nodes": [
+    {
+      "node_id": "evidence_0",
+      "evidence_text": "自1950年代初以来，中国健康政策强调公共卫生和预防医学。共产党启动了爱国卫生运动，旨在改善卫生和卫生条件，以及治疗和预防多种疾病。经过改革开放后，公众健康迅速改善，营养状况得到改善。到2023年，出生时的预期寿命超过78岁；到2021年，婴儿死亡率为每千名中有5名。这些指标显示了社会发展与健康的显著进步。",
+      "concept_id": "07d3f9c3-509b-4642-902c-9f0e68a155f9",
+      "relevance_score": 3.5,
+      "metadata": {
+        "concept_id": "07d3f9c3-509b-4642-902c-9f0e68a155f9",
+        "concept_name": null,
+        "relevance_score": 3.5,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "社会发展与健康指标",
+        "source_chunks": [
+          "9c98e265-8cbb-4524-9b46-ea1bddefe179",
+          "a3e5e33f-6c44-438e-a66a-4aa653f3615d",
+          "c8eafc3d-14bc-4463-84c0-6fdccd13a80c",
+          "ce673ed1-7abd-42d7-b351-a50f782baac9",
+          "e9db607e-bfd2-4fde-a0ac-cefd54b81f73"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 154
+      }
+    },
+    {
+      "node_id": "evidence_1",
+      "evidence_text": "农业集体化被拆除，农田私有化。虽然对外贸易成为主要焦点，但特别经济区（SEZ）被创建。低效的国有企业（SOEs）被重组，部分关闭。这标志着中国从计划经济向市场经济的转型。1989年，发生了天安门广场等地的抗议活动。江泽民被提升为中共中央总书记，成为最高领导人。江继续推进经济改革，关闭许多国有企业，削减“铁饭碗”（终身职位）。在此期间，中国经济增长了七倍。",
+      "concept_id": "68bf5581-513e-426b-afdb-217f614c63b7",
+      "relevance_score": 3.0,
+      "metadata": {
+        "concept_id": "68bf5581-513e-426b-afdb-217f614c63b7",
+        "concept_name": null,
+        "relevance_score": 3.0,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "国家治理与经济发展政策",
+        "source_chunks": [
+          "727d4a50-3bf7-4410-8f59-d9ddd90629de",
+          "afce2ff4-c1bb-4633-bf7c-a3761f6a34d7",
+          "fc527155-21a5-43be-b271-31bc807b5a00",
+          "fdc7d9d9-5bd9-418a-bb51-0ddff4422788",
+          "3a199b0d-1ecd-4361-8eca-91472a3e2642"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 178
+      }
+    },
+    {
+      "node_id": "evidence_2",
+      "evidence_text": "自由宗教信仰在中国宪法中得到保障，尽管缺乏官方批准的宗教组织可能会受到国家迫害。中国的宗教事务由国家宗教事务局监督。中国文明在数千年中受到各种宗教运动的影响，儒教、道教和佛教的“三教”历史上塑造了中国文化，丰富了传统宗教的神学和精神框架。中国民间宗教在这些传统的框架下，表现出对自然神灵或人类群体的祖先原则的忠诚。根据2023年的研究，70%的中国人口信仰或实践中国民间宗教，其中33.4%可能被认定为佛教徒，19.6%为道教徒，17.7%为其他类型的民间宗教信徒。",
+      "concept_id": "f53ea9f8-97dc-419f-b712-36018051d024",
+      "relevance_score": 2.9,
+      "metadata": {
+        "concept_id": "f53ea9f8-97dc-419f-b712-36018051d024",
+        "concept_name": null,
+        "relevance_score": 2.9,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "宗教与文化的多元发展",
+        "source_chunks": [
+          "e3d7b269-19fd-4810-ad49-d160b9975139",
+          "e05716e5-09fb-4d31-b660-57bea3b6d27c",
+          "76b83331-ce0e-42fb-bd3f-8f2a8dcdd9ed",
+          "21fce1f2-b9af-4b3c-a9d6-6e54026875d3",
+          "9c8a1d35-cb82-4086-91fa-a2c2eb068670"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 233
+      }
+    },
+    {
+      "node_id": "evidence_3",
+      "evidence_text": "自古以来，中国文化受到儒家思想的深刻影响。中国文明经历了多种宗教运动的影响，儒教、道教和佛教的“三教”历史上塑造了中国文化，丰富了传统宗教的神学和精神框架。中国民间宗教由这三种教义及其他传统构成，信仰对象包括自然神灵或人类群体的祖先原则、文明概念和许多在中国神话和历史中出现的文化英雄。在21世纪初，中国政府开始对民间信仰进行复兴，正式承认其为“民间信仰”，并常常将其重构为“高度策划”的公民宗教。",
+      "concept_id": "f186309b-3e59-4e51-92a5-7def3d8506c3",
+      "relevance_score": 3.1,
+      "metadata": {
+        "concept_id": "f186309b-3e59-4e51-92a5-7def3d8506c3",
+        "concept_name": null,
+        "relevance_score": 3.1,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "中国社会与文化现象",
+        "source_chunks": [
+          "3c089a2d-00a6-49e2-8eca-8ed896c77822",
+          "e3d7b269-19fd-4810-ad49-d160b9975139",
+          "e05716e5-09fb-4d31-b660-57bea3b6d27c",
+          "c8eafc3d-14bc-4463-84c0-6fdccd13a80c",
+          "9c8a1d35-cb82-4086-91fa-a2c2eb068670"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 199
+      }
+    },
+    {
+      "node_id": "evidence_4",
+      "evidence_text": "经济改革始于1978年，使国家逐渐远离社会主义计划经济，朝着日益资本主义的市场经济发展，推动了显著的经济增长。农业集体化被拆除，农田私有化，外贸成为主要焦点，设立了经济特区。国有企业进行了重组，部分关闭。这标志着中国从计划经济向市场经济的转型。1989年，天安门广场的抗议活动及全国范围内的示威，导致了对民主和自由化的呼声停滞。",
+      "concept_id": "13002b54-a46d-46af-aa5e-1b3f77f50e13",
+      "relevance_score": 3.5,
+      "metadata": {
+        "concept_id": "13002b54-a46d-46af-aa5e-1b3f77f50e13",
+        "concept_name": null,
+        "relevance_score": 3.5,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "中国现代化进程与社会变革",
+        "source_chunks": [
+          "21fce1f2-b9af-4b3c-a9d6-6e54026875d3",
+          "afce2ff4-c1bb-4633-bf7c-a3761f6a34d7",
+          "727d4a50-3bf7-4410-8f59-d9ddd90629de",
+          "6afd9dc5-aeb3-4b09-85d2-7eb5d5cd6c4e",
+          "9c98e265-8cbb-4524-9b46-ea1bddefe179"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 164
+      }
+    }
+  ]
+}

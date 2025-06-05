@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "success": true,
+      "file_path": "en.wikipedia.org_wiki_IEEE_Frank_Rosenblatt_Award.md",
+      "processing_stats": {
+        "text_length": 8665,
+        "concepts_count": 0,
+        "evidence_count": 0,
+        "qa_pairs_count": 1,
+        "training_data_count": 1
+      },
+      "qa_quality_analysis": {
+        "total_pairs": 1,
+        "question_types": {
+          "remember": 1
+        },
+        "difficulty_levels": {
+          "easy": 1
+        },
+        "quality_issues": [
+          "问答对1: 生成失败 - Unable to provide an answer due to processing error."
+        ],
+        "good_examples": [],
+        "quality_score": 0.0
+      }
+    },
+    {
+      "success": true,
+      "file_path": "ieeexplore.ieee.org_author_37271220500.md",
+      "processing_stats": {
+        "text_length": 841,
+        "concepts_count": 0,
+        "evidence_count": 0,
+        "qa_pairs_count": 1,
+        "training_data_count": 1
+      },
+      "qa_quality_analysis": {
+        "total_pairs": 1,
+        "question_types": {
+          "remember": 1
+        },
+        "difficulty_levels": {
+          "easy": 1
+        },
+        "quality_issues": [
+          "问答对1: 生成失败 - Unable to provide an answer due to processing error."
+        ],
+        "good_examples": [],
+        "quality_score": 0.0
+      }
+    }
+  ],
+  "comparison": {
+    "dataset_comparison": [
+      {
+        "file": "en.wikipedia.org_wiki_IEEE_Frank_Rosenblatt_Award.md",
+        "text_length": 8665,
+        "qa_quality_score": 0.0,
+        "total_qa_pairs": 1,
+        "good_examples_count": 0
+      },
+      {
+        "file": "ieeexplore.ieee.org_author_37271220500.md",
+        "text_length": 841,
+        "qa_quality_score": 0.0,
+        "total_qa_pairs": 1,
+        "good_examples_count": 0
+      }
+    ],
+    "overall_summary": {
+      "average_quality_score": 0.0,
+      "total_qa_pairs_generated": 2,
+      "datasets_processed": 2
+    },
+    "recommendations": [
+      "质量得分较低，建议优化API配置和提示词",
+      "生成的问答对数量较少，建议增加每种类型的问题数量",
+      "考虑增加更多类型的认知层次问题",
+      "优化概念提取以获得更好的上下文信息"
+    ]
+  }
+}

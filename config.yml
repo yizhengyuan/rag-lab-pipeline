@@ -1,0 +1,260 @@
+# ConceptBasedPipeline 主配置文件
+# =====================================
+
+# OpenAI 设置
+openai:
+  api_key: "sk-zk2884399e3bbb43b998bd31be7b517f82f67bb0e95df2a1"
+  model: "gpt-4o-mini"
+  embedding_model: "text-embedding-ada-002"
+  temperature: 0.1
+  base_url: "https://api.zhizengzeng.com/v1/"
+
+# 向量数据库设置
+vector_store:
+  # 向量数据库类型: chroma | simple | faiss
+  type: "chroma"
+  # 本地存储路径
+  persist_directory: "./vector_db"
+  # 集合名称
+  collection_name: "concept_pipeline"
+  # 向量维度 (OpenAI text-embedding-ada-002 是 1536)
+  dimension: 1536
+  # 是否启用embedding缓存
+  enable_embedding_cache: true
+  # embedding缓存目录
+  embedding_cache_dir: "./embedding_cache"
+  # 缓存过期时间（天）
+  cache_expiry_days: 30
+
+# 问答生成设置
+qa_generation:
+  questions_per_type:
+    remember: 2
+    understand: 2
+    apply: 1
+    analyze: 1
+    evaluate: 1
+    create: 1
+
+# 语义分块设置
+semantic_chunking:
+  buffer_size: 1
+  breakpoint_percentile_threshold: 95
+
+# 概念提取设置
+concept_extraction:
+  concepts_per_chunk: 5
+
+# 概念合并设置
+concept_merging:
+  similarity_threshold: 0.7
+  max_document_concepts: 10
+
+# 检索设置
+retrieval:
+  top_k: 5
+
+# Evidence 提取设置
+evidence_extraction:
+  min_length: 20
+  max_length: 200
+
+# 输出设置
+output:
+  directory: "integrated_output"
+  save_intermediate_results: true
+
+# 日志设置
+logging:
+  level: "INFO"
+
+# 提示词模板 - 专业英文技术概念提取版本
+prompts:
+  concept_extraction: |
+    You are an expert in extracting technical concepts from computer science and AI research papers.
+    
+    Task: Analyze the following academic text and extract {num_concepts} key technical concepts.
+    
+    Text:
+    {text}
+    
+    EXTRACTION GUIDELINES:
+    
+    ✅ GOOD technical concepts (2-6 words each):
+    - Architecture terms: "transformer architecture", "encoder-decoder structure", "multi-layer perceptron"
+    - Algorithm methods: "multi-head attention", "self-attention mechanism", "positional encoding"
+    - Performance concepts: "computational efficiency", "training convergence", "inference speed"
+    - Domain terminology: "sequence modeling", "neural machine translation", "language modeling"
+    - Technical processes: "gradient descent", "backpropagation algorithm", "attention computation"
+    
+    ❌ AVOID these (low-quality concepts):
+    - Single words: "model", "training", "attention", "network", "performance"
+    - Common adjectives: "better", "good", "new", "different", "various"
+    - Generic terms: "method", "approach", "technique", "system", "framework"
+    - Non-technical words: "paper", "work", "study", "research", "results"
+    
+    SPECIFIC REQUIREMENTS:
+    1. Extract exactly {num_concepts} concepts
+    2. Each concept must be 2-6 words long
+    3. Focus on technical terminology that would appear in CS/AI papers
+    4. Concepts should be specific enough to be useful for technical discussion
+    5. Prefer compound technical terms over single words
+    
+    Return the concepts in JSON format:
+    {{"concepts": ["technical concept 1", "technical concept 2", "technical concept 3"]}}
+
+  concept_merging: |
+    You are an expert in consolidating related technical concepts from computer science research.
+    
+    Task: Merge the following similar technical concepts into a single, more comprehensive concept phrase.
+    
+    Related concepts to merge:
+    {concepts}
+    
+    MERGING GUIDELINES:
+    - Create a unified concept that captures the essence of all input concepts
+    - Use proper technical terminology (2-6 words)
+    - The merged concept should be specific enough to be meaningful
+    - Prefer established technical terms when possible
+    
+    Examples:
+    - ["attention mechanism", "self attention", "multi head attention"] → "multi-head attention mechanism"
+    - ["encoder layers", "decoder structure", "transformer blocks"] → "transformer architecture"
+    - ["training efficiency", "computational cost", "optimization speed"] → "training efficiency optimization"
+    
+    Return only the merged technical concept phrase (no explanation needed):
+
+  evidence_extraction: |
+    You are a technical research analyst specializing in extracting supporting evidence from academic papers.
+    
+    Task: Extract evidence text that directly supports the given technical concept from the provided source text.
+    
+    Target concept: {concept}
+    
+    Source text:
+    {text}
+    
+    EVIDENCE EXTRACTION REQUIREMENTS:
+    1. Find 1-3 sentences that directly relate to or explain the concept
+    2. Evidence must be technically accurate and specific
+    3. Preserve original technical terminology and precise wording
+    4. Select complete sentences that provide clear technical details
+    5. Evidence should help someone understand what the concept means or how it works
+    
+    QUALITY CRITERIA:
+    ✅ Good evidence contains:
+    - Technical explanations or definitions
+    - Performance metrics or comparisons
+    - Implementation details
+    - Mathematical formulations
+    - Experimental results related to the concept
+    
+    ❌ Avoid evidence that is:
+    - Too general or vague
+    - Incomplete sentences
+    - References to other papers without context
+    - Non-technical background information
+    
+    Return the evidence in JSON format:
+    {{"evidence": ["evidence sentence 1", "evidence sentence 2"]}}
+
+  qa_generation_system: |
+    You are an expert educator specializing in creating high-quality questions about technical concepts in computer science and artificial intelligence.
+    
+    Your questions should help students understand and apply technical knowledge at different cognitive levels following Bloom's Taxonomy.
+
+  qa_generation_user: |
+    Based on the following technical evidence text, generate {questions_per_type} high-quality questions for each cognitive level.
+    
+    Evidence text:
+    {evidence_text}
+    
+    Generate questions following these specifications:
+    
+    REMEMBER level (factual recall):
+    - What specific technical terms or components are mentioned?
+    - What are the key definitions or facts presented?
+    
+    UNDERSTAND level (comprehension):
+    - How do the technical concepts work or function?
+    - What are the relationships between different components?
+    
+    APPLY level (application):
+    - How would you implement or use this technical approach?
+    - In what scenarios would this method be most effective?
+    
+    ANALYZE level (analysis):
+    - What are the advantages and disadvantages of this approach?
+    - How does this compare to alternative methods?
+    
+    EVALUATE level (evaluation):
+    - What criteria would you use to assess the effectiveness of this approach?
+    - What are the limitations or potential improvements?
+    
+    CREATE level (synthesis):
+    - How could you modify or extend this approach for a different problem?
+    - What new applications or variations could you design?
+    
+    ANSWER REQUIREMENTS:
+    - Answers should be technically accurate and detailed
+    - Include specific examples when possible
+    - Reference the evidence text appropriately
+    - Use proper technical terminology
+    
+    Return the questions and answers in JSON format:
+    {{
+      "remember": [
+        {{"question": "...", "answer": "...", "difficulty": "easy"}},
+        {{"question": "...", "answer": "...", "difficulty": "easy"}}
+      ],
+      "understand": [
+        {{"question": "...", "answer": "...", "difficulty": "medium"}},
+        {{"question": "...", "answer": "...", "difficulty": "medium"}}
+      ],
+      "apply": [
+        {{"question": "...", "answer": "...", "difficulty": "medium"}}
+      ],
+      "analyze": [
+        {{"question": "...", "answer": "...", "difficulty": "hard"}}
+      ],
+      "evaluate": [
+        {{"question": "...", "answer": "...", "difficulty": "hard"}}
+      ],
+      "create": [
+        {{"question": "...", "answer": "...", "difficulty": "hard"}}
+      ]
+    }}
+
+# 高级设置（可选）
+advanced:
+  # 并发设置
+  max_concurrent_requests: 5
+  request_timeout: 30
+  
+  # 缓存设置
+  enable_cache: true
+  cache_directory: ".cache"
+  
+  # 实验性功能
+  experimental:
+    enable_concept_hierarchy: false
+    use_multi_stage_evidence: false
+
+# 🆕 Chunking配置 - 添加token限制
+chunking:
+  # 语义分块参数
+  buffer_size: 1
+  breakpoint_percentile_threshold: 95
+  
+  # 🔑 Token限制（防止API错误）
+  max_tokens_per_chunk: 6000  # embedding模型token限制，保留余量
+  max_char_per_chunk: 24000   # 字符数限制（约4:1比例）
+  
+  # 分割策略
+  enable_fallback_splitting: true
+  fallback_chunk_overlap: 200
+  min_chunk_length: 10        # 最小chunk长度（字符）
+  
+  # 安全检查
+  enable_token_validation: true
+  skip_oversized_chunks: false  # false=分割，true=跳过 

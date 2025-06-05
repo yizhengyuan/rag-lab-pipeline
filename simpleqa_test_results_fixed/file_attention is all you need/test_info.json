@@ -1,0 +1,49 @@
+{
+  "input_file": "attention is all you need.pdf",
+  "file_name": "attention is all you need",
+  "status": "success",
+  "start_time": "2025-06-03T16:12:59.530122",
+  "documents_count": 1,
+  "processing_time": 488.09396624565125,
+  "pipeline_results": {
+    "chunk_count": 21,
+    "concept_count": 6,
+    "evidence_count": 6,
+    "concept_to_chunks_mapping": 6
+  },
+  "pipeline_stats": {
+    "chunk_count": 21,
+    "concept_count": 6,
+    "evidence_count": 6,
+    "config_summary": {
+      "model": "gpt-4o-mini",
+      "embedding_model": "text-embedding-ada-002",
+      "similarity_threshold": 0.7,
+      "max_concepts": 10
+    }
+  },
+  "qa_results": {
+    "qa_pairs_count": 56,
+    "training_data_count": 56,
+    "qa_generation_enabled": true,
+    "questions_config": {
+      "remember": 2,
+      "understand": 2,
+      "apply": 1,
+      "analyze": 1,
+      "evaluate": 1,
+      "create": 1
+    }
+  },
+  "error_message": null,
+  "document_details": [
+    {
+      "index": 0,
+      "text_length": 39483,
+      "file_type": ".pdf",
+      "file_size": 2215244,
+      "text_preview": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\n..."
+    }
+  ],
+  "pipeline_processing_time": 179.99173665046692
+}

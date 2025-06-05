@@ -1,0 +1,246 @@
+================================================================================
+步骤3_概念提取 - 详细报告
+================================================================================
+生成时间: 2025-06-04 19:27:35
+处理文件: attention is all you need.pdf
+================================================================================
+
+
+概念提取统计:
+- 总概念数 (含重复): 105
+- 唯一概念数: 84
+- 处理时间: 0.00 秒
+
+概念频率分析 (按频率降序):
+------------------------------------------------------------
+- also: 5 次
+- pages: 4 次
+- arxiv: 4 次
+- output: 3 次
+- recurrence: 2 次
+- model: 2 次
+- previous: 2 次
+- empirical: 2 次
+- proceedings: 2 次
+- base: 2 次
+- international: 2 次
+- conference: 2 次
+- new: 2 次
+- behaviour: 1 次
+- countless: 1 次
+- art: 1 次
+- parallelizable: 1 次
+- aug: 1 次
+- maps: 1 次
+- left: 1 次
+- optimized: 1 次
+- distance: 1 次
+- code: 1 次
+- abstract: 1 次
+- separately: 1 次
+- available: 1 次
+- sequential: 1 次
+- proper: 1 次
+- lasse: 1 次
+- exploration: 1 次
+- figure: 1 次
+- attend: 1 次
+- clearly: 1 次
+- development: 1 次
+- terminate: 1 次
+- nal: 1 次
+- containing: 1 次
+- big: 1 次
+- attention: 1 次
+- deep: 1 次
+- generally: 1 次
+- carl: 1 次
+- bart: 1 次
+- jian: 1 次
+- various: 1 次
+- meeting: 1 次
+- crucially: 1 次
+- technology: 1 次
+- computer: 1 次
+- described: 1 次
+- embedding: 1 次
+- metrics: 1 次
+- perplexities: 1 次
+- sine: 1 次
+- instead: 1 次
+- identical: 1 次
+- method: 1 次
+- best: 1 次
+- learning: 1 次
+- mation: 1 次
+- verb: 1 次
+- preprint: 1 次
+- not: 1 次
+- listed: 1 次
+- separable: 1 次
+- rnns: 1 次
+- reported: 1 次
+- boundaries: 1 次
+- proposed: 1 次
+- paolo: 1 次
+- mohammad: 1 次
+- just: 1 次
+- conclusion: 1 次
+- during: 1 次
+- jason: 1 次
+- massive: 1 次
+- representations: 1 次
+- sainbayar: 1 次
+- arthur: 1 次
+- memory: 1 次
+- all: 1 次
+- fethi: 1 次
+- yoon: 1 次
+- kuchaiev: 1 次
+
+------------------------------------------------------------
+
+概念详细分布:
+
+分块 1 的概念:
+- 概念数量: 5
+- 概念列表: ['recurrence', 'parallelizable', 'also', 'abstract', 'proper']
+- 文本预览: Provided proper attribution is provided, Google hereby grants permission to
+repr...
+----------------------------------------
+
+分块 2 的概念:
+- 概念数量: 5
+- 概念列表: ['rnns', 'countless', 'various', 'crucially', 'proposed']
+- 文本预览: Listing order is random. Jakob proposed replacing RNNs with self-attention and s...
+----------------------------------------
+
+分块 3 的概念:
+- 概念数量: 5
+- 概念列表: ['art', 'aug', 'boundaries', 'memory', 'conference']
+- 文本预览: ‡Work performed while at Google Research.
+31st Conference on Neural Information ...
+----------------------------------------
+
+分块 4 的概念:
+- 概念数量: 5
+- 概念列表: ['distance', 'maps', 'left', 'also', 'optimized']
+- 文本预览: Recurrent models typically factor computation along the symbol positions of the ...
+----------------------------------------
+
+分块 5 的概念:
+- 概念数量: 5
+- 概念列表: ['separately', 'output', 'figure', 'model', 'attend']
+- 文本预览: These are concatenated and once again projected, resulting in the final values, ...
+----------------------------------------
+
+分块 6 的概念:
+- 概念数量: 5
+- 概念列表: ['sine', 'recurrence', 'generally', 'mation', 'also']
+- 文本预览: The dimensionality of input and output is dmodel = 512 , and the inner-layer has...
+----------------------------------------
+
+分块 7 的概念:
+- 概念数量: 5
+- 概念列表: ['output', 'clearly', 'previous', 'containing', 'big']
+- 文本预览: We inspect attention distributions
+from our models and present and discuss examp...
+----------------------------------------
+
+分块 8 的概念:
+- 概念数量: 5
+- 概念列表: ['new', 'reported', 'base', 'best', 'during']
+- 文本预览: For the base model, we use a rate of
+Pdrop= 0.1.
+Label Smoothing During training...
+----------------------------------------
+
+分块 9 的概念:
+- 概念数量: 5
+- 概念列表: ['output', 'model', 'development', 'previous', 'terminate']
+- 文本预览: Training took 3.5days on 8P100 GPUs. Even our base model
+surpasses all previousl...
+----------------------------------------
+
+分块 10 的概念:
+- 概念数量: 5
+- 概念列表: ['metrics', 'not', 'perplexities', 'listed', 'all']
+- 文本预览: All metrics are on the English-to-German translation development set, newstest20...
+----------------------------------------
+
+分块 11 的概念:
+- 概念数量: 5
+- 概念列表: ['instead', 'identical', 'base', 'described', 'embedding']
+- 文本预览: 6.2 Model Variations
+To evaluate the importance of different components of the T...
+----------------------------------------
+
+分块 12 的概念:
+- 概念数量: 5
+- 概念列表: ['conclusion', 'also', 'available', 'sequential', 'code']
+- 文本预览: We present these results in Table 3.
+In Table 3 rows (A), we vary the number of ...
+----------------------------------------
+
+分块 13 的概念:
+- 概念数量: 5
+- 概念列表: ['bart', 'fethi', 'arxiv', 'massive', 'exploration']
+- 文本预览: Le. Massive exploration of neural
+machine translation architectures. CoRR , abs/...
+----------------------------------------
+
+分块 14 的概念:
+- 概念数量: 5
+- 概念列表: ['preprint', 'arxiv', 'learning', 'separable', 'deep']
+- 文本预览: [6]Francois Chollet. Xception: Deep learning with depthwise separable convolutio...
+----------------------------------------
+
+分块 15 的概念:
+- 概念数量: 5
+- 概念列表: ['jian', 'proceedings', 'paolo', 'empirical', 'pages']
+- 文本预览: [7]Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical ...
+----------------------------------------
+
+分块 16 的概念:
+- 概念数量: 5
+- 概念列表: ['international', 'arxiv', 'lasse', 'representations', 'nal']
+- 文本预览: [16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Adva...
+----------------------------------------
+
+分块 17 的概念:
+- 概念数量: 5
+- 概念列表: ['yoon', 'attention', 'conference', 'method', 'carl']
+- 文本预览: [19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured atten...
+----------------------------------------
+
+分块 18 的概念:
+- 概念数量: 5
+- 概念列表: ['international', 'pages', 'empirical', 'technology', 'kuchaiev']
+- 文本预览: [21] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks...
+----------------------------------------
+
+分块 19 的概念:
+- 概念数量: 5
+- 概念列表: ['pages', 'computer', 'jason', 'sainbayar', 'arthur']
+- 文本预览: [34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-en...
+----------------------------------------
+
+分块 20 的概念:
+- 概念数量: 5
+- 概念列表: ['meeting', 'proceedings', 'mohammad', 'pages', 'arxiv']
+- 文本预览: [37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign ...
+----------------------------------------
+
+分块 21 的概念:
+- 概念数量: 5
+- 概念列表: ['new', 'behaviour', 'verb', 'just', 'also']
+- 文本预览: ACL, August 2013.
+12
+Attention Visualizations
+Input-Input Layer5
+It
+is
+in
+this
+s...
+----------------------------------------

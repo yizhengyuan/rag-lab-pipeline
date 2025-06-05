@@ -1,0 +1,107 @@
+================================================================================
+步骤1_文件加载 - 详细报告
+================================================================================
+生成时间: 2025-06-04 19:23:32
+处理文件: attention is all you need.pdf
+================================================================================
+
+
+文件基本信息:
+- 文件名: attention is all you need.pdf
+- 文件类型: .pdf
+- 文件大小: 2163.32 KB
+- 文本长度: 39,483 字符
+- 处理时间: 0.89 秒
+
+文本内容统计:
+- 总字符数: 39,483
+- 总行数: 831
+- 段落数估计: 1
+
+文本内容预览 (前500字符):
+--------------------------------------------------
+Provided proper attribution is provided, Google hereby grants permission to
+reproduce the tables and figures in this paper solely for use in journalistic or
+scholarly works.
+Attention Is All You Need
+Ashish Vaswani∗
+Google Brain
+avaswani@google.comNoam Shazeer∗
+Google Brain
+noam@google.comNiki Parmar∗
+Google Research
+nikip@google.comJakob Uszkoreit∗
+Google Research
+usz@google.com
+Llion Jones∗
+Google Research
+llion@google.comAidan N. Gomez∗ †
+University of Toronto
+aidan@cs.toronto.eduŁukasz Kaise
+--------------------------------------------------
+
+文本内容预览 (后500字符):
+--------------------------------------------------
+fect
+,
+but
+its
+application
+should
+be
+just
+-
+this
+is
+what
+we
+are
+missing
+,
+in
+my
+opinion
+.
+<EOS>
+<pad>
+The
+Law
+will
+never
+be
+perfect
+,
+but
+its
+application
+should
+be
+just
+-
+this
+is
+what
+we
+are
+missing
+,
+in
+my
+opinion
+.
+<EOS>
+<pad>Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the
+sentence. We give two such examples above, from two different heads from the encoder self-attention
+at layer 5 of 6. The heads clearly learned to perform different tasks.
+15
+--------------------------------------------------
+
+元数据信息:
+{
+  "file_name": "attention is all you need.pdf",
+  "file_path": "attention is all you need.pdf",
+  "file_type": ".pdf",
+  "file_size": 2215244,
+  "text_length": 39483,
+  "processing_timestamp": "2025-06-04T19:23:32.794071"
+}

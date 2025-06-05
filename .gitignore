@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# 日志文件
+*.log
+
+# 临时文件和输出目录
+temp_*/
+*_output/
+*_results/
+*_export/
+debug_output/
+output/
+logs/
+
+# 向量数据库和缓存
+vector_db/
+embedding_cache/
+
+# 大文件
+*.pdf

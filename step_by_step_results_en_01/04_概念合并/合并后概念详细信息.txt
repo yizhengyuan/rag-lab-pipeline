@@ -1,0 +1,268 @@
+合并后的概念详细信息
+================================================================================
+
+概念 1
+--------------------------------------------------
+ID: 68694615-8184-49b4-97c5-33fe5353cfed
+概念文本: 认知与行为的探索与发展
+元数据: {
+  "concept_name": "认知与行为的探索与发展",
+  "definition": "认知与行为的探索与发展",
+  "source_chunks": [
+    "chunk_16",
+    "chunk_20",
+    "chunk_8",
+    "chunk_0",
+    "chunk_5",
+    "chunk_19",
+    "chunk_15",
+    "chunk_14",
+    "chunk_10",
+    "chunk_2",
+    "chunk_13",
+    "chunk_11",
+    "chunk_4",
+    "chunk_12",
+    "chunk_17"
+  ],
+  "confidence_score": 0.4523809523809524,
+  "keywords": [
+    "认知与行为的探索与发展"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "behaviour",
+    "attention",
+    "verb",
+    "proceedings",
+    "boundaries",
+    "learning",
+    "method",
+    "empirical",
+    "development",
+    "described",
+    "conclusion",
+    "abstract",
+    "figure",
+    "exploration",
+    "recurrence",
+    "lasse",
+    "representations",
+    "technology",
+    "sequential",
+    "mation"
+  ],
+  "frequency": 20,
+  "chunk_coverage": 15
+}
+
+================================================================================
+
+概念 2
+--------------------------------------------------
+ID: 5e4b5e27-3379-4fa9-856c-607b89a82c05
+概念文本: 多样化的计算复杂性与信息处理
+元数据: {
+  "concept_name": "多样化的计算复杂性与信息处理",
+  "definition": "多样化的计算复杂性与信息处理",
+  "source_chunks": [
+    "chunk_0",
+    "chunk_5",
+    "chunk_19",
+    "chunk_6",
+    "chunk_9",
+    "chunk_14",
+    "chunk_1",
+    "chunk_10",
+    "chunk_18",
+    "chunk_12",
+    "chunk_17"
+  ],
+  "confidence_score": 0.3190476190476191,
+  "keywords": [
+    "多样化的计算复杂性与信息处理"
+  ],
+  "category": "数据信息",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "countless",
+    "various",
+    "perplexities",
+    "massive",
+    "pages",
+    "crucially",
+    "identical",
+    "listed",
+    "generally",
+    "clearly",
+    "computer",
+    "parallelizable"
+  ],
+  "frequency": 12,
+  "chunk_coverage": 11
+}
+
+================================================================================
+
+概念 3
+--------------------------------------------------
+ID: 1c109f70-484b-4097-b15f-2bfe5d3d5ce5
+概念文本: 优先选择的会议预印本
+元数据: {
+  "concept_name": "优先选择的会议预印本",
+  "definition": "优先选择的会议预印本",
+  "source_chunks": [
+    "chunk_16",
+    "chunk_20",
+    "chunk_3",
+    "chunk_0",
+    "chunk_8",
+    "chunk_7",
+    "chunk_6",
+    "chunk_2",
+    "chunk_13",
+    "chunk_18"
+  ],
+  "confidence_score": 0.2761904761904762,
+  "keywords": [
+    "优先选择的会议预印本"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "left",
+    "previous",
+    "proper",
+    "just",
+    "conference",
+    "best",
+    "sainbayar",
+    "preprint"
+  ],
+  "frequency": 8,
+  "chunk_coverage": 10
+}
+
+================================================================================
+
+概念 4
+--------------------------------------------------
+ID: 24cd6de1-fdd1-4825-9e47-f7f96d06e691
+概念文本: 文化与国际交流
+元数据: {
+  "concept_name": "文化与国际交流",
+  "definition": "文化与国际交流",
+  "source_chunks": [
+    "chunk_16",
+    "chunk_3",
+    "chunk_19",
+    "chunk_15",
+    "chunk_14",
+    "chunk_2",
+    "chunk_18",
+    "chunk_12",
+    "chunk_17"
+  ],
+  "confidence_score": 0.26666666666666666,
+  "keywords": [
+    "文化与国际交流"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "art",
+    "arthur",
+    "bart",
+    "carl",
+    "paolo",
+    "fethi",
+    "maps",
+    "mohammad",
+    "kuchaiev",
+    "jian",
+    "international"
+  ],
+  "frequency": 11,
+  "chunk_coverage": 9
+}
+
+================================================================================
+
+概念 5
+--------------------------------------------------
+ID: e3bf33a2-3405-494d-880e-c20461793f88
+概念文本: 研究成果的可用性与优化状态
+元数据: {
+  "concept_name": "研究成果的可用性与优化状态",
+  "definition": "研究成果的可用性与优化状态",
+  "source_chunks": [
+    "chunk_3",
+    "chunk_7",
+    "chunk_19",
+    "chunk_15",
+    "chunk_13",
+    "chunk_2",
+    "chunk_11",
+    "chunk_12"
+  ],
+  "confidence_score": 0.21428571428571427,
+  "keywords": [
+    "研究成果的可用性与优化状态"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "aug",
+    "optimized",
+    "arxiv",
+    "available",
+    "reported"
+  ],
+  "frequency": 5,
+  "chunk_coverage": 8
+}
+
+================================================================================
+
+概念 6
+--------------------------------------------------
+ID: edc59ed0-31f8-4c60-b0f0-d28e9ee24e85
+概念文本: 替代或附加的方式
+元数据: {
+  "concept_name": "替代或附加的方式",
+  "definition": "替代或附加的方式",
+  "source_chunks": [
+    "chunk_20",
+    "chunk_3",
+    "chunk_0",
+    "chunk_5",
+    "chunk_15",
+    "chunk_10",
+    "chunk_4",
+    "chunk_11"
+  ],
+  "confidence_score": 0.2095238095238095,
+  "keywords": [
+    "替代或附加的方式"
+  ],
+  "category": "其他",
+  "node_type": "concept",
+  "concept_type": "document_level",
+  "source_concepts": [
+    "also",
+    "instead",
+    "nal",
+    "separately"
+  ],
+  "frequency": 4,
+  "chunk_coverage": 8
+}
+
+================================================================================
+

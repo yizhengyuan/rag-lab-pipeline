@@ -1,0 +1,49 @@
+{
+  "input_file": "chinawiki.txt",
+  "file_name": "chinawiki",
+  "status": "success",
+  "start_time": "2025-06-03T16:36:49.372199",
+  "documents_count": 1,
+  "processing_time": 545.2335734367371,
+  "pipeline_results": {
+    "chunk_count": 38,
+    "concept_count": 6,
+    "evidence_count": 5,
+    "concept_to_chunks_mapping": 6
+  },
+  "pipeline_stats": {
+    "chunk_count": 38,
+    "concept_count": 6,
+    "evidence_count": 5,
+    "config_summary": {
+      "model": "gpt-4o-mini",
+      "embedding_model": "text-embedding-ada-002",
+      "similarity_threshold": 0.7,
+      "max_concepts": 10
+    }
+  },
+  "qa_results": {
+    "qa_pairs_count": 47,
+    "training_data_count": 47,
+    "qa_generation_enabled": true,
+    "questions_config": {
+      "remember": 2,
+      "understand": 2,
+      "apply": 1,
+      "analyze": 1,
+      "evaluate": 1,
+      "create": 1
+    }
+  },
+  "error_message": null,
+  "document_details": [
+    {
+      "index": 0,
+      "text_length": 89959,
+      "file_type": ".txt",
+      "file_size": 90263,
+      "text_preview": "China, officially the People's Republic of China (PRC), is a country in East Asia. With a population exceeding 1.4 billion, it is the second-most populous country after India, representing 17.4% of th..."
+    }
+  ],
+  "pipeline_processing_time": 287.53105568885803
+}

@@ -1,0 +1,250 @@
+================================================================================
+步骤3_概念提取 - 详细报告
+================================================================================
+生成时间: 2025-06-04 15:39:56
+处理文件: attention is all you need.pdf
+================================================================================
+
+
+概念提取统计:
+- 总概念数 (含重复): 105
+- 唯一概念数: 88
+- 处理时间: 0.00 秒
+
+概念频率分析 (按频率降序):
+------------------------------------------------------------
+- other: 5 次
+- another: 3 次
+- dropout: 3 次
+- models: 3 次
+- luong: 2 次
+- described: 2 次
+- improving: 2 次
+- corr: 2 次
+- translation: 2 次
+- mike: 2 次
+- systems: 2 次
+- symbols: 1 次
+- decomposable: 1 次
+- lei: 1 次
+- compares: 1 次
+- there: 1 次
+- applied: 1 次
+- hypothesized: 1 次
+- combination: 1 次
+- only: 1 次
+- even: 1 次
+- penalty: 1 次
+- acl: 1 次
+- tricks: 1 次
+- caglar: 1 次
+- masking: 1 次
+- posunk: 1 次
+- consuming: 1 次
+- tests: 1 次
+- beatrice: 1 次
+- methods: 1 次
+- cases: 1 次
+- improvements: 1 次
+- advances: 1 次
+- bleu: 1 次
+- kwk: 1 次
+- different: 1 次
+- deep: 1 次
+- arxiv: 1 次
+- transformer: 1 次
+- need: 1 次
+- alexander: 1 次
+- implementing: 1 次
+- naacl: 1 次
+- qin: 1 次
+- exploration: 1 次
+- sinusoids: 1 次
+- mirella: 1 次
+- example: 1 次
+- search: 1 次
+- aaron: 1 次
+- bottom: 1 次
+- samy: 1 次
+- improves: 1 次
+- processing: 1 次
+- isolated: 1 次
+- listed: 1 次
+- xuguang: 1 次
+- previous: 1 次
+- denis: 1 次
+- lasse: 1 次
+- line: 1 次
+- than: 1 次
+- depthwise: 1 次
+- perplexities: 1 次
+- attention: 1 次
+- preprint: 1 次
+- learning: 1 次
+- çaglar: 1 次
+- mohammad: 1 次
+- ying: 1 次
+- majority: 1 次
+- law: 1 次
+- zhongqiang: 1 次
+- position: 1 次
+- responsible: 1 次
+- stochastic: 1 次
+- yoshua: 1 次
+- nal: 1 次
+- while: 1 次
+- governments: 1 次
+- according: 1 次
+- oriol: 1 次
+- established: 1 次
+- all: 1 次
+- not: 1 次
+- jimmy: 1 次
+- development: 1 次
+
+------------------------------------------------------------
+
+概念详细分布:
+
+分块 1 的概念:
+- 概念数量: 5
+- 概念列表: ['other', 'improving', 'bleu', 'need', 'transformer']
+- 文本预览: Provided proper attribution is provided, Google hereby grants permission to
+repr...
+----------------------------------------
+
+分块 2 的概念:
+- 概念数量: 5
+- 概念列表: ['implementing', 'models', 'other', 'position', 'responsible']
+- 文本预览: Listing order is random. Jakob proposed replacing RNNs with self-attention and s...
+----------------------------------------
+
+分块 3 的概念:
+- 概念数量: 5
+- 概念列表: ['models', 'systems', 'while', 'translation', 'established']
+- 文本预览: ‡Work performed while at Google Research.
+31st Conference on Neural Information ...
+----------------------------------------
+
+分块 4 的概念:
+- 概念数量: 5
+- 概念列表: ['symbols', 'consuming', 'improvements', 'improving', 'cases']
+- 文本预览: Recurrent models typically factor computation along the symbol positions of the ...
+----------------------------------------
+
+分块 5 的概念:
+- 概念数量: 5
+- 概念列表: ['another', 'applied', 'masking', 'kwk', 'different']
+- 文本预览: These are concatenated and once again projected, resulting in the final values, ...
+----------------------------------------
+
+分块 6 的概念:
+- 概念数量: 5
+- 概念列表: ['other', 'there', 'another', 'hypothesized', 'combination']
+- 文本预览: The dimensionality of input and output is dmodel = 512 , and the inner-layer has...
+----------------------------------------
+
+分块 7 的概念:
+- 概念数量: 5
+- 概念列表: ['dropout', 'only', 'described', 'posunk', 'tests']
+- 文本预览: We inspect attention distributions
+from our models and present and discuss examp...
+----------------------------------------
+
+分块 8 的概念:
+- 概念数量: 5
+- 概念列表: ['models', 'bottom', 'line', 'than', 'improves']
+- 文本预览: For the base model, we use a rate of
+Pdrop= 0.1.
+Label Smoothing During training...
+----------------------------------------
+
+分块 9 的概念:
+- 概念数量: 5
+- 概念列表: ['other', 'compares', 'dropout', 'penalty', 'even']
+- 文本预览: Training took 3.5days on 8P100 GPUs. Even our base model
+surpasses all previousl...
+----------------------------------------
+
+分块 10 的概念:
+- 概念数量: 5
+- 概念列表: ['listed', 'all', 'perplexities', 'not', 'development']
+- 文本预览: All metrics are on the English-to-German translation development set, newstest20...
+----------------------------------------
+
+分块 11 的概念:
+- 概念数量: 5
+- 概念列表: ['previous', 'sinusoids', 'search', 'according', 'described']
+- 文本预览: 6.2 Model Variations
+To evaluate the importance of different components of the T...
+----------------------------------------
+
+分块 12 的概念:
+- 概念数量: 5
+- 概念列表: ['other', 'lei', 'dropout', 'luong', 'another']
+- 文本预览: We present these results in Table 3.
+In Table 3 rows (A), we vary the number of ...
+----------------------------------------
+
+分块 13 的概念:
+- 概念数量: 5
+- 概念列表: ['exploration', 'mirella', 'yoshua', 'corr', 'caglar']
+- 文本预览: Le. Massive exploration of neural
+machine translation architectures. CoRR , abs/...
+----------------------------------------
+
+分块 14 的概念:
+- 概念数量: 5
+- 概念列表: ['deep', 'arxiv', 'learning', 'preprint', 'depthwise']
+- 文本预览: [6]Francois Chollet. Xception: Deep learning with depthwise separable convolutio...
+----------------------------------------
+
+分块 15 的概念:
+- 概念数量: 5
+- 概念列表: ['çaglar', 'mike', 'naacl', 'denis', 'zhongqiang']
+- 文本预览: [7]Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical ...
+----------------------------------------
+
+分块 16 的概念:
+- 概念数量: 5
+- 概念列表: ['lasse', 'nal', 'aaron', 'samy', 'translation']
+- 文本预览: [16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Adva...
+----------------------------------------
+
+分块 17 的概念:
+- 概念数量: 5
+- 概念列表: ['jimmy', 'luong', 'stochastic', 'attention', 'alexander']
+- 文本预览: [19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured atten...
+----------------------------------------
+
+分块 18 的概念:
+- 概念数量: 5
+- 概念列表: ['decomposable', 'acl', 'tricks', 'beatrice', 'methods']
+- 文本预览: [21] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks...
+----------------------------------------
+
+分块 19 的概念:
+- 概念数量: 5
+- 概念列表: ['systems', 'corr', 'oriol', 'advances', 'processing']
+- 文本预览: [34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-en...
+----------------------------------------
+
+分块 20 的概念:
+- 概念数量: 5
+- 概念列表: ['xuguang', 'mike', 'mohammad', 'ying', 'qin']
+- 文本预览: [37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign ...
+----------------------------------------
+
+分块 21 的概念:
+- 概念数量: 5
+- 概念列表: ['isolated', 'majority', 'example', 'law', 'governments']
+- 文本预览: ACL, August 2013.
+12
+Attention Visualizations
+Input-Input Layer5
+It
+is
+in
+this
+s...
+----------------------------------------

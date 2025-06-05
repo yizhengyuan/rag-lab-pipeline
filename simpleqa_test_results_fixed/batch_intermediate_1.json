@@ -1,0 +1,81 @@
+{
+  "batch_info": {
+    "start_time": "2025-06-03T15:56:02.218347",
+    "question_count": 1,
+    "questions": [
+      "question_150"
+    ],
+    "qa_generation_enabled": true,
+    "questions_config": {
+      "remember": 2,
+      "understand": 2,
+      "apply": 1,
+      "analyze": 1,
+      "evaluate": 1,
+      "create": 1
+    }
+  },
+  "individual_results": [
+    {
+      "question_folder": "question_150",
+      "status": "success",
+      "start_time": "2025-06-03T15:56:02.219403",
+      "documents_count": 2,
+      "processing_time": 77.39848828315735,
+      "pipeline_results": {
+        "chunk_count": 4,
+        "concept_count": 1,
+        "evidence_count": 1,
+        "concept_to_chunks_mapping": 1
+      },
+      "pipeline_stats": {
+        "chunk_count": 4,
+        "concept_count": 1,
+        "evidence_count": 1,
+        "config_summary": {
+          "model": "gpt-4o-mini",
+          "embedding_model": "text-embedding-ada-002",
+          "similarity_threshold": 0.7,
+          "max_concepts": 10
+        }
+      },
+      "qa_results": {
+        "qa_pairs_count": 7,
+        "training_data_count": 7,
+        "qa_generation_enabled": true,
+        "questions_config": {
+          "remember": 2,
+          "understand": 2,
+          "apply": 1,
+          "analyze": 1,
+          "evaluate": 1,
+          "create": 1
+        }
+      },
+      "error_message": null,
+      "document_details": [
+        {
+          "index": 0,
+          "text_length": 994,
+          "source_file": "books.google.com.ph_books.md",
+          "text_preview": "# 来源: https://books.google.com.ph/books?id=5njNFgv5XjcC&pg=PA115&lpg=PA115&dq=Orlande+H.+Duncombe+and+Alonzo+N.+Parney&source=bl&ots=wE0pxgsR7B&sig=ACfU3U1qLygTLkIHbBSwekbNFsNLqWN5vg&hl=en&sa=X&ved=2a..."
+        },
+        {
+          "index": 1,
+          "text_length": 2899,
+          "source_file": "digitalcollections.ucalgary.ca_archive_At-the-forks-of-the-Grand---20-historical-essays-on-Paris--On.md",
+          "text_preview": "# 来源: https://digitalcollections.ucalgary.ca/archive/At-the-forks-of-the-Grand---20-historical-essays-on-Paris--Ontario-2R3BF1FJHDS5T.html\n\nClose\n\nCart (0)\n\nLogin\n\nStaff Login\n\nRegister\n\nFR\n\n0\n\nSelect..."
+        }
+      ],
+      "pipeline_processing_time": 39.79856896400452,
+      "end_time": "2025-06-03T15:57:19.623109"
+    }
+  ],
+  "batch_summary": {},
+  "pipeline_config": {
+    "model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-ada-002",
+    "similarity_threshold": 0.7,
+    "max_concepts": 10
+  }
+}

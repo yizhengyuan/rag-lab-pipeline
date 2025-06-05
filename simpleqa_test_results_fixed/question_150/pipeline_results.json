@@ -1,0 +1,197 @@
+{
+  "chunk_nodes": [
+    {
+      "node_id": "9ddf7a6f-b89f-47a3-9555-1447c661fac1",
+      "text": "# 来源: https://books.google.com.ph/books?id=5njNFgv5XjcC&pg=PA115&lpg=PA115&dq=Orlande+H.+Duncombe+and+Alonzo+N.+Parney&source=bl&ots=wE0pxgsR7B&sig=ACfU3U1qLygTLkIHbBSwekbNFsNLqWN5vg&hl=en&sa=X&ved=2a...",
+      "concepts": [
+        "深度学习",
+        "机器学习",
+        "数据挖掘",
+        "人工智能应用",
+        "算法优化"
+      ],
+      "metadata": {
+        "file_name": "books.google.com.ph_books.md",
+        "file_path": "simpleqa_histroy_md\\question_150\\books.google.com.ph_books.md",
+        "question_folder": "question_150",
+        "source_dataset": "simpleqa_history",
+        "file_size": 994,
+        "concepts": [
+          "深度学习",
+          "机器学习",
+          "数据挖掘",
+          "人工智能应用",
+          "算法优化"
+        ],
+        "chunk_id": "chunk_0",
+        "chunk_length": 324,
+        "concept_count": 5,
+        "token_count": 165
+      }
+    },
+    {
+      "node_id": "4a916a83-9a40-4d54-83b4-fd0777f4c58e",
+      "text": "Help\n  3. Advanced Book Search\n\n\n\nGet print book\n\nNo eBook available\n\n### \n\n  * Free @ Brant County Library\n  * All sellers »\n\n\n\n|   \n---|---  \n  \n# At the Forks of the Grand, Volume I: 20 Historical ...",
+      "concepts": [
+        "电子书商店",
+        "历史论文",
+        "图书搜索",
+        "数字阅读",
+        "图书馆服务"
+      ],
+      "metadata": {
+        "file_name": "books.google.com.ph_books.md",
+        "file_path": "simpleqa_histroy_md\\question_150\\books.google.com.ph_books.md",
+        "question_folder": "question_150",
+        "source_dataset": "simpleqa_history",
+        "file_size": 994,
+        "concepts": [
+          "电子书商店",
+          "历史论文",
+          "图书搜索",
+          "数字阅读",
+          "图书馆服务"
+        ],
+        "chunk_id": "chunk_1",
+        "chunk_length": 670,
+        "concept_count": 5,
+        "token_count": 180
+      }
+    },
+    {
+      "node_id": "88e90110-0144-4d48-9704-95965a0d2290",
+      "text": "# 来源: https://digitalcollections.ucalgary.ca/archive/At-the-forks-of-the-Grand---20-historical-essays-on-Paris--Ontario-2R3BF1FJHDS5T.html\n\nClose\n\nCart (0)\n\nLogin\n\nStaff Login\n\nRegister\n\nFR\n\n0\n\nSelect...",
+      "concepts": [
+        "历史论文",
+        "巴黎历史",
+        "安大略省",
+        "地方历史",
+        "百年庆典"
+      ],
+      "metadata": {
+        "file_name": "digitalcollections.ucalgary.ca_archive_At-the-forks-of-the-Grand---20-historical-essays-on-Paris--On.md",
+        "file_path": "simpleqa_histroy_md\\question_150\\digitalcollections.ucalgary.ca_archive_At-the-forks-of-the-Grand---20-historical-essays-on-Paris--On.md",
+        "question_folder": "question_150",
+        "source_dataset": "simpleqa_history",
+        "file_size": 2899,
+        "concepts": [
+          "历史论文",
+          "巴黎历史",
+          "安大略省",
+          "地方历史",
+          "百年庆典"
+        ],
+        "chunk_id": "chunk_2",
+        "chunk_length": 2337,
+        "concept_count": 5,
+        "token_count": 577
+      }
+    },
+    {
+      "node_id": "df1bf707-1739-4765-9f09-18aef0c9ac65",
+      "text": "Permitted uses are outlined in License and Usage Rights. Usage Restrictions can only be waived by the copyright holder. Usage Restrictions Commercial, Exhibition, Publication, Remix and adaptLicense U...",
+      "concepts": [
+        "使用权利",
+        "使用限制",
+        "版权持有者",
+        "历史论文",
+        "数字收藏"
+      ],
+      "metadata": {
+        "file_name": "digitalcollections.ucalgary.ca_archive_At-the-forks-of-the-Grand---20-historical-essays-on-Paris--On.md",
+        "file_path": "simpleqa_histroy_md\\question_150\\digitalcollections.ucalgary.ca_archive_At-the-forks-of-the-Grand---20-historical-essays-on-Paris--On.md",
+        "question_folder": "question_150",
+        "source_dataset": "simpleqa_history",
+        "file_size": 2899,
+        "concepts": [
+          "使用权利",
+          "使用限制",
+          "版权持有者",
+          "历史论文",
+          "数字收藏"
+        ],
+        "chunk_id": "chunk_3",
+        "chunk_length": 562,
+        "concept_count": 5,
+        "token_count": 119
+      }
+    }
+  ],
+  "concept_nodes": [
+    {
+      "node_id": "3415e43c-952f-412e-84d3-5d873279c341",
+      "concept_text": "数字人文与信息技术应用",
+      "source_chunks": [
+        "chunk_2",
+        "chunk_0",
+        "chunk_3",
+        "chunk_1"
+      ],
+      "confidence_score": 0.95,
+      "metadata": {
+        "concept_name": "数字人文与信息技术应用",
+        "definition": "数字人文与信息技术应用",
+        "source_chunks": [
+          "chunk_2",
+          "chunk_0",
+          "chunk_3",
+          "chunk_1"
+        ],
+        "confidence_score": 0.95,
+        "keywords": [
+          "数字人文与信息技术应用"
+        ],
+        "category": "方法技术",
+        "node_type": "concept",
+        "concept_type": "document_level",
+        "source_concepts": [
+          "历史论文",
+          "地方历史",
+          "巴黎历史",
+          "百年庆典",
+          "图书搜索",
+          "使用权利",
+          "图书馆服务",
+          "数字阅读",
+          "数据挖掘",
+          "算法优化",
+          "机器学习",
+          "深度学习",
+          "使用限制",
+          "电子书商店",
+          "数字收藏",
+          "安大略省",
+          "人工智能应用",
+          "版权持有者"
+        ],
+        "frequency": 18,
+        "chunk_coverage": 4
+      }
+    }
+  ],
+  "evidence_nodes": [
+    {
+      "node_id": "evidence_0",
+      "evidence_text": "Permitted uses are outlined in License and Usage Rights. Usage Restrictions can only be waived by the copyright holder. Usage Restrictions Commercial, Exhibition, Publication, Remix and adapt License URL https://libanswers.ucalgary.ca/faq/199047",
+      "concept_id": "3415e43c-952f-412e-84d3-5d873279c341",
+      "relevance_score": 3.3333333333333335,
+      "metadata": {
+        "concept_id": "3415e43c-952f-412e-84d3-5d873279c341",
+        "concept_name": null,
+        "relevance_score": 3.3333333333333335,
+        "evidence_type": "supporting",
+        "source_document": null,
+        "page_number": null,
+        "node_type": "evidence",
+        "concept_text": "数字人文与信息技术应用",
+        "source_chunks": [
+          "df1bf707-1739-4765-9f09-18aef0c9ac65",
+          "88e90110-0144-4d48-9704-95965a0d2290",
+          "9ddf7a6f-b89f-47a3-9555-1447c661fac1"
+        ],
+        "extraction_method": "llamaindex_query_engine",
+        "evidence_length": 245
+      }
+    }
+  ]
+}

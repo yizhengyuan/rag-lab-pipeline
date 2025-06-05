@@ -1,0 +1,218 @@
+================================================================================
+步骤2_文档分块 - 详细报告
+================================================================================
+生成时间: 2025-06-04 19:27:35
+处理文件: attention is all you need.pdf
+================================================================================
+
+
+分块统计信息:
+- 总分块数: 21
+- 平均分块长度: 1910.0 字符
+- 最短分块长度: 124 字符
+- 最长分块长度: 8151 字符
+- 处理时间: 243.14 秒
+
+分块详细信息:
+------------------------------------------------------------
+
+分块 1:
+- ID: 1f85d471-100d-4d0b-9843-0307fbd68483
+- 长度: 1758 字符
+- 概念数量: 5
+- 概念列表: ['recurrence', 'parallelizable', 'also', 'abstract', 'proper']
+- 内容预览: Provided proper attribution is provided, Google hereby grants permission to
+reproduce the tables and...
+----------------------------------------
+
+分块 2:
+- ID: d8013a83-9b95-456c-8f7b-2a68f052da82
+- 长度: 924 字符
+- 概念数量: 5
+- 概念列表: ['rnns', 'countless', 'various', 'crucially', 'proposed']
+- 内容预览: Listing order is random. Jakob proposed replacing RNNs with self-attention and started
+the effort to...
+----------------------------------------
+
+分块 3:
+- ID: 4522cdff-27b7-4da7-bf0e-9d7296413fcc
+- 长度: 603 字符
+- 概念数量: 5
+- 概念列表: ['art', 'aug', 'boundaries', 'memory', 'conference']
+- 内容预览: ‡Work performed while at Google Research.
+31st Conference on Neural Information Processing Systems (...
+----------------------------------------
+
+分块 4:
+- ID: 6f98970e-595f-4c96-b15d-668ea6632f19
+- 长度: 8151 字符
+- 概念数量: 5
+- 概念列表: ['distance', 'maps', 'left', 'also', 'optimized']
+- 内容预览: Recurrent models typically factor computation along the symbol positions of the input and output
+seq...
+----------------------------------------
+
+分块 5:
+- ID: 102bc008-4485-4702-84b0-51b247f448b9
+- 长度: 2519 字符
+- 概念数量: 5
+- 概念列表: ['separately', 'output', 'figure', 'model', 'attend']
+- 内容预览: These are concatenated and once again projected, resulting in the final values, as
+depicted in Figur...
+----------------------------------------
+
+分块 6:
+- ID: f8e2dd76-c7e9-4baf-b796-bd00cba21f76
+- 长度: 5456 字符
+- 概念数量: 5
+- 概念列表: ['sine', 'recurrence', 'generally', 'mation', 'also']
+- 内容预览: The dimensionality of input and output is dmodel = 512 , and the inner-layer has dimensionality
+dff=...
+----------------------------------------
+
+分块 7:
+- ID: c97092e3-89a0-4aaa-8fd1-393a177a0dfd
+- 长度: 2852 字符
+- 概念数量: 5
+- 概念列表: ['output', 'clearly', 'previous', 'containing', 'big']
+- 内容预览: We inspect attention distributions
+from our models and present and discuss examples in the appendix....
+----------------------------------------
+
+分块 8:
+- ID: bcab7e3e-3d56-445b-b837-f879a600d995
+- 长度: 598 字符
+- 概念数量: 5
+- 概念列表: ['new', 'reported', 'base', 'best', 'during']
+- 内容预览: For the base model, we use a rate of
+Pdrop= 0.1.
+Label Smoothing During training, we employed label ...
+----------------------------------------
+
+分块 9:
+- ID: a8eed2a4-36d6-40a2-a9bc-98a9b7460958
+- 长度: 1746 字符
+- 概念数量: 5
+- 概念列表: ['output', 'model', 'development', 'previous', 'terminate']
+- 内容预览: Training took 3.5days on 8P100 GPUs. Even our base model
+surpasses all previously published models a...
+----------------------------------------
+
+分块 10:
+- ID: 4cbd6d55-0b53-420b-a055-080694b188a3
+- 长度: 212 字符
+- 概念数量: 5
+- 概念列表: ['metrics', 'not', 'perplexities', 'listed', 'all']
+- 内容预览: All metrics are on the English-to-German translation development set, newstest2013. Listed
+perplexit...
+----------------------------------------
+
+分块 11:
+- ID: 249bf066-2487-46be-af59-08361fc246b7
+- 长度: 1279 字符
+- 概念数量: 5
+- 概念列表: ['instead', 'identical', 'base', 'described', 'embedding']
+- 内容预览: 6.2 Model Variations
+To evaluate the importance of different components of the Transformer, we varie...
+----------------------------------------
+
+分块 12:
+- ID: ffbb0596-c0a4-4439-a524-66c25ed1fac9
+- 长度: 4865 字符
+- 概念数量: 5
+- 概念列表: ['conclusion', 'also', 'available', 'sequential', 'code']
+- 内容预览: We present these results in Table 3.
+In Table 3 rows (A), we vary the number of attention heads and ...
+----------------------------------------
+
+分块 13:
+- ID: 070ede4c-f9e1-4bb4-bd37-40796a4ae622
+- 长度: 473 字符
+- 概念数量: 5
+- 概念列表: ['bart', 'fethi', 'arxiv', 'massive', 'exploration']
+- 内容预览: Le. Massive exploration of neural
+machine translation architectures. CoRR , abs/1703.03906, 2017.
+[4...
+----------------------------------------
+
+分块 14:
+- ID: 5690d6c3-6afd-4da5-9c98-25a22f2a757e
+- 长度: 124 字符
+- 概念数量: 5
+- 概念列表: ['preprint', 'arxiv', 'learning', 'separable', 'deep']
+- 内容预览: [6]Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv
+preprint a...
+----------------------------------------
+
+分块 15:
+- ID: 02e15855-02e1-4193-976b-5b115c6bdcc1
+- 长度: 1482 字符
+- 概念数量: 5
+- 概念列表: ['jian', 'proceedings', 'paolo', 'empirical', 'pages']
+- 内容预览: [7]Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation
+of gated ...
+----------------------------------------
+
+分块 16:
+- ID: 242dc691-c0d1-4917-a39e-0730cc32fa4c
+- 长度: 480 字符
+- 概念数量: 5
+- 概念列表: ['international', 'arxiv', 'lasse', 'representations', 'nal']
+- 内容预览: [16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural
+Infor...
+----------------------------------------
+
+分块 17:
+- ID: 634b0534-638f-4663-940b-c07905ae7181
+- 长度: 253 字符
+- 概念数量: 5
+- 概念列表: ['yoon', 'attention', 'conference', 'method', 'carl']
+- 内容预览: [19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks.
+InInt...
+----------------------------------------
+
+分块 18:
+- ID: 3ffca363-17a8-408b-bad7-f59cef406569
+- 长度: 2395 字符
+- 概念数量: 5
+- 概念列表: ['international', 'pages', 'empirical', 'technology', 'kuchaiev']
+- 内容预览: [21] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint
+arX...
+----------------------------------------
+
+分块 19:
+- ID: ec5d1c26-b2c4-4ad8-8dcc-8dcf59ef6876
+- 长度: 645 字符
+- 概念数量: 5
+- 概念列表: ['pages', 'computer', 'jason', 'sainbayar', 'arthur']
+- 内容预览: [34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory
+networks. I...
+----------------------------------------
+
+分块 20:
+- ID: d66849fa-95eb-4130-a3f4-101686790f24
+- 长度: 829 字符
+- 概念数量: 5
+- 概念列表: ['meeting', 'proceedings', 'mohammad', 'pages', 'arxiv']
+- 内容预览: [37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In
+Advance...
+----------------------------------------
+
+分块 21:
+- ID: f4f022e7-5d3d-40f2-bcc8-4c9f1141227b
+- 长度: 2466 字符
+- 概念数量: 5
+- 概念列表: ['new', 'behaviour', 'verb', 'just', 'also']
+- 内容预览: ACL, August 2013.
+12
+Attention Visualizations
+Input-Input Layer5
+It
+is
+in
+this
+spirit
+that
+a
+majorit...
+----------------------------------------

@@ -1,0 +1,27 @@
+{
+  "file_info": {
+    "file_path": "en.wikipedia.org_wiki_IEEE_Frank_Rosenblatt_Award.md",
+    "file_name": "en.wikipedia.org_wiki_IEEE_Frank_Rosenblatt_Award.md",
+    "base_name": "en.wikipedia.org_wiki_IEEE_Frank_Rosenblatt_Award",
+    "text_length": 8665
+  },
+  "config_info": {
+    "model_name": "gpt-4o-mini",
+    "questions_per_type": {
+      "remember": 2,
+      "understand": 2,
+      "apply": 1,
+      "analyze": 1,
+      "evaluate": 0,
+      "create": 0
+    },
+    "pipeline_stats": {}
+  },
+  "statistics": {
+    "concepts_count": 0,
+    "evidence_count": 0,
+    "qa_pairs_count": 1,
+    "training_data_count": 1
+  },
+  "processing_time": "2025-06-02T22:44:46.764322"
+}

@@ -1,0 +1,63 @@
+证据提取详细结果
+================================================================================
+
+证据 1
+--------------------------------------------------
+证据ID: evidence_0
+关联概念: 深度学习中的随机变换与组合处理
+相关性分数: 2.7000
+来源分块: ['9c760da7-faa9-4c0d-9d16-1029c33ecce2', 'c4bf9429-ff92-45a1-b56c-ed1bd257cb9e', 'b1c4d116-1147-441f-8b44-f96563bb53db', '153611c4-48c9-45c4-8ca6-592f2125baa9', '9bb25548-78c8-45b0-9d63-811e52dffddb']
+证据长度: 149 字符
+证据完整内容:
+我们采用三种类型的正则化来避免过拟合。在训练过程中，我们在每个子层的输出上应用dropout，然后将其添加到子层输入并进行归一化。此外，我们还在编码器和解码器堆栈中的嵌入和位置编码的总和上应用dropout。这种方法有助于提高模型的泛化能力，减少在训练数据上的过拟合，从而提升模型在新数据上的表现。
+
+================================================================================
+
+证据 2
+--------------------------------------------------
+证据ID: evidence_1
+关联概念: 研究与探索的多样性
+相关性分数: 2.8750
+来源分块: ['9c760da7-faa9-4c0d-9d16-1029c33ecce2', 'a66f29e1-2b55-49f1-a881-e53b813cf764', '41d6c47a-9602-4452-be86-a7cc7984b2d4', '1b059c08-ab29-4d47-990f-7742ef212dd5']
+证据长度: 564 字符
+证据完整内容:
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+
+================================================================================
+
+证据 3
+--------------------------------------------------
+证据ID: evidence_2
+关联概念: 比较与改进的进展
+相关性分数: 3.1667
+来源分块: ['1b059c08-ab29-4d47-990f-7742ef212dd5', '939e29b8-c548-4b79-aaa5-07d601c4d391', 'b616e4a4-32cf-4634-9434-52ee45a85f9f']
+证据长度: 541 字符
+证据完整内容:
+To evaluate the importance of different components of the Transformer, we varied our base model in different ways, measuring the change in performance on English-to-German translation. Table 3 summarizes our results and compares our translation quality and training costs to other model architectures from the literature. We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU.
+
+================================================================================
+
+证据 4
+--------------------------------------------------
+证据ID: evidence_3
+关联概念: 机器学习中的策略与机制
+相关性分数: 3.3000
+来源分块: ['a66f29e1-2b55-49f1-a881-e53b813cf764', '9c760da7-faa9-4c0d-9d16-1029c33ecce2', '1b059c08-ab29-4d47-990f-7742ef212dd5', '41d6c47a-9602-4452-be86-a7cc7984b2d4', 'a062d144-6abd-422c-85a6-d2e2f3ea44ef']
+证据长度: 564 字符
+证据完整内容:
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+
+================================================================================
+
+证据 5
+--------------------------------------------------
+证据ID: evidence_4
+关联概念: 光辉与力量
+相关性分数: 3.0000
+来源分块: ['a66f29e1-2b55-49f1-a881-e53b813cf764', '1b059c08-ab29-4d47-990f-7742ef212dd5', 'b616e4a4-32cf-4634-9434-52ee45a85f9f']
+证据长度: 23 字符
+证据完整内容:
+抱歉，无法提供与“光辉与力量”相关的证据片段。
+
+================================================================================
+
