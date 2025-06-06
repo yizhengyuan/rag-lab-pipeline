@@ -1,0 +1,1053 @@
+{
+  "success": true,
+  "step": 4,
+  "step_name": "reranking",
+  "concept_nodes": [
+    {
+      "concept_id": "merged_concept_0",
+      "concept_text": "attention mechanism",
+      "concept_name": "attention mechanism",
+      "concept_length": 19,
+      "source_concepts": [
+        "attention\nmechanism",
+        "attention mechanism"
+      ],
+      "source_chunks": [
+        "chunk_0",
+        "chunk_3"
+      ],
+      "frequency": 5,
+      "quality_score": 4.8,
+      "confidence_score": 0.62,
+      "coverage": 2,
+      "merge_group_size": 2,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_1",
+      "concept_text": "Recurrent neural",
+      "concept_name": "Recurrent neural",
+      "concept_length": 16,
+      "source_concepts": [
+        "Recurrent neural",
+        "recurrent neural"
+      ],
+      "source_chunks": [
+        "chunk_2",
+        "chunk_14"
+      ],
+      "frequency": 4,
+      "quality_score": 4.7,
+      "confidence_score": 0.5800000000000001,
+      "coverage": 2,
+      "merge_group_size": 2,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_17",
+      "concept_text": "In Advances",
+      "concept_name": "In Advances",
+      "concept_length": 11,
+      "source_concepts": [
+        "In Advances",
+        "In\nAdvances"
+      ],
+      "source_chunks": [
+        "chunk_15",
+        "chunk_19"
+      ],
+      "frequency": 2,
+      "quality_score": 4.2,
+      "confidence_score": 0.48,
+      "coverage": 2,
+      "merge_group_size": 2,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_12",
+      "concept_text": "Deep learning",
+      "concept_name": "Deep learning",
+      "concept_length": 13,
+      "source_concepts": [
+        "Deep learning"
+      ],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "frequency": 1,
+      "quality_score": 4.5,
+      "confidence_score": 0.39999999999999997,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_21",
+      "concept_text": "Learning Representations",
+      "concept_name": "Learning Representations",
+      "concept_length": 24,
+      "source_concepts": [
+        "Learning Representations"
+      ],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "frequency": 1,
+      "quality_score": 4.5,
+      "confidence_score": 0.39999999999999997,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_22",
+      "concept_text": "Machine\nLearning",
+      "concept_name": "Machine\nLearning",
+      "concept_length": 16,
+      "source_concepts": [
+        "Machine\nLearning"
+      ],
+      "source_chunks": [
+        "chunk_17"
+      ],
+      "frequency": 1,
+      "quality_score": 4.5,
+      "confidence_score": 0.39999999999999997,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_13",
+      "concept_text": "learning with",
+      "concept_name": "learning with",
+      "concept_length": 13,
+      "source_concepts": [
+        "learning with"
+      ],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "frequency": 1,
+      "quality_score": 4.3,
+      "confidence_score": 0.38666666666666666,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_3",
+      "concept_text": "Listed\nperplexities",
+      "concept_name": "Listed\nperplexities",
+      "concept_length": 19,
+      "source_concepts": [
+        "Listed\nperplexities"
+      ],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_6",
+      "concept_text": "Jianpeng Cheng",
+      "concept_name": "Jianpeng Cheng",
+      "concept_length": 14,
+      "source_concepts": [
+        "Jianpeng Cheng"
+      ],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_7",
+      "concept_text": "Li Dong",
+      "concept_name": "Li Dong",
+      "concept_length": 7,
+      "source_concepts": [
+        "Li Dong"
+      ],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_8",
+      "concept_text": "Mirella Lapata",
+      "concept_name": "Mirella Lapata",
+      "concept_length": 14,
+      "source_concepts": [
+        "Mirella Lapata"
+      ],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_9",
+      "concept_text": "Kyunghyun Cho",
+      "concept_name": "Kyunghyun Cho",
+      "concept_length": 13,
+      "source_concepts": [
+        "Kyunghyun Cho"
+      ],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_10",
+      "concept_text": "Caglar Gulcehre",
+      "concept_name": "Caglar Gulcehre",
+      "concept_length": 15,
+      "source_concepts": [
+        "Caglar Gulcehre"
+      ],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_11",
+      "concept_text": "Francois Chollet",
+      "concept_name": "Francois Chollet",
+      "concept_length": 16,
+      "source_concepts": [
+        "Francois Chollet"
+      ],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_15",
+      "concept_text": "ICLR",
+      "concept_name": "ICLR",
+      "concept_length": 4,
+      "source_concepts": [
+        "ICLR"
+      ],
+      "source_chunks": [
+        "chunk_15",
+        "chunk_16"
+      ],
+      "frequency": 2,
+      "quality_score": 2.7,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 2,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_16",
+      "concept_text": "Samy Bengio",
+      "concept_name": "Samy Bengio",
+      "concept_length": 11,
+      "source_concepts": [
+        "Samy Bengio"
+      ],
+      "source_chunks": [
+        "chunk_15"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_18",
+      "concept_text": "Yoon Kim",
+      "concept_name": "Yoon Kim",
+      "concept_length": 8,
+      "source_concepts": [
+        "Yoon Kim"
+      ],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_19",
+      "concept_text": "Carl Denton",
+      "concept_name": "Carl Denton",
+      "concept_length": 11,
+      "source_concepts": [
+        "Carl Denton"
+      ],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_20",
+      "concept_text": "Luong Hoang",
+      "concept_name": "Luong Hoang",
+      "concept_length": 11,
+      "source_concepts": [
+        "Luong Hoang"
+      ],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_23",
+      "concept_text": "Sainbayar Sukhbaatar",
+      "concept_name": "Sainbayar Sukhbaatar",
+      "concept_length": 20,
+      "source_concepts": [
+        "Sainbayar Sukhbaatar"
+      ],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_24",
+      "concept_text": "Arthur Szlam",
+      "concept_name": "Arthur Szlam",
+      "concept_length": 12,
+      "source_concepts": [
+        "Arthur Szlam"
+      ],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_25",
+      "concept_text": "Jason Weston",
+      "concept_name": "Jason Weston",
+      "concept_length": 12,
+      "source_concepts": [
+        "Jason Weston"
+      ],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_26",
+      "concept_text": "Rob Fergus",
+      "concept_name": "Rob Fergus",
+      "concept_length": 10,
+      "source_concepts": [
+        "Rob Fergus"
+      ],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_28",
+      "concept_text": "Yonghui Wu",
+      "concept_name": "Yonghui Wu",
+      "concept_length": 10,
+      "source_concepts": [
+        "Yonghui Wu"
+      ],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_29",
+      "concept_text": "Mike Schuster",
+      "concept_name": "Mike Schuster",
+      "concept_length": 13,
+      "source_concepts": [
+        "Mike Schuster"
+      ],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_30",
+      "concept_text": "The\nLaw",
+      "concept_name": "The\nLaw",
+      "concept_length": 7,
+      "source_concepts": [
+        "The\nLaw"
+      ],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "frequency": 1,
+      "quality_score": 4.2,
+      "confidence_score": 0.38000000000000006,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_2",
+      "concept_text": "recurrent language",
+      "concept_name": "recurrent language",
+      "concept_length": 18,
+      "source_concepts": [
+        "recurrent language"
+      ],
+      "source_chunks": [
+        "chunk_2"
+      ],
+      "frequency": 1,
+      "quality_score": 4.0,
+      "confidence_score": 0.3666666666666667,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_4",
+      "concept_text": "according to",
+      "concept_name": "according to",
+      "concept_length": 12,
+      "source_concepts": [
+        "according to"
+      ],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "frequency": 1,
+      "quality_score": 4.0,
+      "confidence_score": 0.3666666666666667,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_5",
+      "concept_text": "compared to",
+      "concept_name": "compared to",
+      "concept_length": 11,
+      "source_concepts": [
+        "compared to"
+      ],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "frequency": 1,
+      "quality_score": 4.0,
+      "confidence_score": 0.3666666666666667,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_31",
+      "concept_text": "making\nthe",
+      "concept_name": "making\nthe",
+      "concept_length": 10,
+      "source_concepts": [
+        "making\nthe"
+      ],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "frequency": 1,
+      "quality_score": 4.0,
+      "confidence_score": 0.3666666666666667,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_32",
+      "concept_text": "following long",
+      "concept_name": "following long",
+      "concept_length": 14,
+      "source_concepts": [
+        "following long"
+      ],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "frequency": 1,
+      "quality_score": 4.0,
+      "confidence_score": 0.3666666666666667,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_14",
+      "concept_text": "NIPS",
+      "concept_name": "NIPS",
+      "concept_length": 4,
+      "source_concepts": [
+        "NIPS"
+      ],
+      "source_chunks": [
+        "chunk_15"
+      ],
+      "frequency": 1,
+      "quality_score": 2.5,
+      "confidence_score": 0.26666666666666666,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    },
+    {
+      "concept_id": "merged_concept_27",
+      "concept_text": "ACL",
+      "concept_name": "ACL",
+      "concept_length": 3,
+      "source_concepts": [
+        "ACL"
+      ],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "frequency": 1,
+      "quality_score": 2.5,
+      "confidence_score": 0.26666666666666666,
+      "coverage": 1,
+      "merge_group_size": 1,
+      "created_at": "2025-06-06T12:35:05.710799"
+    }
+  ],
+  "merged_data": {
+    "merged_concepts": [
+      "attention mechanism",
+      "Recurrent neural",
+      "recurrent language",
+      "Listed\nperplexities",
+      "according to",
+      "compared to",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Deep learning",
+      "learning with",
+      "NIPS",
+      "ICLR",
+      "Samy Bengio",
+      "In Advances",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Learning Representations",
+      "Machine\nLearning",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "ACL",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "making\nthe",
+      "following long"
+    ],
+    "merge_mapping": {
+      "attention\nmechanism": "attention mechanism",
+      "attention mechanism": "attention mechanism",
+      "Recurrent neural": "Recurrent neural",
+      "recurrent neural": "Recurrent neural",
+      "recurrent language": "recurrent language",
+      "Listed\nperplexities": "Listed\nperplexities",
+      "according to": "according to",
+      "compared to": "compared to",
+      "Jianpeng Cheng": "Jianpeng Cheng",
+      "Li Dong": "Li Dong",
+      "Mirella Lapata": "Mirella Lapata",
+      "Kyunghyun Cho": "Kyunghyun Cho",
+      "Caglar Gulcehre": "Caglar Gulcehre",
+      "Francois Chollet": "Francois Chollet",
+      "Deep learning": "Deep learning",
+      "learning with": "learning with",
+      "NIPS": "NIPS",
+      "ICLR": "ICLR",
+      "Samy Bengio": "Samy Bengio",
+      "In Advances": "In Advances",
+      "In\nAdvances": "In Advances",
+      "Yoon Kim": "Yoon Kim",
+      "Carl Denton": "Carl Denton",
+      "Luong Hoang": "Luong Hoang",
+      "Learning Representations": "Learning Representations",
+      "Machine\nLearning": "Machine\nLearning",
+      "Sainbayar Sukhbaatar": "Sainbayar Sukhbaatar",
+      "Arthur Szlam": "Arthur Szlam",
+      "Jason Weston": "Jason Weston",
+      "Rob Fergus": "Rob Fergus",
+      "ACL": "ACL",
+      "Yonghui Wu": "Yonghui Wu",
+      "Mike Schuster": "Mike Schuster",
+      "The\nLaw": "The\nLaw",
+      "making\nthe": "making\nthe",
+      "following long": "following long"
+    },
+    "merged_frequency": {
+      "attention mechanism": 5,
+      "Recurrent neural": 4,
+      "recurrent language": 1,
+      "Listed\nperplexities": 1,
+      "according to": 1,
+      "compared to": 1,
+      "Jianpeng Cheng": 1,
+      "Li Dong": 1,
+      "Mirella Lapata": 1,
+      "Kyunghyun Cho": 1,
+      "Caglar Gulcehre": 1,
+      "Francois Chollet": 1,
+      "Deep learning": 1,
+      "learning with": 1,
+      "NIPS": 1,
+      "ICLR": 2,
+      "Samy Bengio": 1,
+      "In Advances": 2,
+      "Yoon Kim": 1,
+      "Carl Denton": 1,
+      "Luong Hoang": 1,
+      "Learning Representations": 1,
+      "Machine\nLearning": 1,
+      "Sainbayar Sukhbaatar": 1,
+      "Arthur Szlam": 1,
+      "Jason Weston": 1,
+      "Rob Fergus": 1,
+      "ACL": 1,
+      "Yonghui Wu": 1,
+      "Mike Schuster": 1,
+      "The\nLaw": 1,
+      "making\nthe": 1,
+      "following long": 1
+    },
+    "merged_quality_scores": {
+      "attention mechanism": 4.8,
+      "Recurrent neural": 4.7,
+      "recurrent language": 4.0,
+      "Listed\nperplexities": 4.2,
+      "according to": 4.0,
+      "compared to": 4.0,
+      "Jianpeng Cheng": 4.2,
+      "Li Dong": 4.2,
+      "Mirella Lapata": 4.2,
+      "Kyunghyun Cho": 4.2,
+      "Caglar Gulcehre": 4.2,
+      "Francois Chollet": 4.2,
+      "Deep learning": 4.5,
+      "learning with": 4.3,
+      "NIPS": 2.5,
+      "ICLR": 2.7,
+      "Samy Bengio": 4.2,
+      "In Advances": 4.2,
+      "Yoon Kim": 4.2,
+      "Carl Denton": 4.2,
+      "Luong Hoang": 4.2,
+      "Learning Representations": 4.5,
+      "Machine\nLearning": 4.5,
+      "Sainbayar Sukhbaatar": 4.2,
+      "Arthur Szlam": 4.2,
+      "Jason Weston": 4.2,
+      "Rob Fergus": 4.2,
+      "ACL": 2.5,
+      "Yonghui Wu": 4.2,
+      "Mike Schuster": 4.2,
+      "The\nLaw": 4.2,
+      "making\nthe": 4.0,
+      "following long": 4.0
+    },
+    "sorted_by_quality": [
+      "attention mechanism",
+      "Recurrent neural",
+      "Deep learning",
+      "Learning Representations",
+      "Machine\nLearning",
+      "learning with",
+      "In Advances",
+      "Listed\nperplexities",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Samy Bengio",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "recurrent language",
+      "according to",
+      "compared to",
+      "making\nthe",
+      "following long",
+      "ICLR",
+      "NIPS",
+      "ACL"
+    ],
+    "sorted_by_frequency": [
+      [
+        "attention mechanism",
+        5
+      ],
+      [
+        "Recurrent neural",
+        4
+      ],
+      [
+        "ICLR",
+        2
+      ],
+      [
+        "In Advances",
+        2
+      ],
+      [
+        "recurrent language",
+        1
+      ],
+      [
+        "Listed\nperplexities",
+        1
+      ],
+      [
+        "according to",
+        1
+      ],
+      [
+        "compared to",
+        1
+      ],
+      [
+        "Jianpeng Cheng",
+        1
+      ],
+      [
+        "Li Dong",
+        1
+      ],
+      [
+        "Mirella Lapata",
+        1
+      ],
+      [
+        "Kyunghyun Cho",
+        1
+      ],
+      [
+        "Caglar Gulcehre",
+        1
+      ],
+      [
+        "Francois Chollet",
+        1
+      ],
+      [
+        "Deep learning",
+        1
+      ],
+      [
+        "learning with",
+        1
+      ],
+      [
+        "NIPS",
+        1
+      ],
+      [
+        "Samy Bengio",
+        1
+      ],
+      [
+        "Yoon Kim",
+        1
+      ],
+      [
+        "Carl Denton",
+        1
+      ],
+      [
+        "Luong Hoang",
+        1
+      ],
+      [
+        "Learning Representations",
+        1
+      ],
+      [
+        "Machine\nLearning",
+        1
+      ],
+      [
+        "Sainbayar Sukhbaatar",
+        1
+      ],
+      [
+        "Arthur Szlam",
+        1
+      ],
+      [
+        "Jason Weston",
+        1
+      ],
+      [
+        "Rob Fergus",
+        1
+      ],
+      [
+        "ACL",
+        1
+      ],
+      [
+        "Yonghui Wu",
+        1
+      ],
+      [
+        "Mike Schuster",
+        1
+      ],
+      [
+        "The\nLaw",
+        1
+      ],
+      [
+        "making\nthe",
+        1
+      ],
+      [
+        "following long",
+        1
+      ]
+    ],
+    "concept_groups": [
+      [
+        "attention\nmechanism",
+        "attention mechanism"
+      ],
+      [
+        "Recurrent neural",
+        "recurrent neural"
+      ],
+      [
+        "recurrent language"
+      ],
+      [
+        "Listed\nperplexities"
+      ],
+      [
+        "according to"
+      ],
+      [
+        "compared to"
+      ],
+      [
+        "Jianpeng Cheng"
+      ],
+      [
+        "Li Dong"
+      ],
+      [
+        "Mirella Lapata"
+      ],
+      [
+        "Kyunghyun Cho"
+      ],
+      [
+        "Caglar Gulcehre"
+      ],
+      [
+        "Francois Chollet"
+      ],
+      [
+        "Deep learning"
+      ],
+      [
+        "learning with"
+      ],
+      [
+        "NIPS"
+      ],
+      [
+        "ICLR"
+      ],
+      [
+        "Samy Bengio"
+      ],
+      [
+        "In Advances",
+        "In\nAdvances"
+      ],
+      [
+        "Yoon Kim"
+      ],
+      [
+        "Carl Denton"
+      ],
+      [
+        "Luong Hoang"
+      ],
+      [
+        "Learning Representations"
+      ],
+      [
+        "Machine\nLearning"
+      ],
+      [
+        "Sainbayar Sukhbaatar"
+      ],
+      [
+        "Arthur Szlam"
+      ],
+      [
+        "Jason Weston"
+      ],
+      [
+        "Rob Fergus"
+      ],
+      [
+        "ACL"
+      ],
+      [
+        "Yonghui Wu"
+      ],
+      [
+        "Mike Schuster"
+      ],
+      [
+        "The\nLaw"
+      ],
+      [
+        "making\nthe"
+      ],
+      [
+        "following long"
+      ]
+    ],
+    "compression_ratio": 0.9166666666666666
+  },
+  "input_statistics": {
+    "original_concept_count": 36,
+    "compression_ratio": 0.9166666666666666
+  },
+  "statistics": {
+    "original_concept_count": 36,
+    "merged_concept_count": 33,
+    "compression_ratio": 0.9166666666666666,
+    "avg_confidence": 0.38949494949494956,
+    "avg_concept_length": 12.454545454545455,
+    "total_source_chunks": 13,
+    "concept_groups_count": 33,
+    "high_confidence_count": 0,
+    "medium_confidence_count": 3,
+    "low_confidence_count": 30
+  },
+  "processing_time": 0.16482186317443848,
+  "timestamp": "2025-06-06T12:35:05.710799",
+  "config_used": {
+    "similarity_threshold": 0.7,
+    "max_document_concepts": 10
+  },
+  "experiment_id": "20250605_204458_attentionisallyounee",
+  "step_number": 4,
+  "step_description": "检索结果重排序",
+  "output_timestamp": "2025-06-06T12:35:05.711805"
+}

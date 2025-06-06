@@ -1,0 +1,118 @@
+{
+  "experiment_id": "20250605_204458_attentionisallyounee",
+  "timestamp": "20250605_204458",
+  "created_at": "2025-06-05T20:44:58.446137",
+  "input_file": "attention is all you need.pdf",
+  "base_directory": "experiments",
+  "experiment_directory": "experiments\\20250605_204458_attentionisallyounee",
+  "steps_completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "total_processing_time": 497.54644560813904,
+  "status": "step_8_completed",
+  "steps": {
+    "step_1": {
+      "step_number": 1,
+      "step_name": "vectorization",
+      "step_description": "文档加载与向量化存储",
+      "success": true,
+      "processing_time": 84.78840851783752,
+      "timestamp": "2025-06-05T20:46:23.250369",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step1_vectorization.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step1_vectorization.json"
+      }
+    },
+    "step_2": {
+      "step_number": 2,
+      "step_name": "chunking",
+      "step_description": "文档分块与概念提取",
+      "success": true,
+      "processing_time": 0.17293405532836914,
+      "timestamp": "2025-06-05T21:03:52.059610",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step2_chunking.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step2_chunking.json"
+      }
+    },
+    "step_3": {
+      "step_number": 3,
+      "step_name": "retrieval",
+      "step_description": "概念检索与相似性计算",
+      "success": true,
+      "processing_time": 0.17272448539733887,
+      "timestamp": "2025-06-06T12:31:17.572280",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step3_retrieval.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step3_retrieval.json"
+      }
+    },
+    "step_4": {
+      "step_number": 4,
+      "step_name": "reranking",
+      "step_description": "检索结果重排序",
+      "success": true,
+      "processing_time": 0.16482186317443848,
+      "timestamp": "2025-06-06T12:35:05.717264",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step4_reranking.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step4_reranking.json"
+      }
+    },
+    "step_5": {
+      "step_number": 5,
+      "step_name": "answer_generation",
+      "step_description": "答案生成与推理",
+      "success": true,
+      "processing_time": 0.3896148204803467,
+      "timestamp": "2025-06-06T12:53:05.424460",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step5_answer_generation.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step5_answer_generation.json"
+      }
+    },
+    "step_6": {
+      "step_number": 6,
+      "step_name": "evaluation",
+      "step_description": "结果评估与质量检查",
+      "success": true,
+      "processing_time": 0.16602420806884766,
+      "timestamp": "2025-06-06T12:53:25.774102",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step6_evaluation.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step6_evaluation.json"
+      }
+    },
+    "step_7": {
+      "step_number": 7,
+      "step_name": "debugging",
+      "step_description": "调试分析与问题诊断",
+      "success": true,
+      "processing_time": 410.78573632240295,
+      "timestamp": "2025-06-06T13:12:01.009587",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step7_debugging.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step7_debugging.json"
+      }
+    },
+    "step_8": {
+      "step_number": 8,
+      "step_name": "final_report",
+      "step_description": "最终报告与结果汇总",
+      "success": true,
+      "processing_time": 0.17999601364135742,
+      "timestamp": "2025-06-06T13:20:02.741195",
+      "output_files": {
+        "txt": "experiments\\20250605_204458_attentionisallyounee\\step8_final_report.txt",
+        "json": "experiments\\20250605_204458_attentionisallyounee\\step8_final_report.json"
+      }
+    }
+  }
+}

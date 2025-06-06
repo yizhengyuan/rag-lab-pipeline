@@ -53,11 +53,14 @@ concept_merging:
 # 检索设置
 retrieval:
   top_k: 5
+  similarity_cutoff: 0.2  # 降低相似度阈值，提高检索覆盖率
+  max_retrievals_per_concept: 10  # 可选：增加每个概念的最大检索数
 
-# Evidence 提取设置
+# Evidence 提取设置  
 evidence_extraction:
   min_length: 20
-  max_length: 200
+  max_length: 400  # 增加最大长度，允许更长的证据
+  min_relevance_threshold: 0.2  # 设置最小相关性阈值
 
 # 输出设置
 output:
@@ -68,66 +71,130 @@ output:
 logging:
   level: "INFO"
 
-# 提示词模板 - 专业英文技术概念提取版本
+# 提示词模板 - 通用版本（适应所有领域）
+# 提示词模板 - 通用版本（适应所有领域）
 prompts:
   concept_extraction: |
-    You are an expert in extracting technical concepts from computer science and AI research papers.
+    You are an expert in extracting key concepts from academic and professional documents across various domains.
     
-    Task: Analyze the following academic text and extract {num_concepts} key technical concepts.
+    Task: Analyze the following text and extract {num_concepts} important concepts that capture the main ideas and themes.
     
     Text:
     {text}
     
     EXTRACTION GUIDELINES:
     
-    ✅ GOOD technical concepts (2-6 words each):
-    - Architecture terms: "transformer architecture", "encoder-decoder structure", "multi-layer perceptron"
-    - Algorithm methods: "multi-head attention", "self-attention mechanism", "positional encoding"
-    - Performance concepts: "computational efficiency", "training convergence", "inference speed"
-    - Domain terminology: "sequence modeling", "neural machine translation", "language modeling"
-    - Technical processes: "gradient descent", "backpropagation algorithm", "attention computation"
+    ✅ GOOD concepts (2-6 words each):
+    - Domain-specific terminology: "quantum mechanics", "criminal liability", "cellular respiration", "market volatility"
+    - Key processes: "photosynthesis process", "democratic governance", "supply chain management", "clinical diagnosis"
+    - Important entities: "Supreme Court", "mitochondrial DNA", "financial derivatives", "Renaissance art"
+    - Methods and approaches: "systematic review", "case study analysis", "experimental design", "policy implementation"
+    - Core principles: "due process", "conservation of energy", "market equilibrium", "narrative structure"
     
     ❌ AVOID these (low-quality concepts):
-    - Single words: "model", "training", "attention", "network", "performance"
-    - Common adjectives: "better", "good", "new", "different", "various"
-    - Generic terms: "method", "approach", "technique", "system", "framework"
-    - Non-technical words: "paper", "work", "study", "research", "results"
+    - Single generic words: "method", "system", "process", "study", "analysis"
+    - Common adjectives: "good", "bad", "new", "old", "important", "significant"
+    - Vague terms: "things", "aspects", "factors", "elements", "issues"
+    - Document meta-references: "paper", "article", "research", "study", "work"
+    - Too general terms: "information", "data", "knowledge", "content"
     
     SPECIFIC REQUIREMENTS:
     1. Extract exactly {num_concepts} concepts
     2. Each concept must be 2-6 words long
-    3. Focus on technical terminology that would appear in CS/AI papers
-    4. Concepts should be specific enough to be useful for technical discussion
-    5. Prefer compound technical terms over single words
+    3. Focus on domain-specific terminology and key ideas from the text
+    4. Concepts should be specific enough to be meaningful within the document's context
+    5. Prefer compound terms that capture precise meaning over single words
     
     Return the concepts in JSON format:
-    {{"concepts": ["technical concept 1", "technical concept 2", "technical concept 3"]}}
+    {{"concepts": ["concept 1", "concept 2", "concept 3"]}}
+
+  concept_mapping: |
+    You are an expert educator specializing in creating detailed concept maps from academic texts. Given the following excerpt from a longer document, extract the main ideas, detailed concepts, and supporting details that are critical to understanding the material.
+    
+    Focus on identifying:
+    - Key concepts or terms introduced in the text
+    - Definitions or explanations of these concepts
+    - Relationships between concepts
+    - Any examples or applications mentioned
+    
+    Context:
+    {context}
+    
+    CONCEPT MAP EXTRACTION GUIDELINES:
+    
+    ✅ IDENTIFY AND STRUCTURE:
+    1. **Main Topics**: Overarching themes or subject areas
+    2. **Key Concepts**: Important terms, principles, or ideas
+    3. **Definitions**: Clear explanations of concepts
+    4. **Relationships**: How concepts connect to each other
+    5. **Examples**: Specific instances or applications
+    6. **Supporting Details**: Evidence, data, or elaborations
+    
+    ✅ ORGANIZATION PRINCIPLES:
+    - Group related concepts under common topics
+    - Show hierarchical relationships (general → specific)
+    - Indicate cause-and-effect connections
+    - Highlight compare/contrast relationships
+    - Note process sequences or temporal relationships
+    
+    ✅ FORMATTING REQUIREMENTS:
+    - Use clear, bullet-point summaries
+    - Organize by topic/theme
+    - Include concept relationships explicitly
+    - Provide concise but complete information
+    
+    Return the structured concept map in JSON format:
+    {{
+      "main_topics": [
+        {{
+          "topic": "Topic Name",
+          "key_concepts": [
+            {{
+              "concept": "Concept Name",
+              "definition": "Clear definition or explanation",
+              "relationships": ["connects to concept X", "causes concept Y"],
+              "examples": ["example 1", "example 2"],
+              "supporting_details": ["detail 1", "detail 2"]
+            }}
+          ]
+        }}
+      ],
+      "cross_topic_relationships": [
+        {{
+          "concept_1": "Concept from Topic A",
+          "concept_2": "Concept from Topic B", 
+          "relationship_type": "causes/enables/supports/contrasts_with",
+          "description": "Brief explanation of the relationship"
+        }}
+      ]
+    }}
 
   concept_merging: |
-    You are an expert in consolidating related technical concepts from computer science research.
+    You are an expert in consolidating related concepts from academic and professional documents.
     
-    Task: Merge the following similar technical concepts into a single, more comprehensive concept phrase.
+    Task: Merge the following similar concepts into a single, more comprehensive concept phrase.
     
     Related concepts to merge:
     {concepts}
     
     MERGING GUIDELINES:
     - Create a unified concept that captures the essence of all input concepts
-    - Use proper technical terminology (2-6 words)
+    - Use appropriate domain terminology (2-6 words)
     - The merged concept should be specific enough to be meaningful
-    - Prefer established technical terms when possible
+    - Prefer established terms from the relevant field when possible
     
     Examples:
-    - ["attention mechanism", "self attention", "multi head attention"] → "multi-head attention mechanism"
-    - ["encoder layers", "decoder structure", "transformer blocks"] → "transformer architecture"
-    - ["training efficiency", "computational cost", "optimization speed"] → "training efficiency optimization"
+    - ["heart disease", "cardiac conditions", "cardiovascular problems"] → "cardiovascular disease"
+    - ["legal precedent", "case law", "judicial decisions"] → "legal precedent"
+    - ["market analysis", "economic evaluation", "financial assessment"] → "market analysis"
+    - ["historical context", "historical background", "historical setting"] → "historical context"
     
-    Return only the merged technical concept phrase (no explanation needed):
+    Return only the merged concept phrase (no explanation needed):
 
   evidence_extraction: |
-    You are a technical research analyst specializing in extracting supporting evidence from academic papers.
+    You are a research analyst specializing in extracting supporting evidence from academic and professional documents.
     
-    Task: Extract evidence text that directly supports the given technical concept from the provided source text.
+    Task: Extract evidence text that directly supports the given concept from the provided source text.
     
     Target concept: {concept}
     
@@ -136,35 +203,37 @@ prompts:
     
     EVIDENCE EXTRACTION REQUIREMENTS:
     1. Find 1-3 sentences that directly relate to or explain the concept
-    2. Evidence must be technically accurate and specific
-    3. Preserve original technical terminology and precise wording
-    4. Select complete sentences that provide clear technical details
-    5. Evidence should help someone understand what the concept means or how it works
+    2. Evidence must be accurate and specific to the concept
+    3. Preserve original terminology and precise wording
+    4. Select complete sentences that provide clear explanations or details
+    5. Evidence should help someone understand what the concept means or how it applies
     
     QUALITY CRITERIA:
     ✅ Good evidence contains:
-    - Technical explanations or definitions
-    - Performance metrics or comparisons
-    - Implementation details
-    - Mathematical formulations
-    - Experimental results related to the concept
+    - Clear definitions or explanations
+    - Specific examples or case studies
+    - Statistical data or measurements
+    - Cause-and-effect relationships
+    - Comparative information
+    - Implementation details or procedures
     
     ❌ Avoid evidence that is:
     - Too general or vague
     - Incomplete sentences
-    - References to other papers without context
-    - Non-technical background information
+    - References without context
+    - Unrelated background information
+    - Purely speculative statements
     
     Return the evidence in JSON format:
     {{"evidence": ["evidence sentence 1", "evidence sentence 2"]}}
 
   qa_generation_system: |
-    You are an expert educator specializing in creating high-quality questions about technical concepts in computer science and artificial intelligence.
+    You are an expert educator specializing in creating high-quality questions across various academic and professional domains.
     
-    Your questions should help students understand and apply technical knowledge at different cognitive levels following Bloom's Taxonomy.
+    Your questions should help learners understand and apply knowledge at different cognitive levels following Bloom's Taxonomy, regardless of the subject matter.
 
   qa_generation_user: |
-    Based on the following technical evidence text, generate {questions_per_type} high-quality questions for each cognitive level.
+    Based on the following evidence text, generate {questions_per_type} high-quality questions for each cognitive level.
     
     Evidence text:
     {evidence_text}
@@ -172,34 +241,39 @@ prompts:
     Generate questions following these specifications:
     
     REMEMBER level (factual recall):
-    - What specific technical terms or components are mentioned?
-    - What are the key definitions or facts presented?
+    - What specific terms, names, dates, or facts are mentioned?
+    - What are the key definitions or factual information presented?
     
     UNDERSTAND level (comprehension):
-    - How do the technical concepts work or function?
-    - What are the relationships between different components?
+    - How do the concepts work or function?
+    - What are the relationships between different elements?
+    - What is the meaning or significance of the information?
     
     APPLY level (application):
-    - How would you implement or use this technical approach?
-    - In what scenarios would this method be most effective?
+    - How would you use this knowledge in a practical situation?
+    - In what scenarios would this information be most relevant?
+    - How could this be implemented or applied?
     
     ANALYZE level (analysis):
-    - What are the advantages and disadvantages of this approach?
-    - How does this compare to alternative methods?
+    - What are the components, causes, or consequences discussed?
+    - How do different elements compare or contrast?
+    - What patterns or relationships can be identified?
     
     EVALUATE level (evaluation):
-    - What criteria would you use to assess the effectiveness of this approach?
-    - What are the limitations or potential improvements?
+    - What criteria would you use to assess or judge this information?
+    - What are the strengths, weaknesses, or limitations?
+    - How valid or reliable is this information?
     
     CREATE level (synthesis):
-    - How could you modify or extend this approach for a different problem?
-    - What new applications or variations could you design?
+    - How could you combine this with other knowledge to create something new?
+    - What alternative approaches or solutions could you propose?
+    - How might you adapt or modify this for different contexts?
     
     ANSWER REQUIREMENTS:
-    - Answers should be technically accurate and detailed
+    - Answers should be accurate and detailed based on the evidence
     - Include specific examples when possible
     - Reference the evidence text appropriately
-    - Use proper technical terminology
+    - Use appropriate domain terminology
     
     Return the questions and answers in JSON format:
     {{
@@ -227,9 +301,21 @@ prompts:
 
 # 高级设置（可选）
 advanced:
-  # 并发设置
-  max_concurrent_requests: 5
-  request_timeout: 30
+  # 🔧 网络连接优化配置（更保守的设置）
+  max_concurrent_requests: 1       # 改为1，避免并发冲突
+  request_timeout: 120             # 增加到120秒
+  max_retries: 8                   # 增加重试次数
+  retry_delay: 5                   # 增加重试间隔
+  backoff_factor: 3                # 增加退避因子
+  
+  # 🛡️ SSL和连接配置
+  verify_ssl: false                # 如果SSL有问题，可暂时禁用验证
+  connection_pool_size: 5          # 减小连接池
+  connection_pool_maxsize: 10      # 减小最大连接数
+  
+  # 📡 API配置优化
+  chunk_size: 5                    # 减小批次大小
+  embedding_batch_delay: 3         # 增加批次间延迟
   
   # 缓存设置
   enable_cache: true

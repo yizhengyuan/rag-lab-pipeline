@@ -515,8 +515,8 @@ class SemanticChunker:
             # 提取概念并存储到 metadata 中
             concepts = self._extract_chunk_concepts(node.text)
             
-            # 🔑 修正：直接存储为list类型
-            node.metadata["concepts"] = concepts if concepts else []
+            # 🔑 修复Chroma兼容性：将concepts列表转换为JSON字符串存储
+            node.metadata["concepts"] = json.dumps(concepts) if concepts else "[]"
             node.metadata["chunk_id"] = f"chunk_{i}"
             node.metadata["chunk_length"] = len(node.text)
             node.metadata["concept_count"] = len(concepts)
@@ -616,82 +616,413 @@ class SemanticChunker:
     
     def _extract_chunk_concepts(self, chunk_text: str) -> List[str]:
         """
-        使用 LlamaIndex 的 LLM 接口提取概念
+        🚀 增强版概念提取 - 使用高质量提示词和多层质量控制
         
         Args:
             chunk_text: chunk 文本
             
         Returns:
-            List[str]: 概念列表
+            List[str]: 高质量概念列表
         """
         if not chunk_text or len(chunk_text.strip()) < 10:
             logger.debug("文本太短，跳过概念提取")
             return []
         
-        # 🔍 新增：检查LLM是否可用
+        # 🔧 修复配置路径
+        num_concepts = self.config.get("concept_extraction.concepts_per_chunk", 5)
+        
+        # 📊 首先分析文本领域，以便使用合适的提取策略
+        domain_hint = self._detect_text_domain(chunk_text)
+        
+        # 🔍 检查LLM是否可用
         if Settings.llm is None:
-            logger.warning("LLM未初始化，使用简单关键词提取")
-            return self._simple_keyword_extraction(chunk_text)
-        
-        num_concepts = self.config.get("concepts.concepts_per_chunk", 5)
-        
-        # 🔧 修复：使用config中的英文提示词模板
-        prompt_template = self.config.get("prompts.concept_extraction", """
-        Extract {num_concepts} core concepts from the following text. Each concept should be a concise English phrase or keyword list.
-        
-        Text:
-        {text}
-        
-        Please return the concept list in JSON format using English concepts only:
-        {{"concepts": ["concept1", "concept2", "concept3"]}}
-        """)
-        
-        prompt = prompt_template.format(
-            num_concepts=num_concepts,
-            text=chunk_text
-        )
+            logger.warning("LLM未初始化，使用增强关键词提取")
+            return self._enhanced_keyword_extraction(chunk_text, num_concepts, domain_hint)
         
         try:
-            logger.debug(f"🤖 正在调用LLM提取概念...")
+            # 🎯 使用配置文件中的高质量提示词模板
+            prompt_template = self.config.get("prompts.concept_extraction", self._get_default_concept_prompt())
+            
+            # 🔧 增强提示词，添加领域上下文
+            enhanced_prompt = self._enhance_prompt_with_domain(prompt_template, domain_hint)
+            
+            prompt = enhanced_prompt.format(
+                num_concepts=num_concepts,
+                text=chunk_text[:3000]  # 限制长度避免token超限
+            )
+            
+            logger.debug(f"🤖 使用{domain_hint}领域提示词调用LLM...")
             response = Settings.llm.complete(prompt)
-            logger.debug(f"🤖 LLM响应: {response.text[:100]}...")
+            logger.debug(f"🤖 LLM响应: {response.text[:150]}...")
             
-            result = json.loads(response.text.strip())
-            concepts = result.get("concepts", [])
+            # 🧹 解析和清理结果
+            concepts = self._parse_and_validate_concepts(response.text, num_concepts)
             
-            # 验证和清理概念
-            cleaned_concepts = []
-            
-            for concept in concepts:
-                if isinstance(concept, str) and len(concept.strip()) > 0:
-                    cleaned_concept = concept.strip()
-                    cleaned_concepts.append(cleaned_concept)
-            
-            logger.debug(f"📊 概念提取结果: {len(cleaned_concepts)}个概念")
-            
-            return cleaned_concepts[:num_concepts]  # 限制数量
+            if concepts and len(concepts) >= num_concepts // 2:  # 至少得到一半的概念
+                logger.debug(f"✅ LLM概念提取成功: {len(concepts)}个高质量概念")
+                return concepts
+            else:
+                logger.warning(f"⚠️ LLM概念质量不足，使用增强关键词提取作为备选")
+                return self._enhanced_keyword_extraction(chunk_text, num_concepts, domain_hint)
             
         except json.JSONDecodeError as e:
-            logger.warning(f"JSON解析失败: {e}, 响应内容: {response.text[:200]}")
-            return self._simple_keyword_extraction(chunk_text)
+            logger.warning(f"JSON解析失败: {e}, 使用增强关键词提取")
+            return self._enhanced_keyword_extraction(chunk_text, num_concepts, domain_hint)
         except Exception as e:
-            logger.warning(f"概念提取失败: {e}")
-            return self._simple_keyword_extraction(chunk_text)
-    
-    def _simple_keyword_extraction(self, text: str) -> List[str]:
+            logger.warning(f"概念提取失败: {e}, 使用增强关键词提取")
+            return self._enhanced_keyword_extraction(chunk_text, num_concepts, domain_hint)
+
+    def _detect_text_domain(self, text: str) -> str:
         """
-        简单的关键词提取作为回退方案
+        🔍 检测文本所属的学术/专业领域
         
         Args:
             text: 输入文本
             
         Returns:
-            List[str]: 关键词列表
+            str: 检测到的领域标识
+        """
+        text_lower = text.lower()
+        
+        # 定义领域关键词
+        domain_keywords = {
+            "computer_science": ["algorithm", "neural network", "machine learning", "artificial intelligence", 
+                               "transformer", "attention", "deep learning", "model", "training", "computer", "software"],
+            "medicine": ["patient", "clinical", "medical", "diagnosis", "treatment", "therapy", "disease", 
+                        "symptom", "health", "medicine", "hospital", "doctor"],
+            "physics": ["quantum", "energy", "particle", "wave", "mechanics", "electromagnetic", "relativity", 
+                       "physics", "force", "momentum", "mass"],
+            "biology": ["cell", "gene", "protein", "organism", "evolution", "dna", "rna", "species", 
+                       "biology", "molecular", "cellular"],
+            "economics": ["market", "economy", "price", "economic", "financial", "trade", "investment", 
+                         "business", "profit", "cost"],
+            "law": ["legal", "court", "law", "rights", "constitution", "justice", "judge", "case", 
+                   "legislation", "attorney"],
+            "psychology": ["behavior", "cognitive", "mental", "psychological", "brain", "mind", 
+                          "emotion", "learning", "memory"],
+            "chemistry": ["chemical", "molecule", "reaction", "compound", "element", "bond", "chemistry", 
+                         "atomic", "synthesis"],
+            "mathematics": ["equation", "function", "proof", "theorem", "mathematical", "algebra", 
+                           "calculus", "geometry", "statistics"]
+        }
+        
+        # 计算每个领域的匹配分数
+        domain_scores = {}
+        for domain, keywords in domain_keywords.items():
+            score = sum(1 for keyword in keywords if keyword in text_lower)
+            if score > 0:
+                domain_scores[domain] = score
+        
+        if domain_scores:
+            # 返回匹配度最高的领域
+            best_domain = max(domain_scores, key=domain_scores.get)
+            logger.debug(f"🎯 检测到文本领域: {best_domain} (匹配度: {domain_scores[best_domain]})")
+            return best_domain
+        else:
+            return "general"
+
+    def _enhance_prompt_with_domain(self, base_prompt: str, domain: str) -> str:
+        """
+        🎯 根据检测到的领域增强提示词
+        
+        Args:
+            base_prompt: 基础提示词
+            domain: 检测到的领域
+            
+        Returns:
+            str: 增强后的提示词
+        """
+        domain_examples = {
+            "computer_science": """
+            For computer science/AI content, prioritize concepts like:
+            - "attention mechanism", "transformer architecture", "neural networks"
+            - "machine learning algorithms", "deep learning models", "artificial intelligence"
+            - "computational complexity", "algorithm optimization", "model training"
+            """,
+            "medicine": """
+            For medical content, prioritize concepts like:
+            - "clinical diagnosis", "therapeutic intervention", "patient outcomes"
+            - "medical procedures", "disease pathology", "treatment protocols"
+            - "healthcare systems", "clinical trials", "medical research"
+            """,
+            "physics": """
+            For physics content, prioritize concepts like:
+            - "quantum mechanics", "electromagnetic fields", "particle physics"
+            - "conservation laws", "wave functions", "energy systems"
+            - "relativity theory", "fundamental forces", "physical phenomena"
+            """,
+            "general": """
+            Focus on identifying the most important domain-specific terminology and key concepts.
+            """
+        }
+        
+        domain_guidance = domain_examples.get(domain, domain_examples["general"])
+        
+        return base_prompt + "\n\nDOMAIN-SPECIFIC GUIDANCE:" + domain_guidance
+
+    def _parse_and_validate_concepts(self, llm_response: str, target_count: int) -> List[str]:
+        """
+        🧹 解析LLM响应并验证概念质量
+        
+        Args:
+            llm_response: LLM的原始响应
+            target_count: 目标概念数量
+            
+        Returns:
+            List[str]: 验证后的高质量概念列表
+        """
+        try:
+            # 尝试解析JSON
+            result = json.loads(llm_response.strip())
+            raw_concepts = result.get("concepts", [])
+            
+            if not isinstance(raw_concepts, list):
+                logger.warning("概念不是列表格式")
+                return []
+            
+            # 🔍 概念质量验证和清理
+            validated_concepts = []
+            
+            for concept in raw_concepts:
+                if not isinstance(concept, str):
+                    continue
+                    
+                cleaned_concept = concept.strip()
+                
+                # 质量检查
+                if self._is_high_quality_concept(cleaned_concept):
+                    validated_concepts.append(cleaned_concept)
+                else:
+                    logger.debug(f"过滤低质量概念: {cleaned_concept}")
+            
+            # 去重（保持顺序）
+            seen = set()
+            unique_concepts = []
+            for concept in validated_concepts:
+                concept_lower = concept.lower()
+                if concept_lower not in seen:
+                    seen.add(concept_lower)
+                    unique_concepts.append(concept)
+            
+            logger.debug(f"📊 概念验证结果: {len(raw_concepts)} → {len(unique_concepts)} 个高质量概念")
+            
+            return unique_concepts[:target_count]
+            
+        except json.JSONDecodeError:
+            logger.warning("LLM响应不是有效JSON格式")
+            return []
+
+    def _is_high_quality_concept(self, concept: str) -> bool:
+        """
+        🎯 判断概念是否为高质量
+        
+        Args:
+            concept: 待验证的概念
+            
+        Returns:
+            bool: 是否为高质量概念
+        """
+        if not concept or len(concept.strip()) < 2:
+            return False
+        
+        concept = concept.strip().lower()
+        
+        # 长度检查：2-6个词
+        word_count = len(concept.split())
+        if word_count < 1 or word_count > 6:
+            return False
+        
+        # 过滤低质量模式
+        low_quality_patterns = [
+            # 单个通用词
+            r'^(method|system|process|study|analysis|research|data|information|knowledge|content)$',
+            # 通用形容词
+            r'^(good|bad|new|old|important|significant|main|key|major|minor)$', 
+            # 模糊术语
+            r'^(thing|aspect|factor|element|issue|item|part|component)s?$',
+            # 文档元引用
+            r'^(paper|article|document|text|work|study|research|publication)$',
+            # 过于简单的组合
+            r'^(the |a |an )',
+            # 数字或标点开头
+            r'^[\d\W]',
+        ]
+        
+        import re
+        for pattern in low_quality_patterns:
+            if re.search(pattern, concept):
+                return False
+        
+        # 检查是否包含有意义的内容（非纯停用词）
+        stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by'}
+        concept_words = set(concept.split())
+        meaningful_words = concept_words - stop_words
+        
+        if len(meaningful_words) == 0:
+            return False
+        
+        return True
+
+    def _enhanced_keyword_extraction(self, text: str, num_concepts: int, domain: str) -> List[str]:
+        """
+        🚀 增强版关键词提取（用作LLM失败时的高质量备选方案）
+        
+        Args:
+            text: 输入文本
+            num_concepts: 目标概念数量
+            domain: 文本领域
+            
+        Returns:
+            List[str]: 高质量关键词列表
         """
         if not text:
             return []
         
-        # 简单的词频统计
+        # 🔧 基于领域的关键词提取策略
+        if domain != "general":
+            domain_concepts = self._extract_domain_specific_terms(text, domain)
+            if len(domain_concepts) >= num_concepts // 2:
+                logger.debug(f"✅ 领域特定术语提取成功: {len(domain_concepts)}个概念")
+                return domain_concepts[:num_concepts]
+        
+        # 🔍 通用高质量关键词提取
+        concepts = []
+        
+        # 1. 提取命名实体和专有名词
+        named_entities = self._extract_named_entities(text)
+        concepts.extend(named_entities)
+        
+        # 2. 提取复合术语
+        compound_terms = self._extract_compound_terms(text)
+        concepts.extend(compound_terms)
+        
+        # 3. 基于TF-IDF的关键词（如果前面的不够）
+        if len(concepts) < num_concepts:
+            tfidf_keywords = self._extract_tfidf_keywords(text, num_concepts - len(concepts))
+            concepts.extend(tfidf_keywords)
+        
+        # 🧹 清理和验证
+        validated_concepts = []
+        for concept in concepts:
+            if self._is_high_quality_concept(concept):
+                validated_concepts.append(concept)
+        
+        # 去重
+        seen = set()
+        unique_concepts = []
+        for concept in validated_concepts:
+            concept_lower = concept.lower()
+            if concept_lower not in seen:
+                seen.add(concept_lower)
+                unique_concepts.append(concept)
+        
+        logger.debug(f"📊 增强关键词提取: {len(unique_concepts)}个高质量概念")
+        return unique_concepts[:num_concepts]
+
+    def _extract_domain_specific_terms(self, text: str, domain: str) -> List[str]:
+        """
+        🎯 提取领域特定术语
+        
+        Args:
+            text: 输入文本
+            domain: 领域标识
+            
+        Returns:
+            List[str]: 领域特定术语列表
+        """
+        domain_patterns = {
+            "computer_science": [
+                r'\b(?:deep|machine|artificial)\s+(?:learning|intelligence|network)\b',
+                r'\b(?:neural|transformer|attention)\s+(?:network|mechanism|model)\b',
+                r'\b(?:algorithm|model|training|optimization)\b',
+                r'\b(?:convolutional|recurrent|generative)\s+\w+\b'
+            ],
+            "medicine": [
+                r'\b(?:clinical|medical|therapeutic)\s+(?:trial|diagnosis|intervention)\b',
+                r'\b(?:patient|disease|treatment|therapy)\s+\w+\b',
+                r'\b(?:cardiovascular|neurological|oncological)\s+\w+\b'
+            ],
+            "physics": [
+                r'\b(?:quantum|electromagnetic|gravitational)\s+(?:field|force|effect)\b',
+                r'\b(?:particle|wave|energy)\s+(?:physics|mechanics|dynamics)\b',
+                r'\b(?:conservation|uncertainty|relativity)\s+\w+\b'
+            ]
+        }
+        
+        patterns = domain_patterns.get(domain, [])
+        concepts = []
+        
+        import re
+        for pattern in patterns:
+            matches = re.findall(pattern, text, re.IGNORECASE)
+            concepts.extend([match.strip() for match in matches])
+        
+        return concepts[:10]  # 限制数量
+
+    def _extract_named_entities(self, text: str) -> List[str]:
+        """
+        🏷️ 提取命名实体和专有名词
+        
+        Args:
+            text: 输入文本
+            
+        Returns:
+            List[str]: 命名实体列表
+        """
+        import re
+        
+        # 简单的命名实体模式
+        patterns = [
+            r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+(?:Algorithm|Model|Network|Method|Approach)\b',
+            r'\b(?:the\s+)?[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+(?:Theorem|Principle|Law|Effect)\b',
+            r'\b[A-Z][A-Z0-9]+(?:-[A-Z0-9]+)*\b',  # 缩写词
+            r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,2}\b'  # 专有名词
+        ]
+        
+        entities = []
+        for pattern in patterns:
+            matches = re.findall(pattern, text)
+            entities.extend([match.strip() for match in matches])
+        
+        return entities[:5]
+
+    def _extract_compound_terms(self, text: str) -> List[str]:
+        """
+        🔗 提取复合术语
+        
+        Args:
+            text: 输入文本
+            
+        Returns:
+            List[str]: 复合术语列表
+        """
+        import re
+        
+        # 寻找形容词+名词、名词+名词的组合
+        patterns = [
+            r'\b(?:deep|machine|artificial|neural|quantum|clinical|medical)\s+\w+\b',
+            r'\b\w+(?:ing|ed|er|al|ic|ous|ive)\s+\w+\b',  # 形容词+名词
+            r'\b\w+\s+(?:analysis|method|approach|technique|system|model|theory)\b'
+        ]
+        
+        compounds = []
+        for pattern in patterns:
+            matches = re.findall(pattern, text, re.IGNORECASE)
+            compounds.extend([match.strip() for match in matches])
+        
+        return compounds[:8]
+
+    def _extract_tfidf_keywords(self, text: str, num_keywords: int) -> List[str]:
+        """
+        📊 基于TF-IDF的关键词提取
+        
+        Args:
+            text: 输入文本
+            num_keywords: 关键词数量
+            
+        Returns:
+            List[str]: TF-IDF关键词列表
+        """
         words = text.lower().split()
         
         # 过滤停用词和短词
@@ -699,20 +1030,51 @@ class SemanticChunker:
             'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 
             'of', 'with', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'have', 
             'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 
-            'may', 'might', 'can', 'this', 'that', 'these', 'those'
+            'may', 'might', 'can', 'this', 'that', 'these', 'those', 'they', 'their',
+            'there', 'where', 'when', 'why', 'how', 'what', 'which', 'who', 'whom'
         }
         
         filtered_words = [
-            word for word in words 
-            if len(word) > 2 and word not in stop_words and word.isalpha()
+            word.strip('.,!?;:"()[]{}') for word in words 
+            if len(word) > 3 and word.lower() not in stop_words and word.isalpha()
         ]
         
-        # 去重并限制数量
-        unique_words = list(set(filtered_words))
-        max_keywords = self.config.get("concepts.concepts_per_chunk", 5)
+        # 计算词频
+        from collections import Counter
+        word_freq = Counter(filtered_words)
         
-        return unique_words[:max_keywords]
-    
+        # 选择高频且有意义的词
+        candidates = []
+        for word, freq in word_freq.most_common(num_keywords * 2):
+            if freq > 1 and len(word) > 3:  # 至少出现2次
+                candidates.append(word)
+        
+        return candidates[:num_keywords]
+
+    def _get_default_concept_prompt(self) -> str:
+        """
+        📝 获取默认的概念提取提示词
+        
+        Returns:
+            str: 默认提示词模板
+        """
+        return """
+        You are an expert in extracting key concepts from academic and professional texts.
+        
+        Extract {num_concepts} important concepts from the following text that capture the main ideas and themes.
+        
+        Text:
+        {text}
+        
+        REQUIREMENTS:
+        - Each concept should be 2-6 words
+        - Focus on domain-specific terminology and key ideas
+        - Avoid generic words like "method", "system", "process"
+        - Prefer compound terms that capture precise meaning
+        
+        Return as JSON: {{"concepts": ["concept1", "concept2", ...]}}
+        """
+
     def get_chunk_index(self) -> VectorStoreIndex:
         """获取 chunk 索引"""
         return self.chunk_index
@@ -808,11 +1170,18 @@ class SemanticChunker:
         Returns:
             List[str]: 概念列表
         """
-        concepts_str = node.metadata.get("concepts", "")
-        if concepts_str:
+        concepts_data = node.metadata.get("concepts", "[]")
+        
+        # 如果已经是列表（向后兼容）
+        if isinstance(concepts_data, list):
+            return concepts_data
+        
+        # 如果是字符串，尝试解析JSON
+        if isinstance(concepts_data, str):
             try:
-                return json.loads(concepts_str)
+                return json.loads(concepts_data)
             except json.JSONDecodeError:
-                logger.warning("无法解析概念字符串，返回空列表")
+                logger.warning(f"无法解析概念字符串: {concepts_data[:50]}...")
                 return []
+        
         return [] 

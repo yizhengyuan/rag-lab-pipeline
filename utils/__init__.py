@@ -6,6 +6,7 @@ from .prompts import PromptTemplates
 from .validators import ConceptValidator
 from .helpers import FileHelper, TextProcessor
 from .config_loader import ConfigLoader, load_config
+from .experiment_manager import ExperimentManager, create_experiment_manager, load_latest_experiment
 
 __all__ = [
     'PromptTemplates',
@@ -13,5 +14,8 @@ __all__ = [
     'FileHelper',
     'TextProcessor',
     'ConfigLoader',
-    'load_config'
-] 
+    'load_config',
+    'ExperimentManager',
+    'create_experiment_manager',
+    'load_latest_experiment'
+]

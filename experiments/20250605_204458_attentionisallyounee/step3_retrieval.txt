@@ -1,0 +1,617 @@
+================================================================================
+步骤3: 概念检索与相似性计算
+================================================================================
+实验ID: 20250605_204458_attentionisallyounee
+生成时间: 2025-06-06 12:31:17
+处理状态: ✅ 成功
+处理时间: 0.17 秒
+================================================================================
+
+✅ 步骤执行成功
+
+📊 统计信息:
+- total_concepts: 42
+- unique_concepts: 36
+- avg_frequency: 1.1666666666666667
+- avg_quality_score: 4.105555555555556
+- high_quality_count: 33
+- medium_quality_count: 3
+- low_quality_count: 0
+- concepts_per_chunk: 2.0
+
+
+================================================================================
+# 机器可读数据 (请勿手动修改)
+# JSON_DATA_START
+{
+  "success": true,
+  "step": 3,
+  "step_name": "retrieval",
+  "chunk_count": 21,
+  "concept_analysis": {
+    "all_concepts": [
+      "attention\nmechanism",
+      "Recurrent neural",
+      "recurrent language",
+      "attention mechanism",
+      "attention mechanism",
+      "attention mechanism",
+      "attention mechanism",
+      "Listed\nperplexities",
+      "according to",
+      "compared to",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Deep learning",
+      "learning with",
+      "recurrent neural",
+      "Recurrent neural",
+      "recurrent neural",
+      "NIPS",
+      "ICLR",
+      "Samy Bengio",
+      "In Advances",
+      "ICLR",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Learning Representations",
+      "Machine\nLearning",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "ACL",
+      "In\nAdvances",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "making\nthe",
+      "following long"
+    ],
+    "unique_concepts": [
+      "attention\nmechanism",
+      "Recurrent neural",
+      "recurrent language",
+      "attention mechanism",
+      "Listed\nperplexities",
+      "according to",
+      "compared to",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Deep learning",
+      "learning with",
+      "recurrent neural",
+      "NIPS",
+      "ICLR",
+      "Samy Bengio",
+      "In Advances",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Learning Representations",
+      "Machine\nLearning",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "ACL",
+      "In\nAdvances",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "making\nthe",
+      "following long"
+    ],
+    "concept_frequency": {
+      "attention\nmechanism": 1,
+      "Recurrent neural": 2,
+      "recurrent language": 1,
+      "attention mechanism": 4,
+      "Listed\nperplexities": 1,
+      "according to": 1,
+      "compared to": 1,
+      "Jianpeng Cheng": 1,
+      "Li Dong": 1,
+      "Mirella Lapata": 1,
+      "Kyunghyun Cho": 1,
+      "Caglar Gulcehre": 1,
+      "Francois Chollet": 1,
+      "Deep learning": 1,
+      "learning with": 1,
+      "recurrent neural": 2,
+      "NIPS": 1,
+      "ICLR": 2,
+      "Samy Bengio": 1,
+      "In Advances": 1,
+      "Yoon Kim": 1,
+      "Carl Denton": 1,
+      "Luong Hoang": 1,
+      "Learning Representations": 1,
+      "Machine\nLearning": 1,
+      "Sainbayar Sukhbaatar": 1,
+      "Arthur Szlam": 1,
+      "Jason Weston": 1,
+      "Rob Fergus": 1,
+      "ACL": 1,
+      "In\nAdvances": 1,
+      "Yonghui Wu": 1,
+      "Mike Schuster": 1,
+      "The\nLaw": 1,
+      "making\nthe": 1,
+      "following long": 1
+    },
+    "quality_scores": {
+      "attention\nmechanism": 4.3,
+      "Recurrent neural": 4.7,
+      "recurrent language": 4.0,
+      "attention mechanism": 4.8,
+      "Listed\nperplexities": 4.2,
+      "according to": 4.0,
+      "compared to": 4.0,
+      "Jianpeng Cheng": 4.2,
+      "Li Dong": 4.2,
+      "Mirella Lapata": 4.2,
+      "Kyunghyun Cho": 4.2,
+      "Caglar Gulcehre": 4.2,
+      "Francois Chollet": 4.2,
+      "Deep learning": 4.5,
+      "learning with": 4.3,
+      "recurrent neural": 4.5,
+      "NIPS": 2.5,
+      "ICLR": 2.7,
+      "Samy Bengio": 4.2,
+      "In Advances": 4.2,
+      "Yoon Kim": 4.2,
+      "Carl Denton": 4.2,
+      "Luong Hoang": 4.2,
+      "Learning Representations": 4.5,
+      "Machine\nLearning": 4.5,
+      "Sainbayar Sukhbaatar": 4.2,
+      "Arthur Szlam": 4.2,
+      "Jason Weston": 4.2,
+      "Rob Fergus": 4.2,
+      "ACL": 2.5,
+      "In\nAdvances": 4.2,
+      "Yonghui Wu": 4.2,
+      "Mike Schuster": 4.2,
+      "The\nLaw": 4.2,
+      "making\nthe": 4.0,
+      "following long": 4.0
+    },
+    "sorted_by_quality": [
+      "attention mechanism",
+      "Recurrent neural",
+      "Deep learning",
+      "recurrent neural",
+      "Learning Representations",
+      "Machine\nLearning",
+      "attention\nmechanism",
+      "learning with",
+      "Listed\nperplexities",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Samy Bengio",
+      "In Advances",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "In\nAdvances",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "recurrent language",
+      "according to",
+      "compared to",
+      "making\nthe",
+      "following long",
+      "ICLR",
+      "NIPS",
+      "ACL"
+    ],
+    "sorted_by_frequency": [
+      [
+        "attention mechanism",
+        4
+      ],
+      [
+        "Recurrent neural",
+        2
+      ],
+      [
+        "recurrent neural",
+        2
+      ],
+      [
+        "ICLR",
+        2
+      ],
+      [
+        "attention\nmechanism",
+        1
+      ],
+      [
+        "recurrent language",
+        1
+      ],
+      [
+        "Listed\nperplexities",
+        1
+      ],
+      [
+        "according to",
+        1
+      ],
+      [
+        "compared to",
+        1
+      ],
+      [
+        "Jianpeng Cheng",
+        1
+      ],
+      [
+        "Li Dong",
+        1
+      ],
+      [
+        "Mirella Lapata",
+        1
+      ],
+      [
+        "Kyunghyun Cho",
+        1
+      ],
+      [
+        "Caglar Gulcehre",
+        1
+      ],
+      [
+        "Francois Chollet",
+        1
+      ],
+      [
+        "Deep learning",
+        1
+      ],
+      [
+        "learning with",
+        1
+      ],
+      [
+        "NIPS",
+        1
+      ],
+      [
+        "Samy Bengio",
+        1
+      ],
+      [
+        "In Advances",
+        1
+      ],
+      [
+        "Yoon Kim",
+        1
+      ],
+      [
+        "Carl Denton",
+        1
+      ],
+      [
+        "Luong Hoang",
+        1
+      ],
+      [
+        "Learning Representations",
+        1
+      ],
+      [
+        "Machine\nLearning",
+        1
+      ],
+      [
+        "Sainbayar Sukhbaatar",
+        1
+      ],
+      [
+        "Arthur Szlam",
+        1
+      ],
+      [
+        "Jason Weston",
+        1
+      ],
+      [
+        "Rob Fergus",
+        1
+      ],
+      [
+        "ACL",
+        1
+      ],
+      [
+        "In\nAdvances",
+        1
+      ],
+      [
+        "Yonghui Wu",
+        1
+      ],
+      [
+        "Mike Schuster",
+        1
+      ],
+      [
+        "The\nLaw",
+        1
+      ],
+      [
+        "making\nthe",
+        1
+      ],
+      [
+        "following long",
+        1
+      ]
+    ],
+    "high_quality_concepts": [
+      "attention\nmechanism",
+      "Recurrent neural",
+      "recurrent language",
+      "attention mechanism",
+      "Listed\nperplexities",
+      "according to",
+      "compared to",
+      "Jianpeng Cheng",
+      "Li Dong",
+      "Mirella Lapata",
+      "Kyunghyun Cho",
+      "Caglar Gulcehre",
+      "Francois Chollet",
+      "Deep learning",
+      "learning with",
+      "recurrent neural",
+      "Samy Bengio",
+      "In Advances",
+      "Yoon Kim",
+      "Carl Denton",
+      "Luong Hoang",
+      "Learning Representations",
+      "Machine\nLearning",
+      "Sainbayar Sukhbaatar",
+      "Arthur Szlam",
+      "Jason Weston",
+      "Rob Fergus",
+      "In\nAdvances",
+      "Yonghui Wu",
+      "Mike Schuster",
+      "The\nLaw",
+      "making\nthe",
+      "following long"
+    ],
+    "medium_quality_concepts": [
+      "NIPS",
+      "ICLR",
+      "ACL"
+    ],
+    "low_quality_concepts": [],
+    "chunk_concept_map": {
+      "chunk_0": [
+        "attention\nmechanism"
+      ],
+      "chunk_1": [],
+      "chunk_2": [
+        "Recurrent neural",
+        "recurrent language"
+      ],
+      "chunk_3": [
+        "attention mechanism",
+        "attention mechanism",
+        "attention mechanism",
+        "attention mechanism"
+      ],
+      "chunk_4": [],
+      "chunk_5": [],
+      "chunk_6": [],
+      "chunk_7": [],
+      "chunk_8": [],
+      "chunk_9": [
+        "Listed\nperplexities",
+        "according to",
+        "compared to"
+      ],
+      "chunk_10": [],
+      "chunk_11": [],
+      "chunk_12": [
+        "Jianpeng Cheng",
+        "Li Dong",
+        "Mirella Lapata",
+        "Kyunghyun Cho",
+        "Caglar Gulcehre"
+      ],
+      "chunk_13": [
+        "Francois Chollet",
+        "Deep learning",
+        "learning with"
+      ],
+      "chunk_14": [
+        "recurrent neural",
+        "Recurrent neural",
+        "recurrent neural"
+      ],
+      "chunk_15": [
+        "NIPS",
+        "ICLR",
+        "Samy Bengio",
+        "In Advances"
+      ],
+      "chunk_16": [
+        "ICLR",
+        "Yoon Kim",
+        "Carl Denton",
+        "Luong Hoang",
+        "Learning Representations"
+      ],
+      "chunk_17": [
+        "Machine\nLearning"
+      ],
+      "chunk_18": [
+        "Sainbayar Sukhbaatar",
+        "Arthur Szlam",
+        "Jason Weston",
+        "Rob Fergus"
+      ],
+      "chunk_19": [
+        "ACL",
+        "In\nAdvances",
+        "Yonghui Wu",
+        "Mike Schuster"
+      ],
+      "chunk_20": [
+        "The\nLaw",
+        "making\nthe",
+        "following long"
+      ]
+    },
+    "concept_map": {
+      "main_topics": [
+        {
+          "topic": "核心概念",
+          "key_concepts": [
+            {
+              "concept": "model",
+              "frequency": 24,
+              "definition": "高频概念: model",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "attention mechanism",
+              "frequency": 4,
+              "definition": "高频概念: attention mechanism",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "Recurrent neural",
+              "frequency": 2,
+              "definition": "高频概念: Recurrent neural",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "Model",
+              "frequency": 2,
+              "definition": "高频概念: Model",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "recurrent neural",
+              "frequency": 2,
+              "definition": "高频概念: recurrent neural",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "ICLR",
+              "frequency": 2,
+              "definition": "高频概念: ICLR",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "attention\nmechanism",
+              "frequency": 1,
+              "definition": "高频概念: attention\nmechanism",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "recurrent language",
+              "frequency": 1,
+              "definition": "高频概念: recurrent language",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "transformer model",
+              "frequency": 1,
+              "definition": "高频概念: transformer model",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            },
+            {
+              "concept": "Listed\nperplexities",
+              "frequency": 1,
+              "definition": "高频概念: Listed\nperplexities",
+              "relationships": [],
+              "examples": [],
+              "supporting_details": []
+            }
+          ]
+        }
+      ],
+      "cross_topic_relationships": [],
+      "created_at": "2025-06-06T12:31:17.555214",
+      "total_chunks": 21
+    },
+    "statistics": {
+      "total_concepts": 42,
+      "unique_concepts": 36,
+      "avg_frequency": 1.1666666666666667,
+      "avg_quality_score": 4.105555555555556,
+      "high_quality_count": 33,
+      "medium_quality_count": 3,
+      "low_quality_count": 0,
+      "concepts_per_chunk": 2.0
+    }
+  },
+  "statistics": {
+    "total_concepts": 42,
+    "unique_concepts": 36,
+    "avg_frequency": 1.1666666666666667,
+    "avg_quality_score": 4.105555555555556,
+    "high_quality_count": 33,
+    "medium_quality_count": 3,
+    "low_quality_count": 0,
+    "concepts_per_chunk": 2.0
+  },
+  "processing_time": 0.17272448539733887,
+  "timestamp": "2025-06-06T12:31:17.567271",
+  "config_used": {
+    "concepts_per_chunk": 5,
+    "similarity_threshold": 0.7
+  },
+  "experiment_id": "20250605_204458_attentionisallyounee",
+  "step_number": 3,
+  "step_description": "概念检索与相似性计算",
+  "output_timestamp": "2025-06-06T12:31:17.567271"
+}
+# JSON_DATA_END

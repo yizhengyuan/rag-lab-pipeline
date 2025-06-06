@@ -1,0 +1,580 @@
+================================================================================
+步骤5: 答案生成与推理
+================================================================================
+实验ID: 20250605_204458_attentionisallyounee
+生成时间: 2025-06-06 12:53:05
+处理状态: ✅ 成功
+处理时间: 0.39 秒
+================================================================================
+
+✅ 步骤执行成功
+
+📊 统计信息:
+- concept_count: 33
+- chunk_count: 21
+- total_retrievals: 2
+- concepts_with_retrievals: 2
+- avg_retrievals_per_concept: 0.06060606060606061
+- avg_similarity_all: 0.22456103467994215
+- retrieval_coverage: 0.06060606060606061
+- top_k: 5
+- similarity_threshold: 0.2
+
+
+================================================================================
+# 机器可读数据 (请勿手动修改)
+# JSON_DATA_START
+{
+  "success": true,
+  "step": 5,
+  "step_name": "answer_generation",
+  "retrieval_results": {
+    "merged_concept_0": {
+      "concept_text": "attention mechanism",
+      "concept_id": "merged_concept_0",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_0",
+        "chunk_3"
+      ],
+      "confidence_score": 0.62
+    },
+    "merged_concept_1": {
+      "concept_text": "Recurrent neural",
+      "concept_id": "merged_concept_1",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_2",
+        "chunk_14"
+      ],
+      "confidence_score": 0.5800000000000001
+    },
+    "merged_concept_17": {
+      "concept_text": "In Advances",
+      "concept_id": "merged_concept_17",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_15",
+        "chunk_19"
+      ],
+      "confidence_score": 0.48
+    },
+    "merged_concept_12": {
+      "concept_text": "Deep learning",
+      "concept_id": "merged_concept_12",
+      "retrieval_count": 1,
+      "avg_similarity": 0.22456103467994215,
+      "max_similarity": 0.22456103467994215,
+      "min_similarity": 0.22456103467994215,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "chunk_13",
+          "chunk_text": "[6]Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv\npreprint arXiv:1610.02357 , 2016.\n",
+          "chunk_concepts": [
+            "Francois Chollet",
+            "Deep learning",
+            "learning with"
+          ],
+          "similarity_score": 0.22456103467994215,
+          "node_id": "bd7ebdbe-adeb-4da0-9354-6e2af5c45e72"
+        }
+      ],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "confidence_score": 0.39999999999999997
+    },
+    "merged_concept_21": {
+      "concept_text": "Learning Representations",
+      "concept_id": "merged_concept_21",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "confidence_score": 0.39999999999999997
+    },
+    "merged_concept_22": {
+      "concept_text": "Machine\nLearning",
+      "concept_id": "merged_concept_22",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_17"
+      ],
+      "confidence_score": 0.39999999999999997
+    },
+    "merged_concept_13": {
+      "concept_text": "learning with",
+      "concept_id": "merged_concept_13",
+      "retrieval_count": 1,
+      "avg_similarity": 0.22456103467994215,
+      "max_similarity": 0.22456103467994215,
+      "min_similarity": 0.22456103467994215,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "chunk_13",
+          "chunk_text": "[6]Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv\npreprint arXiv:1610.02357 , 2016.\n",
+          "chunk_concepts": [
+            "Francois Chollet",
+            "Deep learning",
+            "learning with"
+          ],
+          "similarity_score": 0.22456103467994215,
+          "node_id": "bd7ebdbe-adeb-4da0-9354-6e2af5c45e72"
+        }
+      ],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "confidence_score": 0.38666666666666666
+    },
+    "merged_concept_3": {
+      "concept_text": "Listed\nperplexities",
+      "concept_id": "merged_concept_3",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_6": {
+      "concept_text": "Jianpeng Cheng",
+      "concept_id": "merged_concept_6",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_7": {
+      "concept_text": "Li Dong",
+      "concept_id": "merged_concept_7",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_8": {
+      "concept_text": "Mirella Lapata",
+      "concept_id": "merged_concept_8",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_9": {
+      "concept_text": "Kyunghyun Cho",
+      "concept_id": "merged_concept_9",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_10": {
+      "concept_text": "Caglar Gulcehre",
+      "concept_id": "merged_concept_10",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_12"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_11": {
+      "concept_text": "Francois Chollet",
+      "concept_id": "merged_concept_11",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_13"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_15": {
+      "concept_text": "ICLR",
+      "concept_id": "merged_concept_15",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_15",
+        "chunk_16"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_16": {
+      "concept_text": "Samy Bengio",
+      "concept_id": "merged_concept_16",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_15"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_18": {
+      "concept_text": "Yoon Kim",
+      "concept_id": "merged_concept_18",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_19": {
+      "concept_text": "Carl Denton",
+      "concept_id": "merged_concept_19",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_20": {
+      "concept_text": "Luong Hoang",
+      "concept_id": "merged_concept_20",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_16"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_23": {
+      "concept_text": "Sainbayar Sukhbaatar",
+      "concept_id": "merged_concept_23",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_24": {
+      "concept_text": "Arthur Szlam",
+      "concept_id": "merged_concept_24",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_25": {
+      "concept_text": "Jason Weston",
+      "concept_id": "merged_concept_25",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_26": {
+      "concept_text": "Rob Fergus",
+      "concept_id": "merged_concept_26",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_18"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_28": {
+      "concept_text": "Yonghui Wu",
+      "concept_id": "merged_concept_28",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_29": {
+      "concept_text": "Mike Schuster",
+      "concept_id": "merged_concept_29",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_30": {
+      "concept_text": "The\nLaw",
+      "concept_id": "merged_concept_30",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "confidence_score": 0.38000000000000006
+    },
+    "merged_concept_2": {
+      "concept_text": "recurrent language",
+      "concept_id": "merged_concept_2",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_2"
+      ],
+      "confidence_score": 0.3666666666666667
+    },
+    "merged_concept_4": {
+      "concept_text": "according to",
+      "concept_id": "merged_concept_4",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "confidence_score": 0.3666666666666667
+    },
+    "merged_concept_5": {
+      "concept_text": "compared to",
+      "concept_id": "merged_concept_5",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_9"
+      ],
+      "confidence_score": 0.3666666666666667
+    },
+    "merged_concept_31": {
+      "concept_text": "making\nthe",
+      "concept_id": "merged_concept_31",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "confidence_score": 0.3666666666666667
+    },
+    "merged_concept_32": {
+      "concept_text": "following long",
+      "concept_id": "merged_concept_32",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_20"
+      ],
+      "confidence_score": 0.3666666666666667
+    },
+    "merged_concept_14": {
+      "concept_text": "NIPS",
+      "concept_id": "merged_concept_14",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_15"
+      ],
+      "confidence_score": 0.26666666666666666
+    },
+    "merged_concept_27": {
+      "concept_text": "ACL",
+      "concept_id": "merged_concept_27",
+      "retrieval_count": 0,
+      "avg_similarity": 0,
+      "max_similarity": 0,
+      "min_similarity": 0,
+      "retrieved_chunks": [],
+      "source_chunks": [
+        "chunk_19"
+      ],
+      "confidence_score": 0.26666666666666666
+    }
+  },
+  "statistics": {
+    "concept_count": 33,
+    "chunk_count": 21,
+    "total_retrievals": 2,
+    "concepts_with_retrievals": 2,
+    "avg_retrievals_per_concept": 0.06060606060606061,
+    "avg_similarity_all": 0.22456103467994215,
+    "retrieval_coverage": 0.06060606060606061,
+    "top_k": 5,
+    "similarity_threshold": 0.2
+  },
+  "quality_analysis": {
+    "overall_quality_score": 0.22424242424242424,
+    "avg_coverage_score": 0.024242424242424242,
+    "quality_distribution": {
+      "high_quality": 0,
+      "medium_quality": 2,
+      "low_quality": 31
+    },
+    "similarity_distribution": {
+      "0.0-0.2": 0,
+      "0.2-0.4": 2,
+      "0.4-0.6": 0,
+      "0.6-0.8": 0,
+      "0.8-1.0": 0
+    },
+    "top_performing_concepts": [
+      [
+        "merged_concept_12",
+        0.22456103467994215,
+        1
+      ],
+      [
+        "merged_concept_13",
+        0.22456103467994215,
+        1
+      ],
+      [
+        "merged_concept_0",
+        0,
+        0
+      ],
+      [
+        "merged_concept_1",
+        0,
+        0
+      ],
+      [
+        "merged_concept_17",
+        0,
+        0
+      ],
+      [
+        "merged_concept_21",
+        0,
+        0
+      ],
+      [
+        "merged_concept_22",
+        0,
+        0
+      ],
+      [
+        "merged_concept_3",
+        0,
+        0
+      ],
+      [
+        "merged_concept_6",
+        0,
+        0
+      ],
+      [
+        "merged_concept_7",
+        0,
+        0
+      ]
+    ]
+  },
+  "processing_time": 0.3896148204803467,
+  "timestamp": "2025-06-06T12:53:05.413281",
+  "config_used": {
+    "top_k": 5,
+    "similarity_threshold": 0.2
+  },
+  "experiment_id": "20250605_204458_attentionisallyounee",
+  "step_number": 5,
+  "step_description": "答案生成与推理",
+  "output_timestamp": "2025-06-06T12:53:05.413281"
+}
+# JSON_DATA_END

@@ -1,7 +1,7 @@
 ================================================================================
 步骤1: 文件加载 + 向量化存储 - 处理结果
 ================================================================================
-生成时间: 2025-06-05 20:19:52
+生成时间: 2025-06-05 20:25:02
 处理状态: ✅ 成功
 
 📊 文档基本信息:
@@ -9,16 +9,16 @@
 - 文件类型: .pdf
 - 文件大小: 2163.32 KB
 - 文本长度: 39,483 字符
-- 处理时间: 249.33 秒
+- 处理时间: 79.68 秒
 
 📄 文档分块信息:
 - 总分块数: 21
 - 平均分块长度: 1910.0 字符
 - 最短分块: 124 字符
 - 最长分块: 8151 字符
-- 总概念数: 1124
-- 唯一概念数: 29
-- 平均每分块概念数: 53.5
+- 总概念数: 105
+- 唯一概念数: 79
+- 平均每分块概念数: 5.0
 
 🗃️  向量化存储信息:
 - 向量数据库类型: chroma
@@ -27,7 +27,7 @@
 - 向量维度: 1536
 - 向量化节点数: 21
 - 存储大小: 0.00 MB
-- 向量化时间: 5.63 秒
+- 向量化时间: 5.88 秒
 
 💾 缓存信息:
 - 缓存条目数: 0
@@ -38,129 +38,179 @@
 ------------------------------------------------------------
 
 分块 1:
-  ID: 157dba89-725b-4527-b9f0-2bb08e0168d7
+  ID: f5b4ecc9-c113-429f-be4a-ff7e3a8bd3c7
   长度: 1758 字符
-  概念数: 70
-  概念: ["from", "scholarly", "attribution", "parallelizable", "convolutions"]
+  概念数: 5
+  概念: ['google', 'all', 'requiring', 'eight', 'reproduce']
   内容预览: Provided proper attribution is provided, Google hereby grants permission to
 reproduce the tables and...
 ----------------------------------------
 
 分块 2:
-  ID: 95173422-a966-43ba-8c93-bbb2efababc2
+  ID: 8c62aecc-c04e-4580-a240-cbebd15b20e4
   长度: 924 字符
-  概念数: 49
-  概念: ["models", "first", "scaled", "every", "various"]
+  概念数: 5
+  概念: ['attention', 'greatly', 'google', 'massively', 'listing']
   内容预览: Listing order is random. Jakob proposed replacing RNNs with self-attention and started
 the effort to...
 ----------------------------------------
 
 分块 3:
-  ID: 99434b61-170c-4c5d-8077-83c73c5bf439
+  ID: 7c90436f-2185-47fb-a94e-25dfab524e6c
   长度: 603 字符
-  概念数: 58
-  概念: ["models", "push", "gated", "transduction", "information"]
+  概念数: 5
+  概念: ['google', 'modeling', 'efforts', 'boundaries', 'since']
   内容预览: ‡Work performed while at Google Research.
 31st Conference on Neural Information Processing Systems (...
 ----------------------------------------
 
 分块 4:
-  ID: 06bae697-837f-4836-bfa9-ea2958c7a934
+  ID: f6847ef6-8242-4a0b-bfe4-a9f0aad0c98a
   长度: 8151 字符
-  概念数: 47
-  概念: ["projected", "used", "each", "dmodel", "from"]
+  概念数: 5
+  概念: ['matrices', 'yielding', 'which', 'allows', 'right']
   内容预览: Recurrent models typically factor computation along the symbol positions of the input and output
 seq...
 ----------------------------------------
 
 分块 5:
-  ID: 0232ff26-9c54-4f6c-ba88-2a0ede24e373
+  ID: 71c81327-f67d-4d44-81b2-f5456b002d24
   长度: 2519 字符
-  概念数: 50
-  概念: ["each", "from", "flow", "scaled", "concatenated"]
+  概念数: 5
+  概念: ['matrices', 'which', 'allows', 'memory', 'all']
   内容预览: These are concatenated and once again projected, resulting in the final values, as
 depicted in Figur...
 ----------------------------------------
 
 分块 6:
-  ID: 4b85192c-4758-4b7c-91db-937088dcc1c1
+  ID: 7bf4c9c2-29ef-4728-aa4b-1de673157191
   长度: 5456 字符
-  概念数: 46
-  概念: ["encoding", "each", "used", "dmodel", "from"]
+  概念数: 5
+  概念: ['vectors', 'geometric', 'bottoms', 'third', 'pairs']
   内容预览: The dimensionality of input and output is dmodel = 512 , and the inner-layer has dimensionality
 dff=...
 ----------------------------------------
 
 分块 7:
-  ID: 119b04c6-bcc1-45e2-b03a-515dfab4b7bc
+  ID: d9379558-e957-46cb-b759-be886ffe30db
   长度: 2852 字符
-  概念数: 49
-  概念: ["encoding", "dataset", "used", "each", "warmup"]
+  概念数: 5
+  概念: ['describes', 'line', 'types', 'pairs', 'which']
   内容预览: We inspect attention distributions
 from our models and present and discuss examples in the appendix....
 ----------------------------------------
 
 分块 8:
-  ID: 4a2f0e6f-02e3-4e62-87eb-2eb54c909e3e
+  ID: 5d122527-c1a9-46ad-9cc1-7ccd0e5e2640
   长度: 598 字符
-  概念数: 57
-  概念: ["models", "best", "employed", "reported", "transformer"]
+  概念数: 5
+  概念: ['outperforms', 'during', 'line', 'than', 'employed']
   内容预览: For the base model, we use a rate of
 Pdrop= 0.1.
 Label Smoothing During training, we employed label ...
 ----------------------------------------
 
 分块 9:
-  ID: ced76ff2-be6a-4fb5-b952-4cdc9522fbf2
+  ID: fc0d7be7-fec2-4215-a5fd-02b8f0bd75b0
   长度: 1746 字符
-  概念数: 53
-  概念: ["used", "each", "from", "outperforming", "estimate"]
+  概念数: 5
+  概念: ['which', 'rate', 'all', 'importance', 'published']
   内容预览: Training took 3.5days on 8P100 GPUs. Even our base model
 surpasses all previously published models a...
 ----------------------------------------
 
 分块 10:
-  ID: 862a937b-80b7-4204-bcb1-86dd421a1f76
+  ID: 9a49211d-4b7f-4494-a73f-9423a87caaba
   长度: 212 字符
-  概念数: 48
-  概念: ["not", "listed", "our", "metrics", "according"]
+  概念数: 5
+  概念: ['not', 'translation', 'listed', 'according', 'our']
   内容预览: All metrics are on the English-to-German translation development set, newstest2013. Listed
 perplexit...
 ----------------------------------------
 
 ... 还有 11 个分块
 
-🧠 提取的概念列表 (29 个):
+🧠 提取的概念列表 (79 个):
 ------------------------------------------------------------
-  1.  
-  2. "
-  3. ,
-  4. [
-  5. ]
-  6. a
-  7. b
-  8. c
-  9. d
- 10. e
- 11. f
- 12. g
- 13. h
- 14. i
- 15. j
- 16. l
- 17. m
- 18. n
- 19. o
- 20. p
- 21. r
- 22. s
- 23. t
- 24. u
- 25. v
- 26. w
- 27. x
- 28. y
- 29. z
+  1. according
+  2. active
+  3. advances
+  4. alexander
+  5. all
+  6. allows
+  7. architecture
+  8. arthur
+  9. arxiv
+ 10. attention
+ 11. beatrice
+ 12. bottoms
+ 13. boundaries
+ 14. caglar
+ 15. deep
+ 16. denis
+ 17. dependencies
+ 18. depthwise
+ 19. describes
+ 20. during
+ 21. efficiently
+ 22. efforts
+ 23. eight
+ 24. employed
+ 25. full
+ 26. gap
+ 27. geometric
+ 28. google
+ 29. gradient
+ 30. greatly
+ 31. here
+ 32. hochreiter
+ 33. importance
+ 34. investigate
+ 35. jimmy
+ 36. krzysztof
+ 37. line
+ 38. listed
+ 39. listing
+ 40. massively
+ 41. matrices
+ 42. memory
+ 43. modeling
+ 44. mohammad
+ 45. noah
+ 46. not
+ 47. our
+ 48. outperforms
+ 49. pairs
+ 50. penn
+ 51. positional
+ 52. preprint
+ 53. proceedings
+ 54. process
+ 55. published
+ 56. rate
+ 57. reproduce
+ 58. requiring
+ 59. right
+ 60. rnn
+ 61. separable
+ 62. since
+ 63. structured
+ 64. than
+ 65. third
+ 66. translation
+ 67. types
+ 68. unlisted
+ 69. van
+ 70. vectors
+ 71. wenliang
+ 72. which
+ 73. words
+ 74. yielding
+ 75. yoon
+ 76. yoshua
+ 77. zbigniew
+ 78. łukasz
+ 79. ϵlstrain
 
 📄 文本内容预览 (前500字符):
 --------------------------------------------------
@@ -240,4 +290,4 @@ at layer 5 of 6. The heads clearly learned to perform different tasks.
 15
 --------------------------------------------------
 
-⚠️ JSON序列化失败: 'dict' object has no attribute 'node_id'
+⚠️ JSON序列化失败: 'dict' object has no attribute 'metadata'
